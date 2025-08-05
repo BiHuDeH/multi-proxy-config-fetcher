@@ -79,16 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 vless-4ed938f5 (Germany)",
-        "🇦🇲 vless-2691f620 (Armenia)",
-        "🇳🇱 vless-18ab89b2 (The Netherlands)",
-        "🇳🇱 vless-56562721 (The Netherlands)",
-        "🇩🇪 vless-ae602791 (Germany)",
-        "🇩🇪 vless-1af60869 (Germany)",
-        "🇩🇪 vless-ea0f6509 (Germany)",
-        "🇩🇪 vless-7a20e820 (Germany)",
-        "🇩🇪 vmess-f933cc79 (Germany)",
-        "🇩🇪 vmess-35d88093 (Germany)",
+        "🇦🇹 vless-f321f15c (Austria)",
+        "🇩🇪 vless-504ff769 (Germany)",
+        "🇳🇱 vless-e2da0331 (The Netherlands)",
+        "🇳🇱 vless-9c03bf5b (The Netherlands)",
+        "🇩🇪 vmess-64567a93 (Germany)",
+        "🇫🇮 vmess-06d61376 (Finland)",
+        "🇩🇪 vmess-0ccfddf2 (Germany)",
+        "🇩🇪 vmess-20881b1e (Germany)",
         "direct"
       ]
     },
@@ -96,16 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 vless-4ed938f5 (Germany)",
-        "🇦🇲 vless-2691f620 (Armenia)",
-        "🇳🇱 vless-18ab89b2 (The Netherlands)",
-        "🇳🇱 vless-56562721 (The Netherlands)",
-        "🇩🇪 vless-ae602791 (Germany)",
-        "🇩🇪 vless-1af60869 (Germany)",
-        "🇩🇪 vless-ea0f6509 (Germany)",
-        "🇩🇪 vless-7a20e820 (Germany)",
-        "🇩🇪 vmess-f933cc79 (Germany)",
-        "🇩🇪 vmess-35d88093 (Germany)"
+        "🇦🇹 vless-f321f15c (Austria)",
+        "🇩🇪 vless-504ff769 (Germany)",
+        "🇳🇱 vless-e2da0331 (The Netherlands)",
+        "🇳🇱 vless-9c03bf5b (The Netherlands)",
+        "🇩🇪 vmess-64567a93 (Germany)",
+        "🇫🇮 vmess-06d61376 (Finland)",
+        "🇩🇪 vmess-0ccfddf2 (Germany)",
+        "🇩🇪 vmess-20881b1e (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -117,7 +113,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-4ed938f5 (Germany)",
+      "tag": "🇦🇹 vless-f321f15c (Austria)",
+      "server": "real.tele-shop-too.studio",
+      "server_port": 443,
+      "uuid": "06f92a11-61f2-4463-b5d9-1a81ad3ccdc4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "matrix-client.matrix.org",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-504ff769 (Germany)",
       "server": "152.53.142.189",
       "server_port": 20558,
       "uuid": "11cb3fc7-f30d-4b42-9ebc-d015f3753403",
@@ -131,21 +141,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇲 vless-2691f620 (Armenia)",
-      "server": "or1.pmme.top",
-      "server_port": 443,
-      "uuid": "35ebf266-908d-4f1e-abea-fbc69816a46f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.parspack.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 vless-18ab89b2 (The Netherlands)",
+      "tag": "🇳🇱 vless-e2da0331 (The Netherlands)",
       "server": "209.250.243.231",
       "server_port": 44914,
       "uuid": "4eff05c7-4176-457a-bba4-b788a401d9db",
@@ -159,7 +155,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 vless-56562721 (The Netherlands)",
+      "tag": "🇳🇱 vless-9c03bf5b (The Netherlands)",
       "server": "185.33.24.229",
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
@@ -172,64 +168,38 @@
       "transport": {}
     },
     {
-      "type": "vless",
-      "tag": "🇩🇪 vless-ae602791 (Germany)",
-      "server": "00064.mutee.com.tr",
-      "server_port": 4471,
-      "uuid": "980cc237-7703-4763-b520-e65048e68116",
-      "flow": "",
+      "type": "vmess",
+      "tag": "🇩🇪 vmess-64567a93 (Germany)",
+      "server": "customers.tele-shop-too.studio",
+      "server_port": 33203,
+      "uuid": "4793eb45-b76f-4e91-9cfd-586d84831eb0",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
       "tls": {
-        "enabled": true,
-        "server_name": "00064.mutee.com.tr",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-1af60869 (Germany)",
-      "server": "00074.mutee.com.tr",
-      "server_port": 4471,
-      "uuid": "980cc237-7703-4763-b520-e65048e68116",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "00074.mutee.com.tr",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-ea0f6509 (Germany)",
-      "server": "00064.mutee.com.tr",
-      "server_port": 4471,
-      "uuid": "c6ccdae7-02a2-454d-89cf-5f479c8696a3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "00064.mutee.com.tr",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-7a20e820 (Germany)",
-      "server": "00074.mutee.com.tr",
-      "server_port": 4471,
-      "uuid": "c6ccdae7-02a2-454d-89cf-5f479c8696a3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "00074.mutee.com.tr",
-        "insecure": true
-      },
-      "transport": {}
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
+      }
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-f933cc79 (Germany)",
+      "tag": "🇫🇮 vmess-06d61376 (Finland)",
+      "server": "mci.yektanet.info",
+      "server_port": 55555,
+      "uuid": "c3a16be0-10b4-4a34-b294-9ed42391378a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 vmess-0ccfddf2 (Germany)",
       "server": "91.99.153.39",
       "server_port": 39130,
       "uuid": "985af489-fb16-491a-813c-fdd91b6b06ee",
@@ -250,7 +220,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-35d88093 (Germany)",
+      "tag": "🇩🇪 vmess-20881b1e (Germany)",
       "server": "91.99.153.39",
       "server_port": 39130,
       "uuid": "985af489-fb16-491a-813c-fdd91b6b06ee",
