@@ -79,22 +79,20 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-efd00734 (Canada)",
-        "🇭🇺 vless-558eb4bd (Hungary)",
-        "🇬🇧 vless-864cb548 (United Kingdom)",
-        "🇺🇸 vless-14a67aa7 (United States)",
-        "🇨🇦 vless-28c31732 (Canada)",
-        "🇩🇪 vless-83f3ea41 (Germany)",
-        "🇹🇷 vless-d4600f08 (Turkey)",
-        "🇨🇦 vless-9fa90bc3 (Canada)",
-        "🇨🇦 vless-61b48f0a (Canada)",
-        "🇨🇦 vless-494fd61d (Canada)",
-        "🇨🇦 vless-7b443bda (Canada)",
-        "🇩🇪 vless-663966c4 (Germany)",
-        "🇫🇷 vless-e233cf1f (France)",
-        "🇫🇷 vless-424c9fbc (France)",
-        "🇺🇸 vless-0d2d7481 (United States)",
-        "🇨🇦 vless-b9f7be88 (Canada)",
+        "🇭🇺 vless-380afc82 (Hungary)",
+        "🇬🇧 vless-c277cba7 (United Kingdom)",
+        "🇺🇸 vless-25bae498 (United States)",
+        "🇹🇷 vless-946530e7 (Turkey)",
+        "🇨🇦 vless-66028f59 (Canada)",
+        "🇩🇪 vless-683ee048 (Germany)",
+        "🇩🇪 vless-a59d8d3d (Germany)",
+        "🇨🇦 vless-02fa8e00 (Canada)",
+        "🇩🇪 vless-fa77c0be (Germany)",
+        "🇫🇷 vless-7b1b8501 (France)",
+        "🇫🇷 vless-47012f5a (France)",
+        "🇺🇸 vless-1c59a138 (United States)",
+        "🇨🇦 vless-871cffeb (Canada)",
+        "🇩🇪 vmess-7918151b (Germany)",
         "direct"
       ]
     },
@@ -102,22 +100,20 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-efd00734 (Canada)",
-        "🇭🇺 vless-558eb4bd (Hungary)",
-        "🇬🇧 vless-864cb548 (United Kingdom)",
-        "🇺🇸 vless-14a67aa7 (United States)",
-        "🇨🇦 vless-28c31732 (Canada)",
-        "🇩🇪 vless-83f3ea41 (Germany)",
-        "🇹🇷 vless-d4600f08 (Turkey)",
-        "🇨🇦 vless-9fa90bc3 (Canada)",
-        "🇨🇦 vless-61b48f0a (Canada)",
-        "🇨🇦 vless-494fd61d (Canada)",
-        "🇨🇦 vless-7b443bda (Canada)",
-        "🇩🇪 vless-663966c4 (Germany)",
-        "🇫🇷 vless-e233cf1f (France)",
-        "🇫🇷 vless-424c9fbc (France)",
-        "🇺🇸 vless-0d2d7481 (United States)",
-        "🇨🇦 vless-b9f7be88 (Canada)"
+        "🇭🇺 vless-380afc82 (Hungary)",
+        "🇬🇧 vless-c277cba7 (United Kingdom)",
+        "🇺🇸 vless-25bae498 (United States)",
+        "🇹🇷 vless-946530e7 (Turkey)",
+        "🇨🇦 vless-66028f59 (Canada)",
+        "🇩🇪 vless-683ee048 (Germany)",
+        "🇩🇪 vless-a59d8d3d (Germany)",
+        "🇨🇦 vless-02fa8e00 (Canada)",
+        "🇩🇪 vless-fa77c0be (Germany)",
+        "🇫🇷 vless-7b1b8501 (France)",
+        "🇫🇷 vless-47012f5a (France)",
+        "🇺🇸 vless-1c59a138 (United States)",
+        "🇨🇦 vless-871cffeb (Canada)",
+        "🇩🇪 vmess-7918151b (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -129,27 +125,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-efd00734 (Canada)",
-      "server": "jio.sandeshsahu.tech",
-      "server_port": 443,
-      "uuid": "060a8fe8-7175-4ded-94a5-d9808bc645b6",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf.vless.sandesh.fr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/akamai/?--VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--",
-        "headers": {
-          "Host": "cf.vless.sandesh.fr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇺 vless-558eb4bd (Hungary)",
+      "tag": "🇭🇺 vless-380afc82 (Hungary)",
       "server": "5.182.38.91",
       "server_port": 17267,
       "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
@@ -163,7 +139,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-864cb548 (United Kingdom)",
+      "tag": "🇬🇧 vless-c277cba7 (United Kingdom)",
       "server": "102.177.189.251",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
@@ -177,7 +153,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-14a67aa7 (United States)",
+      "tag": "🇺🇸 vless-25bae498 (United States)",
       "server": "104.167.199.95",
       "server_port": 80,
       "uuid": "558393ec-d70d-4a05-b412-e59f2436cc14",
@@ -194,44 +170,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-28c31732 (Canada)",
-      "server": "zaintest.vuclip.com.unlimited.spauu.web.id",
-      "server_port": 443,
-      "uuid": "5f22ead8-e3fb-4d39-8357-193b952465ab",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "zaintest.vuclip.com.unlimited.spauu.web.id",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/vl=146.235.18.248=45137/?--VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--",
-        "headers": {
-          "Host": "zaintest.vuclip.com.unlimited.spauu.web.id"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-83f3ea41 (Germany)",
-      "server": "178.162.245.230",
-      "server_port": 2052,
-      "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "178.162.245.230",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?*VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY*",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 vless-d4600f08 (Turkey)",
+      "tag": "🇹🇷 vless-946530e7 (Turkey)",
       "server": "185.33.24.229",
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
@@ -245,24 +184,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-9fa90bc3 (Canada)",
-      "server": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
-      "server_port": 80,
-      "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?*VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY*",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-61b48f0a (Canada)",
+      "tag": "🇨🇦 vless-66028f59 (Canada)",
       "server": "communal-loss.oneeat.co",
       "server_port": 80,
       "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
@@ -279,27 +201,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-494fd61d (Canada)",
-      "server": "www.speedtest.net",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+      "tag": "🇩🇪 vless-683ee048 (Germany)",
+      "server": "az7-sub.serverfreedom.com",
+      "server_port": 20000,
+      "uuid": "a49dfaea-1ce2-4c8e-abae-643980914d22",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pq-6.access.name.ng",
+        "server_name": "refersion.com",
         "insecure": true
       },
-      "transport": {
-        "path": "/?*VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY*",
-        "headers": {
-          "Host": "pq-6.access.name.ng"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-7b443bda (Canada)",
+      "tag": "🇩🇪 vless-a59d8d3d (Germany)",
+      "server": "az7-sub.serverfreedom.com",
+      "server_port": 20000,
+      "uuid": "a49dfaea-1ce2-4c8e-abae-643980914d22",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-02fa8e00 (Canada)",
       "server": "www.speedtest.net",
       "server_port": 8443,
       "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
@@ -319,7 +249,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-663966c4 (Germany)",
+      "tag": "🇩🇪 vless-fa77c0be (Germany)",
       "server": "185.116.238.72",
       "server_port": 34045,
       "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
@@ -333,7 +263,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 vless-e233cf1f (France)",
+      "tag": "🇫🇷 vless-7b1b8501 (France)",
       "server": "185.231.205.231",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
@@ -347,7 +277,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 vless-424c9fbc (France)",
+      "tag": "🇫🇷 vless-47012f5a (France)",
       "server": "185.231.205.246",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
@@ -361,7 +291,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-0d2d7481 (United States)",
+      "tag": "🇺🇸 vless-1c59a138 (United States)",
       "server": "45.82.251.63",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -375,22 +305,37 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-b9f7be88 (Canada)",
-      "server": "104.19.144.33",
-      "server_port": 8443,
-      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+      "tag": "🇨🇦 vless-871cffeb (Canada)",
+      "server": "104.16.191.195",
+      "server_port": 80,
+      "uuid": "f278037e-ce36-4634-9b4d-fca93e345a35",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "104.19.144.33",
+        "server_name": "barayeiran.mahiozonboroon.qzz.io",
         "insecure": true
       },
       "transport": {
-        "path": "/?*VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY*",
+        "path": "/Join---planB_proxy---BIA---planB_proxy---BIA---planB_proxy---BIA---planB_proxy?ed=2560",
         "headers": {
-          "Host": "9Jj23Cd71F.kAgHaZ.oRg"
+          "Host": "barayeiran.mahiozonboroon.qzz.io"
         },
         "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 vmess-7918151b (Germany)",
+      "server": "57.129.77.179",
+      "server_port": 102,
+      "uuid": "87f08f8b-4934-4a0b-85a6-55b5a793470c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
       }
     }
   ],
