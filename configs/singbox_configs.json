@@ -79,16 +79,15 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-6b3ca27d (United States)",
-        "🇨🇦 vless-7547b5c0 (Canada)",
-        "🇩🇪 vless-791a4f97 (Germany)",
-        "🇹🇷 vless-bdffcb6c (Turkey)",
-        "🇬🇧 vless-0932b6f2 (United Kingdom)",
-        "🇹🇷 vless-caa93a9c (Türkiye)",
-        "🇨🇦 vless-eb9a4ce9 (Canada)",
-        "🇺🇸 vless-6062d247 (United States)",
-        "🇺🇸 vless-9795dfcc (United States)",
-        "🇵🇰 vmess-43dac2dd (Pakistan)",
+        "🇨🇦 vless-95b1b4ae (Canada)",
+        "🇺🇸 vless-f2e955d4 (United States)",
+        "🇹🇷 vless-4956ecd8 (Turkey)",
+        "🇹🇷 vless-8fde5573 (Türkiye)",
+        "🇺🇸 vless-89a211fe (United States)",
+        "🇺🇸 vless-344cfa0d (United States)",
+        "🇺🇸 vless-d0441693 (United States)",
+        "🇺🇸 vless-fe89b194 (United States)",
+        "🇵🇰 vmess-c7e0d8e4 (Pakistan)",
         "direct"
       ]
     },
@@ -96,16 +95,15 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-6b3ca27d (United States)",
-        "🇨🇦 vless-7547b5c0 (Canada)",
-        "🇩🇪 vless-791a4f97 (Germany)",
-        "🇹🇷 vless-bdffcb6c (Turkey)",
-        "🇬🇧 vless-0932b6f2 (United Kingdom)",
-        "🇹🇷 vless-caa93a9c (Türkiye)",
-        "🇨🇦 vless-eb9a4ce9 (Canada)",
-        "🇺🇸 vless-6062d247 (United States)",
-        "🇺🇸 vless-9795dfcc (United States)",
-        "🇵🇰 vmess-43dac2dd (Pakistan)"
+        "🇨🇦 vless-95b1b4ae (Canada)",
+        "🇺🇸 vless-f2e955d4 (United States)",
+        "🇹🇷 vless-4956ecd8 (Turkey)",
+        "🇹🇷 vless-8fde5573 (Türkiye)",
+        "🇺🇸 vless-89a211fe (United States)",
+        "🇺🇸 vless-344cfa0d (United States)",
+        "🇺🇸 vless-d0441693 (United States)",
+        "🇺🇸 vless-fe89b194 (United States)",
+        "🇵🇰 vmess-c7e0d8e4 (Pakistan)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -117,21 +115,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-6b3ca27d (United States)",
-      "server": "EVAY_VPN.fastly80.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "EVAY_VPN.fastly80.hosting-ip.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-7547b5c0 (Canada)",
+      "tag": "🇨🇦 vless-95b1b4ae (Canada)",
       "server": "104.21.3.219",
       "server_port": 8443,
       "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
@@ -151,21 +135,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-791a4f97 (Germany)",
-      "server": "146.75.123.82",
+      "tag": "🇺🇸 vless-f2e955d4 (United States)",
+      "server": "63.141.128.23",
       "server_port": 80,
-      "uuid": "694d192c-d8ef-44e8-a128-9a86abed7cd9",
+      "uuid": "7c0f8dd6-9e98-4ac7-ba02-5b458183452c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "146.75.123.82",
+        "server_name": "63.141.128.23",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "headers": {
+          "Host": "b.jOin.zEdMoDeOn.oNl."
+        },
+        "type": "ws"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 vless-bdffcb6c (Turkey)",
+      "tag": "🇹🇷 vless-4956ecd8 (Turkey)",
       "server": "185.33.24.229",
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
@@ -179,21 +169,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-0932b6f2 (United Kingdom)",
-      "server": "83.136.254.131",
-      "server_port": 443,
-      "uuid": "TELEGRAM-CONFiGLiNE",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "stackoverflow.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 vless-caa93a9c (Türkiye)",
+      "tag": "🇹🇷 vless-8fde5573 (Türkiye)",
       "server": "185.234.66.82",
       "server_port": 443,
       "uuid": "b5e8bfe7-6cdb-402d-b243-1e0f53ebb582",
@@ -210,27 +186,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-eb9a4ce9 (Canada)",
-      "server": "172.66.40.99",
+      "tag": "🇺🇸 vless-89a211fe (United States)",
+      "server": "63.141.128.13",
       "server_port": 80,
-      "uuid": "c2c58553-b1e3-494b-954e-4628216cb1ea",
+      "uuid": "e385932f-423d-49de-a2e0-7ac92339ae92",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "172.66.40.99",
+        "server_name": "63.141.128.13",
         "insecure": true
       },
       "transport": {
-        "path": "/Telegram@vpnjeyTelegram@vpnjeyTelegram@vpnjey",
+        "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
         "headers": {
-          "Host": "www.speedtest.net.2.jey.cloudns.pro"
+          "Host": "c.jOin.zEdMoDeOn.oNl."
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-6062d247 (United States)",
+      "tag": "🇺🇸 vless-344cfa0d (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -244,7 +220,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-9795dfcc (United States)",
+      "tag": "🇺🇸 vless-d0441693 (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -257,8 +233,28 @@
       "transport": {}
     },
     {
+      "type": "vless",
+      "tag": "🇺🇸 vless-fe89b194 (United States)",
+      "server": "63.141.128.14",
+      "server_port": 80,
+      "uuid": "ec4e8d92-5ea1-4772-8982-ca9881a32f20",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "63.141.128.14",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+        "headers": {
+          "Host": "a.joIn.zEdMoDeOn.oNl."
+        },
+        "type": "ws"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇵🇰 vmess-43dac2dd (Pakistan)",
+      "tag": "🇵🇰 vmess-c7e0d8e4 (Pakistan)",
       "server": "38.60.217.146",
       "server_port": 443,
       "uuid": "9ea037cb-c7df-4282-ab10-7d6df9d146a3",
