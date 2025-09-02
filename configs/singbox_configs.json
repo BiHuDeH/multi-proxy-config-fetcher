@@ -79,14 +79,12 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-9afe28eb (Canada)",
-        "🇨🇦 vless-e56d8cac (Canada)",
-        "🇺🇸 vless-34ffb687 (United States)",
-        "🇦🇱 vless-5671f908 (Albania)",
-        "🇹🇷 vless-ef276a47 (Türkiye)",
-        "🇺🇸 vless-04b99a7e (United States)",
-        "🇺🇸 vless-6abd4c9d (United States)",
-        "🇫🇮 vmess-7f607675 (Finland)",
+        "🇨🇦 vless-0962ab61 (Canada)",
+        "🇦🇱 vless-66620208 (Albania)",
+        "🇹🇷 vless-07da9e23 (Türkiye)",
+        "🇺🇸 vless-278dfc66 (United States)",
+        "🇺🇸 vless-5a3abf34 (United States)",
+        "🇫🇮 vmess-1c5305c7 (Finland)",
         "direct"
       ]
     },
@@ -94,14 +92,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-9afe28eb (Canada)",
-        "🇨🇦 vless-e56d8cac (Canada)",
-        "🇺🇸 vless-34ffb687 (United States)",
-        "🇦🇱 vless-5671f908 (Albania)",
-        "🇹🇷 vless-ef276a47 (Türkiye)",
-        "🇺🇸 vless-04b99a7e (United States)",
-        "🇺🇸 vless-6abd4c9d (United States)",
-        "🇫🇮 vmess-7f607675 (Finland)"
+        "🇨🇦 vless-0962ab61 (Canada)",
+        "🇦🇱 vless-66620208 (Albania)",
+        "🇹🇷 vless-07da9e23 (Türkiye)",
+        "🇺🇸 vless-278dfc66 (United States)",
+        "🇺🇸 vless-5a3abf34 (United States)",
+        "🇫🇮 vmess-1c5305c7 (Finland)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,7 +109,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-9afe28eb (Canada)",
+      "tag": "🇨🇦 vless-0962ab61 (Canada)",
       "server": "Www.speedtest.net",
       "server_port": 2095,
       "uuid": "067c2305-53be-4f79-c212-aadd6ceb5f92",
@@ -127,47 +123,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-e56d8cac (Canada)",
-      "server": "104.21.3.219",
-      "server_port": 8443,
-      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ovhwuxian.pai50288.uk",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/57ba2ab1",
-        "headers": {
-          "Host": "ovhwuxian.pai50288.uk"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-34ffb687 (United States)",
-      "server": "198.62.62.2",
-      "server_port": 443,
-      "uuid": "598b4251-fd03-48fe-b12d-630ac3adf2e5",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "smn2.gerlemondns.info",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/hjgfdws",
-        "headers": {
-          "Host": "smn2.gerlemondns.info"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇱 vless-5671f908 (Albania)",
+      "tag": "🇦🇱 vless-66620208 (Albania)",
       "server": "45.15.170.80",
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
@@ -181,7 +137,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 vless-ef276a47 (Türkiye)",
+      "tag": "🇹🇷 vless-07da9e23 (Türkiye)",
       "server": "185.234.66.82",
       "server_port": 443,
       "uuid": "b5e8bfe7-6cdb-402d-b243-1e0f53ebb582",
@@ -198,7 +154,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-04b99a7e (United States)",
+      "tag": "🇺🇸 vless-278dfc66 (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -212,7 +168,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-6abd4c9d (United States)",
+      "tag": "🇺🇸 vless-5a3abf34 (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -226,7 +182,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇫🇮 vmess-7f607675 (Finland)",
+      "tag": "🇫🇮 vmess-1c5305c7 (Finland)",
       "server": "135.181.102.63",
       "server_port": 2082,
       "uuid": "24682dda-4318-4ce3-b373-f6b729113f12",
