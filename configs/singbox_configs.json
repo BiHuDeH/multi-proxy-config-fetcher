@@ -79,12 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-3577a2ee (Canada)",
-        "🇦🇱 vless-b29f9331 (Albania)",
-        "🇹🇷 vless-3a10b55d (Türkiye)",
-        "🇺🇸 vless-dffc7fa5 (United States)",
-        "🇺🇸 vless-ada0db48 (United States)",
-        "🇫🇮 vmess-cb034a63 (Finland)",
+        "🇨🇦 vless-cab5789e (Canada)",
+        "🇩🇪 vless-3892b2d4 (Germany)",
+        "🇦🇱 vless-d007ab7b (Albania)",
+        "🇹🇷 vless-626e3e87 (Türkiye)",
+        "🇺🇸 vless-7c51863d (United States)",
+        "🇺🇸 vless-11376cef (United States)",
+        "🇺🇸 vless-5ed3b1e5 (United States)",
+        "🇺🇸 vmess-80ef0021 (United States)",
         "direct"
       ]
     },
@@ -92,12 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-3577a2ee (Canada)",
-        "🇦🇱 vless-b29f9331 (Albania)",
-        "🇹🇷 vless-3a10b55d (Türkiye)",
-        "🇺🇸 vless-dffc7fa5 (United States)",
-        "🇺🇸 vless-ada0db48 (United States)",
-        "🇫🇮 vmess-cb034a63 (Finland)"
+        "🇨🇦 vless-cab5789e (Canada)",
+        "🇩🇪 vless-3892b2d4 (Germany)",
+        "🇦🇱 vless-d007ab7b (Albania)",
+        "🇹🇷 vless-626e3e87 (Türkiye)",
+        "🇺🇸 vless-7c51863d (United States)",
+        "🇺🇸 vless-11376cef (United States)",
+        "🇺🇸 vless-5ed3b1e5 (United States)",
+        "🇺🇸 vmess-80ef0021 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,7 +113,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-3577a2ee (Canada)",
+      "tag": "🇨🇦 vless-cab5789e (Canada)",
       "server": "Www.speedtest.net",
       "server_port": 2095,
       "uuid": "067c2305-53be-4f79-c212-aadd6ceb5f92",
@@ -123,7 +127,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇱 vless-b29f9331 (Albania)",
+      "tag": "🇩🇪 vless-3892b2d4 (Germany)",
+      "server": "212.95.34.18",
+      "server_port": 443,
+      "uuid": "784646e5-8e84-4672-8670-efc9cafcd2cc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "212.95.34.18",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 vless-d007ab7b (Albania)",
       "server": "45.15.170.80",
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
@@ -137,7 +158,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 vless-3a10b55d (Türkiye)",
+      "tag": "🇹🇷 vless-626e3e87 (Türkiye)",
       "server": "185.234.66.82",
       "server_port": 443,
       "uuid": "b5e8bfe7-6cdb-402d-b243-1e0f53ebb582",
@@ -154,7 +175,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-dffc7fa5 (United States)",
+      "tag": "🇺🇸 vless-7c51863d (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -168,7 +189,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-ada0db48 (United States)",
+      "tag": "🇺🇸 vless-11376cef (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -181,18 +202,29 @@
       "transport": {}
     },
     {
+      "type": "vless",
+      "tag": "🇺🇸 vless-5ed3b1e5 (United States)",
+      "server": "pqh30v2.vetmainconf.shop",
+      "server_port": 8880,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pqh30v2.vetmainconf.shop",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
       "type": "vmess",
-      "tag": "🇫🇮 vmess-cb034a63 (Finland)",
-      "server": "135.181.102.63",
-      "server_port": 2082,
-      "uuid": "24682dda-4318-4ce3-b373-f6b729113f12",
+      "tag": "🇺🇸 vmess-80ef0021 (United States)",
+      "server": "198.23.174.168",
+      "server_port": 20086,
+      "uuid": "2b36304b-4f88-4ff5-9033-f4d57dbb5490",
       "security": "auto",
       "alter_id": 0,
       "transport": {
-        "path": "24682dda-4318-4ce3-b373-f6b729113f12-vm",
-        "headers": {
-          "Host": "www.bing.com"
-        },
+        "path": "/",
         "type": "ws"
       },
       "tls": {
