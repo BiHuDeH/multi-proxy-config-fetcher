@@ -79,18 +79,17 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇷🇺 vless-2e23edc3 (Russia)",
-        "🇨🇦 vless-ad616b4b (Canada)",
-        "🇨🇦 vless-c7e45764 (Canada)",
-        "🇸🇪 vless-57685c20 (Sweden)",
-        "🇨🇦 vless-b46f942b (Canada)",
-        "🇬🇧 vless-be2c1a6f (United Kingdom)",
-        "🇺🇸 vless-51e8d788 (United States)",
-        "🇺🇸 vless-8e464498 (United States)",
-        "🇺🇸 vless-646c5875 (United States)",
-        "🇺🇸 vless-5ffdae4c (United States)",
-        "🇷🇺 vmess-fc4d5023 (Russia)",
-        "🇷🇺 vmess-973545b2 (Russia)",
+        "🇷🇺 vless-acb526af (Russia)",
+        "🇨🇦 vless-78fa967d (Canada)",
+        "🇨🇦 vless-b6749955 (Canada)",
+        "🇨🇦 vless-56423aa9 (Canada)",
+        "🇬🇧 vless-c659c632 (United Kingdom)",
+        "🇺🇸 vless-cdc81ca2 (United States)",
+        "🇺🇸 vless-b29252b2 (United States)",
+        "🇺🇸 vless-3994c008 (United States)",
+        "🇺🇸 vless-4fa27374 (United States)",
+        "🇷🇺 vmess-2b74735f (Russia)",
+        "🇷🇺 vmess-c5c6bc5e (Russia)",
         "direct"
       ]
     },
@@ -98,18 +97,17 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇷🇺 vless-2e23edc3 (Russia)",
-        "🇨🇦 vless-ad616b4b (Canada)",
-        "🇨🇦 vless-c7e45764 (Canada)",
-        "🇸🇪 vless-57685c20 (Sweden)",
-        "🇨🇦 vless-b46f942b (Canada)",
-        "🇬🇧 vless-be2c1a6f (United Kingdom)",
-        "🇺🇸 vless-51e8d788 (United States)",
-        "🇺🇸 vless-8e464498 (United States)",
-        "🇺🇸 vless-646c5875 (United States)",
-        "🇺🇸 vless-5ffdae4c (United States)",
-        "🇷🇺 vmess-fc4d5023 (Russia)",
-        "🇷🇺 vmess-973545b2 (Russia)"
+        "🇷🇺 vless-acb526af (Russia)",
+        "🇨🇦 vless-78fa967d (Canada)",
+        "🇨🇦 vless-b6749955 (Canada)",
+        "🇨🇦 vless-56423aa9 (Canada)",
+        "🇬🇧 vless-c659c632 (United Kingdom)",
+        "🇺🇸 vless-cdc81ca2 (United States)",
+        "🇺🇸 vless-b29252b2 (United States)",
+        "🇺🇸 vless-3994c008 (United States)",
+        "🇺🇸 vless-4fa27374 (United States)",
+        "🇷🇺 vmess-2b74735f (Russia)",
+        "🇷🇺 vmess-c5c6bc5e (Russia)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -121,7 +119,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 vless-2e23edc3 (Russia)",
+      "tag": "🇷🇺 vless-acb526af (Russia)",
       "server": "185.200.240.134",
       "server_port": 443,
       "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
@@ -135,7 +133,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-ad616b4b (Canada)",
+      "tag": "🇨🇦 vless-78fa967d (Canada)",
       "server": "104.16.3.5",
       "server_port": 8880,
       "uuid": "70465717-66ae-4756-b28a-ec5899e08b17",
@@ -155,7 +153,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-c7e45764 (Canada)",
+      "tag": "🇨🇦 vless-b6749955 (Canada)",
       "server": "104.26.6.89",
       "server_port": 2095,
       "uuid": "70465717-66ae-4756-b28a-ec5899e08b17",
@@ -169,21 +167,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 vless-57685c20 (Sweden)",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 2095,
-      "uuid": "70465717-66ae-4756-b28a-ec5899e08b17",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-b46f942b (Canada)",
+      "tag": "🇨🇦 vless-56423aa9 (Canada)",
       "server": "104.16.53.11",
       "server_port": 8080,
       "uuid": "8bf5c07a-acd3-4360-b940-62d6b77699af",
@@ -197,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-be2c1a6f (United Kingdom)",
+      "tag": "🇬🇧 vless-c659c632 (United Kingdom)",
       "server": "51.75.162.3",
       "server_port": 443,
       "uuid": "8bf5c07a-acd3-4360-b940-62d6b77699af",
@@ -211,7 +195,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-51e8d788 (United States)",
+      "tag": "🇺🇸 vless-cdc81ca2 (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -225,7 +209,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-8e464498 (United States)",
+      "tag": "🇺🇸 vless-b29252b2 (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -239,7 +223,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-646c5875 (United States)",
+      "tag": "🇺🇸 vless-3994c008 (United States)",
       "server": "188.114.99.0",
       "server_port": 8880,
       "uuid": "e4a26a39-a95f-4840-8cd7-c7a7bf099d18",
@@ -259,7 +243,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-5ffdae4c (United States)",
+      "tag": "🇺🇸 vless-4fa27374 (United States)",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
@@ -273,7 +257,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇷🇺 vmess-fc4d5023 (Russia)",
+      "tag": "🇷🇺 vmess-2b74735f (Russia)",
       "server": "45.67.230.79",
       "server_port": 11052,
       "uuid": "314185f7-931d-4656-922d-0857e7afd224",
@@ -288,7 +272,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇷🇺 vmess-973545b2 (Russia)",
+      "tag": "🇷🇺 vmess-c5c6bc5e (Russia)",
       "server": "45.67.230.79",
       "server_port": 11052,
       "uuid": "314185f7-931d-4656-922d-0857e7afd224",
