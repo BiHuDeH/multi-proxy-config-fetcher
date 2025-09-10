@@ -79,13 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-faa8c0cc (Iran)",
-        "🇮🇷 vless-da270abc (Iran)",
-        "🇮🇷 vless-112f665f (Iran)",
-        "🇮🇷 vless-3e6d4605 (Iran)",
-        "🇸🇪 vless-f3b3fb99 (Sweden)",
-        "🇺🇸 vless-9e45cff7 (United States)",
-        "🇺🇸 vless-63905cf2 (United States)",
+        "🏳️ vless-e8cd2879 (Unknown)",
+        "🏳️ vless-86bf92ec (Unknown)",
+        "🏳️ vless-9d7fc857 (Unknown)",
+        "🏳️ vless-0c527237 (Unknown)",
+        "🇸🇪 vless-f9874cdb (Sweden)",
+        "🇩🇪 vless-866efef5 (Germany)",
+        "🇺🇸 vless-8e46c59f (United States)",
+        "🇺🇸 vless-b5a122ca (United States)",
         "direct"
       ]
     },
@@ -93,13 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-faa8c0cc (Iran)",
-        "🇮🇷 vless-da270abc (Iran)",
-        "🇮🇷 vless-112f665f (Iran)",
-        "🇮🇷 vless-3e6d4605 (Iran)",
-        "🇸🇪 vless-f3b3fb99 (Sweden)",
-        "🇺🇸 vless-9e45cff7 (United States)",
-        "🇺🇸 vless-63905cf2 (United States)"
+        "🏳️ vless-e8cd2879 (Unknown)",
+        "🏳️ vless-86bf92ec (Unknown)",
+        "🏳️ vless-9d7fc857 (Unknown)",
+        "🏳️ vless-0c527237 (Unknown)",
+        "🇸🇪 vless-f9874cdb (Sweden)",
+        "🇩🇪 vless-866efef5 (Germany)",
+        "🇺🇸 vless-8e46c59f (United States)",
+        "🇺🇸 vless-b5a122ca (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,7 +113,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-faa8c0cc (Iran)",
+      "tag": "🏳️ vless-e8cd2879 (Unknown)",
       "server": "PIT.bestusedengines.com",
       "server_port": 25466,
       "uuid": "4e079669-bc8b-b66e-0359-0c5c4ec24cc0",
@@ -125,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-da270abc (Iran)",
+      "tag": "🏳️ vless-86bf92ec (Unknown)",
       "server": "irmagic.bestusedengines.com",
       "server_port": 8443,
       "uuid": "4e079669-bc8b-b66e-0359-0c5c4ec24cc0",
@@ -139,7 +141,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-112f665f (Iran)",
+      "tag": "🏳️ vless-9d7fc857 (Unknown)",
       "server": "irmagic.bestusedengines.com",
       "server_port": 8443,
       "uuid": "4e079669-bc8b-b66e-0359-0c5c4ec24cc0",
@@ -153,7 +155,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-3e6d4605 (Iran)",
+      "tag": "🏳️ vless-0c527237 (Unknown)",
       "server": "irmagic.bestusedengines.com",
       "server_port": 8443,
       "uuid": "4e079669-bc8b-b66e-0359-0c5c4ec24cc0",
@@ -167,7 +169,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 vless-f3b3fb99 (Sweden)",
+      "tag": "🇸🇪 vless-f9874cdb (Sweden)",
       "server": "185.146.173.39",
       "server_port": 8880,
       "uuid": "Parsashonam-307",
@@ -181,7 +183,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-9e45cff7 (United States)",
+      "tag": "🇩🇪 vless-866efef5 (Germany)",
+      "server": "91.99.95.76",
+      "server_port": 443,
+      "uuid": "TELEGRAM-CONFiGLiNE",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru.sfasti.ru",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-8e46c59f (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -195,7 +211,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-63905cf2 (United States)",
+      "tag": "🇺🇸 vless-b5a122ca (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
