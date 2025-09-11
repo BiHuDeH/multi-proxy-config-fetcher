@@ -79,14 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 vless-15149720 (Germany)",
-        "🇨🇦 vless-a7d90e80 (Canada)",
-        "🇨🇦 vless-2287baa2 (Canada)",
-        "🇮🇷 vless-d0427bd5 (Iran)",
-        "🇺🇸 vless-f87dd95b (United States)",
-        "🇺🇸 vless-29605e83 (United States)",
-        "🇨🇦 vless-f16e67b3 (Canada)",
-        "🇸🇪 vmess-caddbe9a (Sweden)",
+        "🇩🇪 vless-77b28b03 (Germany)",
+        "🇨🇦 vless-a126270f (Canada)",
+        "🇨🇦 vless-45ab9f71 (Canada)",
+        "🇺🇸 vless-b66b0131 (United States)",
+        "🇺🇸 vless-62961624 (United States)",
+        "🇨🇦 vless-74bddfaa (Canada)",
+        "🇨🇦 vless-c7973915 (Canada)",
+        "🇸🇪 vmess-7153d61c (Sweden)",
         "direct"
       ]
     },
@@ -94,14 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 vless-15149720 (Germany)",
-        "🇨🇦 vless-a7d90e80 (Canada)",
-        "🇨🇦 vless-2287baa2 (Canada)",
-        "🇮🇷 vless-d0427bd5 (Iran)",
-        "🇺🇸 vless-f87dd95b (United States)",
-        "🇺🇸 vless-29605e83 (United States)",
-        "🇨🇦 vless-f16e67b3 (Canada)",
-        "🇸🇪 vmess-caddbe9a (Sweden)"
+        "🇩🇪 vless-77b28b03 (Germany)",
+        "🇨🇦 vless-a126270f (Canada)",
+        "🇨🇦 vless-45ab9f71 (Canada)",
+        "🇺🇸 vless-b66b0131 (United States)",
+        "🇺🇸 vless-62961624 (United States)",
+        "🇨🇦 vless-74bddfaa (Canada)",
+        "🇨🇦 vless-c7973915 (Canada)",
+        "🇸🇪 vmess-7153d61c (Sweden)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,7 +113,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-15149720 (Germany)",
+      "tag": "🇩🇪 vless-77b28b03 (Germany)",
       "server": "91.99.115.171",
       "server_port": 8880,
       "uuid": "06ece026-e82b-4414-aa4f-1cd52cb5acb6",
@@ -127,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-a7d90e80 (Canada)",
+      "tag": "🇨🇦 vless-a126270f (Canada)",
       "server": "172.66.40.99",
       "server_port": 8880,
       "uuid": "43536228-b11e-4498-8705-20abebea9551",
@@ -147,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-2287baa2 (Canada)",
+      "tag": "🇨🇦 vless-45ab9f71 (Canada)",
       "server": "d8.mmadcoffee.info",
       "server_port": 443,
       "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
@@ -161,21 +161,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-d0427bd5 (Iran)",
-      "server": "irmagic.bestusedengines.com",
-      "server_port": 8443,
-      "uuid": "4e079669-bc8b-b66e-0359-0c5c4ec24cc0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "irmagic.bestusedengines.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-f87dd95b (United States)",
+      "tag": "🇺🇸 vless-b66b0131 (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -189,7 +175,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-29605e83 (United States)",
+      "tag": "🇺🇸 vless-62961624 (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -203,7 +189,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-f16e67b3 (Canada)",
+      "tag": "🇨🇦 vless-74bddfaa (Canada)",
       "server": "d7.mmadcoffee.info",
       "server_port": 443,
       "uuid": "e787e535-0272-4fff-9a2f-0add85c46284",
@@ -216,8 +202,28 @@
       "transport": {}
     },
     {
+      "type": "vless",
+      "tag": "🇨🇦 vless-c7973915 (Canada)",
+      "server": "172.66.40.99",
+      "server_port": 443,
+      "uuid": "telegram-id-Arfilter",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.arfilter.blog",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+        "headers": {
+          "Host": "www.arfilter.blog"
+        },
+        "type": "ws"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇸🇪 vmess-caddbe9a (Sweden)",
+      "tag": "🇸🇪 vmess-7153d61c (Sweden)",
       "server": "185.146.173.25",
       "server_port": 80,
       "uuid": "e3cb5c38-1168-46ad-aec4-62ffd3614690",
