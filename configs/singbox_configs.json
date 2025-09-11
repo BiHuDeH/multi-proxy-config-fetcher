@@ -79,13 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-7d995052 (Canada)",
-        "🇨🇦 vless-5c9bd657 (Canada)",
-        "🇺🇸 vless-c2c888b0 (United States)",
-        "🇺🇸 vless-05eb5cee (United States)",
-        "🇺🇸 vless-14792d14 (United States)",
-        "🇨🇦 vless-e4677af7 (Canada)",
-        "🇸🇪 vmess-08d180ce (Sweden)",
+        "🇨🇦 vless-aedce92f (Canada)",
+        "🇺🇸 vless-be8c4f11 (United States)",
+        "🇺🇸 vless-ad080c7b (United States)",
+        "🇺🇸 vless-2541262e (United States)",
+        "🇫🇮 vless-92e742fb (Finland)",
+        "🇺🇸 vless-c345b29e (United States)",
+        "🇨🇦 vless-e721abbf (Canada)",
         "direct"
       ]
     },
@@ -93,13 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-7d995052 (Canada)",
-        "🇨🇦 vless-5c9bd657 (Canada)",
-        "🇺🇸 vless-c2c888b0 (United States)",
-        "🇺🇸 vless-05eb5cee (United States)",
-        "🇺🇸 vless-14792d14 (United States)",
-        "🇨🇦 vless-e4677af7 (Canada)",
-        "🇸🇪 vmess-08d180ce (Sweden)"
+        "🇨🇦 vless-aedce92f (Canada)",
+        "🇺🇸 vless-be8c4f11 (United States)",
+        "🇺🇸 vless-ad080c7b (United States)",
+        "🇺🇸 vless-2541262e (United States)",
+        "🇫🇮 vless-92e742fb (Finland)",
+        "🇺🇸 vless-c345b29e (United States)",
+        "🇨🇦 vless-e721abbf (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,7 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-7d995052 (Canada)",
+      "tag": "🇨🇦 vless-aedce92f (Canada)",
       "server": "172.66.40.99",
       "server_port": 8880,
       "uuid": "43536228-b11e-4498-8705-20abebea9551",
@@ -131,21 +131,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-5c9bd657 (Canada)",
-      "server": "d8.mmadcoffee.info",
-      "server_port": 443,
-      "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "d8.mmadcoffee.info",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-c2c888b0 (United States)",
+      "tag": "🇺🇸 vless-be8c4f11 (United States)",
       "server": "speedtestcustom.com",
       "server_port": 80,
       "uuid": "69f6d665-19a8-4a20-93ff-2ff20b8aff7f",
@@ -159,7 +145,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-05eb5cee (United States)",
+      "tag": "🇺🇸 vless-ad080c7b (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -173,7 +159,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-14792d14 (United States)",
+      "tag": "🇺🇸 vless-2541262e (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -187,7 +173,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-e4677af7 (Canada)",
+      "tag": "🇫🇮 vless-92e742fb (Finland)",
+      "server": "hoho.yakarimmilan.ir",
+      "server_port": 16548,
+      "uuid": "f01faecf-1ad4-4eb9-a21d-7400a5e1a6f4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "preview.redd.it",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-c345b29e (United States)",
+      "server": "speedtestcustom.com",
+      "server_port": 80,
+      "uuid": "f6b73b24-f250-4c81-8a27-78dab763a9a0",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtestcustom.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-e721abbf (Canada)",
       "server": "172.66.40.99",
       "server_port": 443,
       "uuid": "telegram-id-Arfilter",
@@ -203,27 +217,6 @@
           "Host": "www.arfilter.blog"
         },
         "type": "ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇪 vmess-08d180ce (Sweden)",
-      "server": "185.146.173.25",
-      "server_port": 80,
-      "uuid": "e3cb5c38-1168-46ad-aec4-62ffd3614690",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.safari-df.ir."
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
       }
     }
   ],
