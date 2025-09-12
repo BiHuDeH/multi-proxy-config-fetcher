@@ -79,14 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-7ab94d6d (Canada)",
-        "🇮🇷 vless-a4349ebb (Iran)",
-        "🇨🇦 vless-ea92250a (Canada)",
-        "🇨🇦 vless-8836ee82 (Canada)",
-        "🇨🇦 vless-e57130a4 (Canada)",
-        "🇺🇸 vless-92508667 (United States)",
-        "🇺🇸 vless-778e072d (United States)",
-        "🏳️ vless-12d54396 (Unknown)",
+        "🇺🇸 vless-6375161f (United States)",
+        "🇺🇸 vless-be3ec02e (United States)",
         "direct"
       ]
     },
@@ -94,14 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-7ab94d6d (Canada)",
-        "🇮🇷 vless-a4349ebb (Iran)",
-        "🇨🇦 vless-ea92250a (Canada)",
-        "🇨🇦 vless-8836ee82 (Canada)",
-        "🇨🇦 vless-e57130a4 (Canada)",
-        "🇺🇸 vless-92508667 (United States)",
-        "🇺🇸 vless-778e072d (United States)",
-        "🏳️ vless-12d54396 (Unknown)"
+        "🇺🇸 vless-6375161f (United States)",
+        "🇺🇸 vless-be3ec02e (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,101 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-7ab94d6d (Canada)",
-      "server": "104.21.32.1",
-      "server_port": 443,
-      "uuid": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jnir-cdn.29394900.xyz",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed=2560",
-        "headers": {
-          "Host": "jnir-cdn.29394900.xyz"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-a4349ebb (Iran)",
-      "server": "89.44.242.222",
-      "server_port": 29495,
-      "uuid": "4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "89.44.242.222",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-ea92250a (Canada)",
-      "server": "104.26.6.89",
-      "server_port": 443,
-      "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "77777788.xyz",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/hajmi?ed=2050",
-        "headers": {
-          "Host": "nb-de.77777788.xyz"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-8836ee82 (Canada)",
-      "server": "104.26.6.89",
-      "server_port": 443,
-      "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "77777788.xyz",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/hajmi?ed=2560",
-        "headers": {
-          "Host": "nb-fi.77777788.xyz"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-e57130a4 (Canada)",
-      "server": "104.26.6.89",
-      "server_port": 443,
-      "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "77777788.xyz",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/hajmi?ed=2560",
-        "headers": {
-          "Host": "nb-us.77777788.xyz"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-92508667 (United States)",
+      "tag": "🇺🇸 vless-6375161f (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -221,7 +115,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-778e072d (United States)",
+      "tag": "🇺🇸 vless-be3ec02e (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -229,20 +123,6 @@
       "tls": {
         "enabled": true,
         "server_name": "pqh26v3.sport26tennis.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ vless-12d54396 (Unknown)",
-      "server": "hoho.yakarimmilan.ir",
-      "server_port": 16548,
-      "uuid": "f01faecf-1ad4-4eb9-a21d-7400a5e1a6f4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "preview.redd.it",
         "insecure": true
       },
       "transport": {}
