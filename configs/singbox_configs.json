@@ -79,13 +79,12 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-19230245 (United States)",
-        "🇩🇪 vless-a49078d8 (Germany)",
-        "🇺🇸 vless-6f06dd75 (United States)",
-        "🇱🇹 vless-036dd917 (Lithuania)",
-        "🇺🇸 vless-eccd4cda (United States)",
-        "🇺🇸 vless-bfcc2bc9 (United States)",
-        "🇩🇪 vmess-d629b6d0 (Germany)",
+        "🇺🇸 vless-1c0e989b (United States)",
+        "🇺🇸 vless-88caa381 (United States)",
+        "🇱🇹 vless-f5b7b00c (Lithuania)",
+        "🇺🇸 vless-44bb42d7 (United States)",
+        "🇺🇸 vless-67bf2007 (United States)",
+        "🇩🇪 vmess-e22a83ad (Germany)",
         "direct"
       ]
     },
@@ -93,13 +92,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-19230245 (United States)",
-        "🇩🇪 vless-a49078d8 (Germany)",
-        "🇺🇸 vless-6f06dd75 (United States)",
-        "🇱🇹 vless-036dd917 (Lithuania)",
-        "🇺🇸 vless-eccd4cda (United States)",
-        "🇺🇸 vless-bfcc2bc9 (United States)",
-        "🇩🇪 vmess-d629b6d0 (Germany)"
+        "🇺🇸 vless-1c0e989b (United States)",
+        "🇺🇸 vless-88caa381 (United States)",
+        "🇱🇹 vless-f5b7b00c (Lithuania)",
+        "🇺🇸 vless-44bb42d7 (United States)",
+        "🇺🇸 vless-67bf2007 (United States)",
+        "🇩🇪 vmess-e22a83ad (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,10 +109,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-19230245 (United States)",
+      "tag": "🇺🇸 vless-1c0e989b (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
-      "uuid": "9292f50e-dd71-423a-e94f-e7daad4bc614",
+      "uuid": "6b703356-e16f-4697-feb8-b4a528778700",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -125,21 +123,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-a49078d8 (Germany)",
-      "server": "8lb9pb.academiemi-purya.click",
-      "server_port": 15341,
-      "uuid": "Academi-vpn-mahdi-academi73",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "8lb9pb.academiemi-purya.click",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-6f06dd75 (United States)",
+      "tag": "🇺🇸 vless-88caa381 (United States)",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "bf4eb30a-956c-4f88-ae54-6f91f0703a81",
@@ -153,7 +137,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 vless-036dd917 (Lithuania)",
+      "tag": "🇱🇹 vless-f5b7b00c (Lithuania)",
       "server": "638935457407159576.birjand-drc-tusacae.info",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
@@ -167,7 +151,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-eccd4cda (United States)",
+      "tag": "🇺🇸 vless-44bb42d7 (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -181,7 +165,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-bfcc2bc9 (United States)",
+      "tag": "🇺🇸 vless-67bf2007 (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -195,7 +179,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-d629b6d0 (Germany)",
+      "tag": "🇩🇪 vmess-e22a83ad (Germany)",
       "server": "a.amirmahdu.shop",
       "server_port": 17783,
       "uuid": "ee806a8f-e001-4782-8fc5-d2287ec23952",
