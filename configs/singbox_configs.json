@@ -79,9 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-42fccc76 (United States)",
-        "🇺🇸 vless-1670eab1 (United States)",
-        "🇩🇪 vmess-6480f432 (Germany)",
+        "🇪🇸 vless-32146fee (Spain)",
+        "🇺🇸 vless-d85ce447 (United States)",
+        "🇺🇸 vless-3b22f4bb (United States)",
+        "🇩🇪 vmess-abe74185 (Germany)",
         "direct"
       ]
     },
@@ -89,9 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-42fccc76 (United States)",
-        "🇺🇸 vless-1670eab1 (United States)",
-        "🇩🇪 vmess-6480f432 (Germany)"
+        "🇪🇸 vless-32146fee (Spain)",
+        "🇺🇸 vless-d85ce447 (United States)",
+        "🇺🇸 vless-3b22f4bb (United States)",
+        "🇩🇪 vmess-abe74185 (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,7 +105,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-42fccc76 (United States)",
+      "tag": "🇪🇸 vless-32146fee (Spain)",
+      "server": "638937918607957654.paris-drc-tusacaf.info",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "638937918607957654.paris-drc-tusacaf.info",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-d85ce447 (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -117,7 +133,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-1670eab1 (United States)",
+      "tag": "🇺🇸 vless-3b22f4bb (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -131,7 +147,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-6480f432 (Germany)",
+      "tag": "🇩🇪 vmess-abe74185 (Germany)",
       "server": "serkat.org",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
