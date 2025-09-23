@@ -79,18 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-a618dc84 (Canada)",
-        "🇫🇷 vless-bdc15d02 (France)",
-        "🇨🇦 vless-26425a57 (Canada)",
-        "🇺🇸 vless-7bb44fe7 (United States)",
-        "🇫🇷 vless-49ebd539 (France)",
-        "🇳🇱 vless-5e695138 (The Netherlands)",
-        "🇺🇸 vless-1adb13bb (United States)",
-        "🇺🇸 vless-a9dc2441 (United States)",
-        "🇺🇸 vless-f01bb797 (United States)",
-        "🇮🇷 vless-df138a91 (Iran)",
-        "🇩🇪 vmess-6b7b0b13 (Germany)",
-        "🇨🇦 vmess-5d6d5b91 (Canada)",
+        "🇺🇦 vless-9d5b42e2 (Ukraine)",
+        "🇫🇷 vless-ba9bff47 (France)",
+        "🇫🇷 vless-6990a52a (France)",
+        "🇫🇷 vless-e0b1e3aa (France)",
+        "🇺🇸 vless-87cdfe14 (United States)",
+        "🇺🇸 vless-ba9fc386 (United States)",
+        "🇩🇪 vmess-d2f201ab (Germany)",
         "direct"
       ]
     },
@@ -98,18 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-a618dc84 (Canada)",
-        "🇫🇷 vless-bdc15d02 (France)",
-        "🇨🇦 vless-26425a57 (Canada)",
-        "🇺🇸 vless-7bb44fe7 (United States)",
-        "🇫🇷 vless-49ebd539 (France)",
-        "🇳🇱 vless-5e695138 (The Netherlands)",
-        "🇺🇸 vless-1adb13bb (United States)",
-        "🇺🇸 vless-a9dc2441 (United States)",
-        "🇺🇸 vless-f01bb797 (United States)",
-        "🇮🇷 vless-df138a91 (Iran)",
-        "🇩🇪 vmess-6b7b0b13 (Germany)",
-        "🇨🇦 vmess-5d6d5b91 (Canada)"
+        "🇺🇦 vless-9d5b42e2 (Ukraine)",
+        "🇫🇷 vless-ba9bff47 (France)",
+        "🇫🇷 vless-6990a52a (France)",
+        "🇫🇷 vless-e0b1e3aa (France)",
+        "🇺🇸 vless-87cdfe14 (United States)",
+        "🇺🇸 vless-ba9fc386 (United States)",
+        "🇩🇪 vmess-d2f201ab (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -121,112 +111,63 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-a618dc84 (Canada)",
-      "server": "104.20.43.81",
-      "server_port": 80,
-      "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "104.20.43.81",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "crazy-identity.oneeat.co"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 vless-bdc15d02 (France)",
-      "server": "51.38.232.101",
-      "server_port": 8443,
-      "uuid": "6896fa3d-f3d3-43c7-a742-ebc45a2c9f26",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ov-france2.09vpn.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/vless/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-26425a57 (Canada)",
-      "server": "www.speedtest.net",
-      "server_port": 2053,
-      "uuid": "a49ef9e4-f089-4449-977d-076f5d03087f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "Golestan.hajalwi.ir.",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080",
-        "headers": {
-          "Host": "Golestan.hajalwi.ir."
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-7bb44fe7 (United States)",
-      "server": "199.34.230.114",
+      "tag": "🇺🇦 vless-9d5b42e2 (Ukraine)",
+      "server": "185.126.255.180",
       "server_port": 443,
-      "uuid": "c1585efc-ed54-4b91-8f80-5eb6edc3e751",
+      "uuid": "387d6d9a-5594-4b2a-a60d-5b2cb1f57638",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "am10.amadebash.uk",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/containers/de",
-        "headers": {
-          "Host": "am10.amadebash.uk"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 vless-49ebd539 (France)",
-      "server": "195.42.233.105",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "195.42.233.105",
+        "server_name": "www.speedtest.net",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 vless-5e695138 (The Netherlands)",
-      "server": "45.140.147.142",
+      "tag": "🇫🇷 vless-ba9bff47 (France)",
+      "server": "185.242.87.69",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "45.140.147.142",
+        "server_name": "185.242.87.69",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-1adb13bb (United States)",
+      "tag": "🇫🇷 vless-6990a52a (France)",
+      "server": "185.242.87.69",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.242.87.69",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 vless-e0b1e3aa (France)",
+      "server": "195.42.233.47",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "195.42.233.47",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-87cdfe14 (United States)",
       "server": "45.82.251.121",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -240,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-a9dc2441 (United States)",
+      "tag": "🇺🇸 vless-ba9fc386 (United States)",
       "server": "45.82.251.133",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -253,39 +194,8 @@
       "transport": {}
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 vless-f01bb797 (United States)",
-      "server": "151.101.3.8",
-      "server_port": 80,
-      "uuid": "ed85fbe2-fadf-4dcd-b658-48773bc89769",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.101.3.8",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-df138a91 (Iran)",
-      "server": "62.60.192.209",
-      "server_port": 80,
-      "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "62.60.192.209",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-6b7b0b13 (Germany)",
+      "tag": "🇩🇪 vmess-d2f201ab (Germany)",
       "server": "57.129.59.193",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -294,7 +204,7 @@
       "transport": {
         "path": "/linkvws",
         "headers": {
-          "Host": "serkat.org"
+          "Host": "serkat.org/?Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN"
         },
         "type": "ws"
       },
@@ -302,27 +212,6 @@
         "enabled": true,
         "insecure": true,
         "server_name": "serkat.org"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 vmess-5d6d5b91 (Canada)",
-      "server": "jamekk.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "linkvws",
-        "headers": {
-          "Host": "jamekk.org"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "jamekk.org"
       }
     }
   ],
