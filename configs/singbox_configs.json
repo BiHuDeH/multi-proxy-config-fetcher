@@ -79,13 +79,16 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-234bb91c (United States)",
-        "🇳🇱 vless-92fda132 (The Netherlands)",
-        "🇦🇪 vless-a32c8c3c (United Arab Emirates)",
-        "🇩🇪 vless-f36122df (Germany)",
-        "🇫🇷 vless-4ef68044 (France)",
-        "🇩🇪 vmess-71bb3e37 (Germany)",
-        "🇩🇪 vmess-a6e0fa76 (Germany)",
+        "🇬🇧 vless-93757f96 (United Kingdom)",
+        "🇺🇸 vless-0f91507d (United States)",
+        "🇳🇱 vless-1e120d72 (The Netherlands)",
+        "🇨🇦 vless-04934d9f (Canada)",
+        "🇩🇪 vless-9dc921f9 (Germany)",
+        "🇨🇦 vless-af6e79f1 (Canada)",
+        "🇫🇷 vless-5d7995ef (France)",
+        "🇩🇪 vmess-cb040df2 (Germany)",
+        "🇩🇪 vmess-a0a0037e (Germany)",
+        "🇺🇸 vmess-19ddb41c (United States)",
         "direct"
       ]
     },
@@ -93,13 +96,16 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-234bb91c (United States)",
-        "🇳🇱 vless-92fda132 (The Netherlands)",
-        "🇦🇪 vless-a32c8c3c (United Arab Emirates)",
-        "🇩🇪 vless-f36122df (Germany)",
-        "🇫🇷 vless-4ef68044 (France)",
-        "🇩🇪 vmess-71bb3e37 (Germany)",
-        "🇩🇪 vmess-a6e0fa76 (Germany)"
+        "🇬🇧 vless-93757f96 (United Kingdom)",
+        "🇺🇸 vless-0f91507d (United States)",
+        "🇳🇱 vless-1e120d72 (The Netherlands)",
+        "🇨🇦 vless-04934d9f (Canada)",
+        "🇩🇪 vless-9dc921f9 (Germany)",
+        "🇨🇦 vless-af6e79f1 (Canada)",
+        "🇫🇷 vless-5d7995ef (France)",
+        "🇩🇪 vmess-cb040df2 (Germany)",
+        "🇩🇪 vmess-a0a0037e (Germany)",
+        "🇺🇸 vmess-19ddb41c (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,7 +117,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-234bb91c (United States)",
+      "tag": "🇬🇧 vless-93757f96 (United Kingdom)",
+      "server": "51.89.137.87",
+      "server_port": 40716,
+      "uuid": "0cd02a20-80c8-43c4-ae2f-b72488549ef9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "51.89.137.87",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-0f91507d (United States)",
       "server": "104.21.3.219",
       "server_port": 8443,
       "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
@@ -131,7 +151,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 vless-92fda132 (The Netherlands)",
+      "tag": "🇳🇱 vless-1e120d72 (The Netherlands)",
       "server": "185.33.24.229",
       "server_port": 28495,
       "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
@@ -145,21 +165,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 vless-a32c8c3c (United Arab Emirates)",
-      "server": "93.127.180.140",
-      "server_port": 7443,
-      "uuid": "944445aa-23ce-4994-ab71-9615340e88f5",
+      "tag": "🇨🇦 vless-04934d9f (Canada)",
+      "server": "configline.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-byA",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "93.127.180.140",
+        "server_name": "configline.fast.hosting-ip.com",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-f36122df (Germany)",
+      "tag": "🇩🇪 vless-9dc921f9 (Germany)",
       "server": "91.98.133.38",
       "server_port": 443,
       "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
@@ -173,7 +193,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 vless-4ef68044 (France)",
+      "tag": "🇨🇦 vless-af6e79f1 (Canada)",
+      "server": "151.101.3.8",
+      "server_port": 80,
+      "uuid": "c644b74f-f043-47f4-9117-44a5bba31626",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "151.101.3.8",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 vless-5d7995ef (France)",
       "server": "141.94.168.171",
       "server_port": 32647,
       "uuid": "edd716ae-7d5a-44f7-a0ed-a615eab0c766",
@@ -187,7 +221,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-71bb3e37 (Germany)",
+      "tag": "🇩🇪 vmess-cb040df2 (Germany)",
       "server": "57.129.25.22",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -208,7 +242,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-a6e0fa76 (Germany)",
+      "tag": "🇩🇪 vmess-a0a0037e (Germany)",
       "server": "57.129.28.69",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -225,6 +259,27 @@
         "enabled": true,
         "insecure": true,
         "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 vmess-19ddb41c (United States)",
+      "server": "15.204.64.211",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "linkvws",
+        "headers": {
+          "Host": "kampong.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ""
       }
     }
   ],
