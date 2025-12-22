@@ -79,14 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇫🇮 vless-d7327ebf (Finland)",
-        "🇦🇹 vless-e4ad4a3b (Austria)",
-        "🇩🇪 vless-c048c6fd (Germany)",
-        "🇨🇦 vless-8f40fcce (Canada)",
-        "🇨🇦 vless-517dfdec (Canada)",
-        "🇩🇪 vmess-461b867b (Germany)",
-        "🇩🇪 vmess-288a8424 (Germany)",
-        "🇨🇦 vmess-d75268f6 (Canada)",
+        "🇩🇪 vless-df5e45a6 (Germany)",
+        "🇨🇦 vless-2c663f68 (Canada)",
+        "🇩🇪 vmess-ebcaf123 (Germany)",
+        "🇩🇪 vmess-c31bfb24 (Germany)",
+        "🇨🇦 vmess-138d31ab (Canada)",
         "direct"
       ]
     },
@@ -94,14 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇮 vless-d7327ebf (Finland)",
-        "🇦🇹 vless-e4ad4a3b (Austria)",
-        "🇩🇪 vless-c048c6fd (Germany)",
-        "🇨🇦 vless-8f40fcce (Canada)",
-        "🇨🇦 vless-517dfdec (Canada)",
-        "🇩🇪 vmess-461b867b (Germany)",
-        "🇩🇪 vmess-288a8424 (Germany)",
-        "🇨🇦 vmess-d75268f6 (Canada)"
+        "🇩🇪 vless-df5e45a6 (Germany)",
+        "🇨🇦 vless-2c663f68 (Canada)",
+        "🇩🇪 vmess-ebcaf123 (Germany)",
+        "🇩🇪 vmess-c31bfb24 (Germany)",
+        "🇨🇦 vmess-138d31ab (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,38 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 vless-d7327ebf (Finland)",
-      "server": "65.109.198.23",
-      "server_port": 53330,
-      "uuid": "875d9d7a-ddba-48b2-bcb5-0324da0b93b2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "65.109.198.23",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 vless-e4ad4a3b (Austria)",
-      "server": "Free.fast199.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "f70c6ca8-393d-44be-827d-5df88978ce0b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "Free.fast199.hosting-ip.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-c048c6fd (Germany)",
+      "tag": "🇩🇪 vless-df5e45a6 (Germany)",
       "server": "179.61.251.78",
       "server_port": 443,
       "uuid": "fabc8a38-76c5-48fe-ada7-a9e52dd16225",
@@ -158,27 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-8f40fcce (Canada)",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "telegram-id-Arfilter",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "m.arfilter2.blog",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-        "headers": {
-          "Host": "m.arfilter2.blog"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-517dfdec (Canada)",
+      "tag": "🇨🇦 vless-2c663f68 (Canada)",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "telegram-id-Arfilter",
@@ -198,7 +141,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-461b867b (Germany)",
+      "tag": "🇩🇪 vmess-ebcaf123 (Germany)",
       "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -219,7 +162,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-288a8424 (Germany)",
+      "tag": "🇩🇪 vmess-c31bfb24 (Germany)",
       "server": "57.129.28.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -240,7 +183,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-d75268f6 (Canada)",
+      "tag": "🇨🇦 vmess-138d31ab (Canada)",
       "server": "158.51.121.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
