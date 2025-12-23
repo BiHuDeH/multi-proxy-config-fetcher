@@ -79,12 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇫🇮 vless-afaaf06e (Finland)",
-        "🇩🇪 vless-f008bc6e (Germany)",
-        "🇨🇦 vless-b811a50d (Canada)",
-        "🇩🇪 vmess-c89816c0 (Germany)",
-        "🇩🇪 vmess-efb816d6 (Germany)",
-        "🇨🇦 vmess-6caa2b4f (Canada)",
+        "🇩🇪 vless-0d3dd950 (Germany)",
+        "🇨🇦 vless-de2625c3 (Canada)",
+        "🇩🇪 vmess-4e70e450 (Germany)",
+        "🇩🇪 vmess-79311cb0 (Germany)",
+        "🇨🇦 vmess-4330a42c (Canada)",
         "direct"
       ]
     },
@@ -92,12 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇮 vless-afaaf06e (Finland)",
-        "🇩🇪 vless-f008bc6e (Germany)",
-        "🇨🇦 vless-b811a50d (Canada)",
-        "🇩🇪 vmess-c89816c0 (Germany)",
-        "🇩🇪 vmess-efb816d6 (Germany)",
-        "🇨🇦 vmess-6caa2b4f (Canada)"
+        "🇩🇪 vless-0d3dd950 (Germany)",
+        "🇨🇦 vless-de2625c3 (Canada)",
+        "🇩🇪 vmess-4e70e450 (Germany)",
+        "🇩🇪 vmess-79311cb0 (Germany)",
+        "🇨🇦 vmess-4330a42c (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,24 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 vless-afaaf06e (Finland)",
-      "server": "141.98.169.94",
-      "server_port": 443,
-      "uuid": "33f4ca29-6404-42de-8ca7-18846dbf5dcc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "141.98.169.94",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/puzoscws",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-f008bc6e (Germany)",
+      "tag": "🇩🇪 vless-0d3dd950 (Germany)",
       "server": "179.61.251.78",
       "server_port": 443,
       "uuid": "fabc8a38-76c5-48fe-ada7-a9e52dd16225",
@@ -140,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-b811a50d (Canada)",
+      "tag": "🇨🇦 vless-de2625c3 (Canada)",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "telegram-id-Arfilter",
@@ -160,7 +141,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-c89816c0 (Germany)",
+      "tag": "🇩🇪 vmess-4e70e450 (Germany)",
       "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -181,7 +162,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-efb816d6 (Germany)",
+      "tag": "🇩🇪 vmess-79311cb0 (Germany)",
       "server": "57.129.28.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -202,7 +183,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-6caa2b4f (Canada)",
+      "tag": "🇨🇦 vmess-4330a42c (Canada)",
       "server": "158.51.121.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
