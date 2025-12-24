@@ -79,15 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-872c9600 (United States)",
-        "🇬🇧 vless-a864fd5a (United Kingdom)",
-        "🇺🇸 vless-fba07bd7 (United States)",
-        "🇺🇸 vless-771bc886 (United States)",
-        "🇩🇪 vmess-9efd1cfa (Germany)",
-        "🇩🇪 vmess-e3790d9c (Germany)",
-        "🇩🇪 vmess-e0f9af0d (Germany)",
-        "🇫🇮 vmess-4c98c61f (Finland)",
-        "🇨🇦 vmess-d67d72e6 (Canada)",
+        "🇬🇧 vless-a5162c9c (United Kingdom)",
+        "🇺🇸 vless-6150c502 (United States)",
+        "🇩🇪 vmess-8369302a (Germany)",
+        "🇩🇪 vmess-2a605009 (Germany)",
+        "🇩🇪 vmess-6da6600d (Germany)",
+        "🇫🇮 vmess-b175cb40 (Finland)",
+        "🇨🇦 vmess-c704965d (Canada)",
         "direct"
       ]
     },
@@ -95,15 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-872c9600 (United States)",
-        "🇬🇧 vless-a864fd5a (United Kingdom)",
-        "🇺🇸 vless-fba07bd7 (United States)",
-        "🇺🇸 vless-771bc886 (United States)",
-        "🇩🇪 vmess-9efd1cfa (Germany)",
-        "🇩🇪 vmess-e3790d9c (Germany)",
-        "🇩🇪 vmess-e0f9af0d (Germany)",
-        "🇫🇮 vmess-4c98c61f (Finland)",
-        "🇨🇦 vmess-d67d72e6 (Canada)"
+        "🇬🇧 vless-a5162c9c (United Kingdom)",
+        "🇺🇸 vless-6150c502 (United States)",
+        "🇩🇪 vmess-8369302a (Germany)",
+        "🇩🇪 vmess-2a605009 (Germany)",
+        "🇩🇪 vmess-6da6600d (Germany)",
+        "🇫🇮 vmess-b175cb40 (Finland)",
+        "🇨🇦 vmess-c704965d (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -115,27 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-872c9600 (United States)",
-      "server": "208.103.161.32",
-      "server_port": 2053,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.dynv6.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed",
-        "headers": {
-          "Host": "sni.111000.dynv6.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 vless-a864fd5a (United Kingdom)",
+      "tag": "🇬🇧 vless-a5162c9c (United Kingdom)",
       "server": "134.209.190.163",
       "server_port": 443,
       "uuid": "6a2f8236-d5e1-467d-8aca-9248ddb025c5",
@@ -152,7 +128,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-fba07bd7 (United States)",
+      "tag": "🇺🇸 vless-6150c502 (United States)",
       "server": "85.209.195.105",
       "server_port": 443,
       "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
@@ -168,25 +144,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 vless-771bc886 (United States)",
-      "server": "92.118.231.181",
-      "server_port": 443,
-      "uuid": "e615a5ba-fce3-4ffa-9c86-b0327a8a107a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "92.118.231.181",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/hormoz",
-        "type": "ws"
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-9efd1cfa (Germany)",
+      "tag": "🇩🇪 vmess-8369302a (Germany)",
       "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -207,7 +166,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-e3790d9c (Germany)",
+      "tag": "🇩🇪 vmess-2a605009 (Germany)",
       "server": "57.129.28.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -228,7 +187,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-e0f9af0d (Germany)",
+      "tag": "🇩🇪 vmess-6da6600d (Germany)",
       "server": "91.107.151.30",
       "server_port": 32156,
       "uuid": "04a848ea-0292-4b90-998e-990ee051994b",
@@ -243,7 +202,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇫🇮 vmess-4c98c61f (Finland)",
+      "tag": "🇫🇮 vmess-b175cb40 (Finland)",
       "server": "157.180.120.194",
       "server_port": 40100,
       "uuid": "73feeed6-9a40-45b0-a26d-84770f5f05fd",
@@ -258,7 +217,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-d67d72e6 (Canada)",
+      "tag": "🇨🇦 vmess-c704965d (Canada)",
       "server": "158.51.121.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
