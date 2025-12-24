@@ -79,11 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-00a97340 (Canada)",
-        "🇩🇪 vless-4572d571 (Germany)",
-        "🇩🇪 vmess-139e4d7d (Germany)",
-        "🇩🇪 vmess-9596a3fb (Germany)",
-        "🇨🇦 vmess-af4a6a03 (Canada)",
+        "🇩🇪 vless-45ee45db (Germany)",
+        "🇩🇪 vmess-cff9d45f (Germany)",
+        "🇩🇪 vmess-85a23af9 (Germany)",
+        "🇨🇦 vmess-c63de760 (Canada)",
         "direct"
       ]
     },
@@ -91,11 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-00a97340 (Canada)",
-        "🇩🇪 vless-4572d571 (Germany)",
-        "🇩🇪 vmess-139e4d7d (Germany)",
-        "🇩🇪 vmess-9596a3fb (Germany)",
-        "🇨🇦 vmess-af4a6a03 (Canada)"
+        "🇩🇪 vless-45ee45db (Germany)",
+        "🇩🇪 vmess-cff9d45f (Germany)",
+        "🇩🇪 vmess-85a23af9 (Germany)",
+        "🇨🇦 vmess-c63de760 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,27 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-00a97340 (Canada)",
-      "server": "www.speedtest.net",
-      "server_port": 2083,
-      "uuid": "29f8741e-50d7-4874-a28b-3a33a56fc9c2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl5.hajalwi.ir.",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080",
-        "headers": {
-          "Host": "dl5.hajalwi.ir."
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-4572d571 (Germany)",
+      "tag": "🇩🇪 vless-45ee45db (Germany)",
       "server": "pfwie.marfanet.com",
       "server_port": 2087,
       "uuid": "56bd2496-0391-4efc-990e-566d5a641944",
@@ -141,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-139e4d7d (Germany)",
+      "tag": "🇩🇪 vmess-cff9d45f (Germany)",
       "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -162,7 +140,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-9596a3fb (Germany)",
+      "tag": "🇩🇪 vmess-85a23af9 (Germany)",
       "server": "57.129.28.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -183,7 +161,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-af4a6a03 (Canada)",
+      "tag": "🇨🇦 vmess-c63de760 (Canada)",
       "server": "158.51.121.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
