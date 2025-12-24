@@ -79,10 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 vless-45ee45db (Germany)",
-        "🇩🇪 vmess-cff9d45f (Germany)",
-        "🇩🇪 vmess-85a23af9 (Germany)",
-        "🇨🇦 vmess-c63de760 (Canada)",
+        "🇩🇪 vless-c14baadc (Germany)",
+        "🇩🇪 vmess-b695c03a (Germany)",
+        "🇩🇪 vmess-ed11c45c (Germany)",
+        "🇨🇦 vmess-e6024788 (Canada)",
         "direct"
       ]
     },
@@ -90,10 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 vless-45ee45db (Germany)",
-        "🇩🇪 vmess-cff9d45f (Germany)",
-        "🇩🇪 vmess-85a23af9 (Germany)",
-        "🇨🇦 vmess-c63de760 (Canada)"
+        "🇩🇪 vless-c14baadc (Germany)",
+        "🇩🇪 vmess-b695c03a (Germany)",
+        "🇩🇪 vmess-ed11c45c (Germany)",
+        "🇨🇦 vmess-e6024788 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-45ee45db (Germany)",
+      "tag": "🇩🇪 vless-c14baadc (Germany)",
       "server": "pfwie.marfanet.com",
       "server_port": 2087,
       "uuid": "56bd2496-0391-4efc-990e-566d5a641944",
@@ -119,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-cff9d45f (Germany)",
+      "tag": "🇩🇪 vmess-b695c03a (Germany)",
       "server": "57.129.28.216",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -140,7 +140,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-85a23af9 (Germany)",
+      "tag": "🇩🇪 vmess-ed11c45c (Germany)",
       "server": "57.129.28.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -161,7 +161,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-c63de760 (Canada)",
+      "tag": "🇨🇦 vmess-e6024788 (Canada)",
       "server": "158.51.121.63",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
