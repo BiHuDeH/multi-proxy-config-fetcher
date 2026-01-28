@@ -79,18 +79,16 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇦🇪 vless-1f7e2a96 (United Arab Emirates)",
-        "🇨🇦 vless-d56004f4 (Canada)",
-        "🇨🇦 vless-3e88006b (Canada)",
-        "🇨🇦 vless-48244cc9 (Canada)",
-        "🇨🇦 vless-a51d85b7 (Canada)",
-        "🇨🇦 vless-183f9822 (Canada)",
-        "🇨🇦 vless-12372892 (Canada)",
-        "🇨🇦 vless-8f915837 (Canada)",
-        "🇨🇦 vless-613cde6a (Canada)",
-        "🇸🇬 vmess-e96e585a (Singapore)",
-        "🇸🇬 vmess-ca23a7ad (Singapore)",
-        "🇸🇬 vmess-4acc2411 (Singapore)",
+        "🇨🇦 vless-cfe3901c (Canada)",
+        "🇨🇦 vless-392a3f14 (Canada)",
+        "🇨🇦 vless-80707273 (Canada)",
+        "🇨🇦 vless-fb9edd0f (Canada)",
+        "🇨🇦 vless-ed69f675 (Canada)",
+        "🇨🇦 vless-43c79ff9 (Canada)",
+        "🇨🇦 vless-4008cecd (Canada)",
+        "🇸🇬 vmess-1d396bcb (Singapore)",
+        "🇸🇬 vmess-cdf7512e (Singapore)",
+        "🇮🇳 vmess-9d973a8e (India)",
         "direct"
       ]
     },
@@ -98,18 +96,16 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇦🇪 vless-1f7e2a96 (United Arab Emirates)",
-        "🇨🇦 vless-d56004f4 (Canada)",
-        "🇨🇦 vless-3e88006b (Canada)",
-        "🇨🇦 vless-48244cc9 (Canada)",
-        "🇨🇦 vless-a51d85b7 (Canada)",
-        "🇨🇦 vless-183f9822 (Canada)",
-        "🇨🇦 vless-12372892 (Canada)",
-        "🇨🇦 vless-8f915837 (Canada)",
-        "🇨🇦 vless-613cde6a (Canada)",
-        "🇸🇬 vmess-e96e585a (Singapore)",
-        "🇸🇬 vmess-ca23a7ad (Singapore)",
-        "🇸🇬 vmess-4acc2411 (Singapore)"
+        "🇨🇦 vless-cfe3901c (Canada)",
+        "🇨🇦 vless-392a3f14 (Canada)",
+        "🇨🇦 vless-80707273 (Canada)",
+        "🇨🇦 vless-fb9edd0f (Canada)",
+        "🇨🇦 vless-ed69f675 (Canada)",
+        "🇨🇦 vless-43c79ff9 (Canada)",
+        "🇨🇦 vless-4008cecd (Canada)",
+        "🇸🇬 vmess-1d396bcb (Singapore)",
+        "🇸🇬 vmess-cdf7512e (Singapore)",
+        "🇮🇳 vmess-9d973a8e (India)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -121,87 +117,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 vless-1f7e2a96 (United Arab Emirates)",
-      "server": "ir.esk6a.ir",
+      "tag": "🇨🇦 vless-cfe3901c (Canada)",
+      "server": "chatgpt.com",
       "server_port": 443,
-      "uuid": "290cb0c0-2185-46e4-9fcf-1b3b588efc4e",
+      "uuid": "396c904b-4b62-4334-b793-ee25fc0c61cc",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "access.esk6a.ir",
+        "server_name": "pages.dev",
         "insecure": true
       },
       "transport": {
-        "path": "/NovaLink#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "path": "/eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
         "headers": {
-          "Host": "access.esk6a.ir"
+          "Host": "8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-d56004f4 (Canada)",
-      "server": "nodejs.org",
-      "server_port": 80,
-      "uuid": "546e91b5-c33e-4b04-b20c-c0fc8f6d9d7f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nodejs.org",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "bIZARRe-CEntEryZCvddNcfJ.spORtLand.COmPANY."
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-3e88006b (Canada)",
-      "server": "104.17.166.123",
-      "server_port": 8443,
-      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-48244cc9 (Canada)",
-      "server": "104.17.163.123",
-      "server_port": 8443,
-      "uuid": "83adcc98-ac23-4e51-9ae0-788a73fd9939",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-a51d85b7 (Canada)",
+      "tag": "🇨🇦 vless-392a3f14 (Canada)",
       "server": "104.17.162.123",
       "server_port": 8443,
       "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
@@ -221,7 +157,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-183f9822 (Canada)",
+      "tag": "🇨🇦 vless-80707273 (Canada)",
       "server": "104.17.162.123",
       "server_port": 8443,
       "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
@@ -241,7 +177,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-12372892 (Canada)",
+      "tag": "🇨🇦 vless-fb9edd0f (Canada)",
       "server": "104.17.162.123",
       "server_port": 8443,
       "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
@@ -261,7 +197,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-8f915837 (Canada)",
+      "tag": "🇨🇦 vless-ed69f675 (Canada)",
+      "server": "104.17.162.123",
+      "server_port": 8443,
+      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-Vpn_Sky-?ed=2560",
+        "headers": {
+          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-43c79ff9 (Canada)",
       "server": "104.17.162.123",
       "server_port": 8443,
       "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
@@ -281,7 +237,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-613cde6a (Canada)",
+      "tag": "🇨🇦 vless-4008cecd (Canada)",
       "server": "172.64.145.38",
       "server_port": 8443,
       "uuid": "bb8c74a1-abc1-4511-b100-9876e30cb65c",
@@ -301,7 +257,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇸🇬 vmess-e96e585a (Singapore)",
+      "tag": "🇸🇬 vmess-1d396bcb (Singapore)",
       "server": "47.84.17.113",
       "server_port": 8080,
       "uuid": "90d61785-0cba-4c73-bfa5-b19bc247921b",
@@ -316,10 +272,10 @@
     },
     {
       "type": "vmess",
-      "tag": "🇸🇬 vmess-ca23a7ad (Singapore)",
-      "server": "47.236.203.51",
+      "tag": "🇸🇬 vmess-cdf7512e (Singapore)",
+      "server": "8.219.118.19",
       "server_port": 8080,
-      "uuid": "fadc1b8b-4e96-419d-818a-1ad5402c339e",
+      "uuid": "542f6e13-9542-470c-974a-d31c0a05a37d",
       "security": "auto",
       "alter_id": 0,
       "transport": {},
@@ -331,10 +287,10 @@
     },
     {
       "type": "vmess",
-      "tag": "🇸🇬 vmess-4acc2411 (Singapore)",
-      "server": "8.219.118.19",
-      "server_port": 8080,
-      "uuid": "542f6e13-9542-470c-974a-d31c0a05a37d",
+      "tag": "🇮🇳 vmess-9d973a8e (India)",
+      "server": "20.193.153.19",
+      "server_port": 15834,
+      "uuid": "39a8c374-76b1-4e90-ab85-85cd9a42ded2",
       "security": "auto",
       "alter_id": 0,
       "transport": {},
