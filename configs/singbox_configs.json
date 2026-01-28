@@ -79,22 +79,16 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇸🇪 vless-a81150b3 (Sweden)",
-        "🇨🇦 vless-27b77722 (Canada)",
-        "🇨🇦 vless-16870d79 (Canada)",
-        "🇺🇸 vless-3df64ec3 (United States)",
-        "🇺🇸 vless-e16aca79 (United States)",
-        "🇨🇦 vless-aaa501b6 (Canada)",
-        "🇨🇦 vless-bc2ad5ec (Canada)",
-        "🇨🇦 vless-78de8dd9 (Canada)",
-        "🇨🇦 vless-8b0fce46 (Canada)",
-        "🇨🇦 vless-6a6ce670 (Canada)",
-        "🇨🇷 vless-9d7bd8da (Costa Rica)",
-        "🇨🇦 vless-1b34f7ca (Canada)",
-        "🇨🇦 vless-ad7a7fc3 (Canada)",
-        "🇮🇷 vless-d4821b30 (Iran)",
-        "🇨🇦 vless-d64f70e1 (Canada)",
-        "🇨🇦 vless-b82f38f2 (Canada)",
+        "🇨🇦 vless-b3791761 (Canada)",
+        "🇮🇩 vless-0ec8bb6c (Indonesia)",
+        "🇮🇷 vless-e69201ad (Iran)",
+        "🇺🇸 vless-3b2d1ec3 (United States)",
+        "🇺🇸 vless-72dd363b (United States)",
+        "🇺🇸 vless-2184b0c9 (United States)",
+        "🇺🇸 vless-002e2a03 (United States)",
+        "🇩🇪 vless-a417a00f (Germany)",
+        "🇬🇧 vless-7d70fb94 (United Kingdom)",
+        "🇳🇱 vless-6651c88a (Netherlands)",
         "direct"
       ]
     },
@@ -102,22 +96,16 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇸🇪 vless-a81150b3 (Sweden)",
-        "🇨🇦 vless-27b77722 (Canada)",
-        "🇨🇦 vless-16870d79 (Canada)",
-        "🇺🇸 vless-3df64ec3 (United States)",
-        "🇺🇸 vless-e16aca79 (United States)",
-        "🇨🇦 vless-aaa501b6 (Canada)",
-        "🇨🇦 vless-bc2ad5ec (Canada)",
-        "🇨🇦 vless-78de8dd9 (Canada)",
-        "🇨🇦 vless-8b0fce46 (Canada)",
-        "🇨🇦 vless-6a6ce670 (Canada)",
-        "🇨🇷 vless-9d7bd8da (Costa Rica)",
-        "🇨🇦 vless-1b34f7ca (Canada)",
-        "🇨🇦 vless-ad7a7fc3 (Canada)",
-        "🇮🇷 vless-d4821b30 (Iran)",
-        "🇨🇦 vless-d64f70e1 (Canada)",
-        "🇨🇦 vless-b82f38f2 (Canada)"
+        "🇨🇦 vless-b3791761 (Canada)",
+        "🇮🇩 vless-0ec8bb6c (Indonesia)",
+        "🇮🇷 vless-e69201ad (Iran)",
+        "🇺🇸 vless-3b2d1ec3 (United States)",
+        "🇺🇸 vless-72dd363b (United States)",
+        "🇺🇸 vless-2184b0c9 (United States)",
+        "🇺🇸 vless-002e2a03 (United States)",
+        "🇩🇪 vless-a417a00f (Germany)",
+        "🇬🇧 vless-7d70fb94 (United Kingdom)",
+        "🇳🇱 vless-6651c88a (Netherlands)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -129,55 +117,75 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 vless-a81150b3 (Sweden)",
-      "server": "aws.vulltr.ir",
-      "server_port": 1005,
-      "uuid": "0eb73b59-9ec7-4b84-b011-2ef1959e0da0",
+      "tag": "🇨🇦 vless-b3791761 (Canada)",
+      "server": "1eta.site",
+      "server_port": 443,
+      "uuid": "32663838-6132-4561-b532-653431613036",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "docker.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-27b77722 (Canada)",
-      "server": "104.17.164.123",
-      "server_port": 8443,
-      "uuid": "16bb01c3-442b-4b09-8935-088bf50283f8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uqe0k8eq1y1werf27q2uz2m3v6rm1maloour.zjde5.de5.net",
+        "server_name": "cf-stock-nice-new.digikalacomaparatcom.shop",
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN",
+        "path": "/l/w/2g7ivx",
         "headers": {
-          "Host": "uqe0k8eq1y1werf27q2uz2m3v6rm1maloour.zjde5.de5.net"
+          "Host": "cf-stock-nice-new.digikalacomaparatcom.shop"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-16870d79 (Canada)",
-      "server": "mci.lotusea.ir",
-      "server_port": 8443,
-      "uuid": "3bbe7f16-9876-46bc-8896-b09d275cbb2c",
+      "tag": "🇮🇩 vless-0ec8bb6c (Indonesia)",
+      "server": "ok.1eta.site",
+      "server_port": 80,
+      "uuid": "32663838-6132-4561-b532-653431613036",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.lotusea.ir",
+        "server_name": "ok.1eta.site",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-3df64ec3 (United States)",
+      "tag": "🇮🇷 vless-e69201ad (Iran)",
+      "server": "tun.pcapps.ir",
+      "server_port": 2020,
+      "uuid": "36b24279-d369-4030-bac0-af9d4b9a61c7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tun.pcapps.ir",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-3b2d1ec3 (United States)",
+      "server": "192.200.160.132",
+      "server_port": 8443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-72dd363b (United States)",
       "server": "66.81.247.155",
       "server_port": 443,
       "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
@@ -188,7 +196,7 @@
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=#TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN?ed=512",
+        "path": "/?ed=#?ed=512",
         "headers": {
           "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
         },
@@ -197,7 +205,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-e16aca79 (United States)",
+      "tag": "🇺🇸 vless-2184b0c9 (United States)",
       "server": "66.81.247.155",
       "server_port": 443,
       "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
@@ -208,7 +216,7 @@
         "insecure": true
       },
       "transport": {
-        "path": "/?ed",
+        "path": "/?ed=2560",
         "headers": {
           "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
         },
@@ -217,217 +225,65 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-aaa501b6 (Canada)",
-      "server": "104.17.163.123",
-      "server_port": 8443,
-      "uuid": "83adcc98-ac23-4e51-9ae0-788a73fd9939",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-bc2ad5ec (Canada)",
-      "server": "104.17.162.123",
-      "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=#BEHI/VIBE_ZOONE?ed=512",
-        "headers": {
-          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-78de8dd9 (Canada)",
-      "server": "104.17.162.123",
-      "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=#TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN?ed=512",
-        "headers": {
-          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-8b0fce46 (Canada)",
-      "server": "104.17.162.123",
-      "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512",
-        "headers": {
-          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-6a6ce670 (Canada)",
-      "server": "172.64.145.38",
-      "server_port": 8443,
-      "uuid": "9e685fe3-e0f9-482d-939c-200a3f89b363",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vyznthvt7f5fr.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN",
-        "headers": {
-          "Host": "vyznthvt7f5fr.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇷 vless-9d7bd8da (Costa Rica)",
-      "server": "ipo.mastermarly.ir",
+      "tag": "🇺🇸 vless-002e2a03 (United States)",
+      "server": "66.81.247.155",
       "server_port": 443,
-      "uuid": "b1a9c885-e53b-4b19-b4c7-b259cba543e7",
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "nur-xn.mastermarly.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/path",
-        "headers": {
-          "Host": "nur-xn.mastermarly.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-1b34f7ca (Canada)",
-      "server": "104.17.162.123",
-      "server_port": 8443,
-      "uuid": "b56472a0-a042-4d68-872b-b7b4388fd82f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net",
+        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
         "insecure": true
       },
       "transport": {
         "path": "/?ed=2560",
         "headers": {
-          "Host": "kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net"
+          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-ad7a7fc3 (Canada)",
-      "server": "104.17.162.123",
-      "server_port": 8443,
-      "uuid": "b56472a0-a042-4d68-872b-b7b4388fd82f",
+      "tag": "🇩🇪 vless-a417a00f (Germany)",
+      "server": "37.120.172.61",
+      "server_port": 22955,
+      "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "kc8z2qnbff17ve5nyn53zqyyobsebcmvkyaklw4kdqw6bntvmfrxqx6j00zo.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-d4821b30 (Iran)",
-      "server": "panel-germany-5.subcenter.net",
-      "server_port": 1005,
-      "uuid": "f0e7dbf3-f4d7-4633-90dd-213f7c06f3a3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "panel-germany-5.subcenter.net",
+        "server_name": "one-piece.com",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-d64f70e1 (Canada)",
-      "server": "104.17.165.123",
-      "server_port": 8443,
-      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
+      "tag": "🇬🇧 vless-7d70fb94 (United Kingdom)",
+      "server": "140.238.100.35",
+      "server_port": 40721,
+      "uuid": "bf3e8944-8d26-47de-8748-b9aa74cce974",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net",
+        "server_name": "yahoo.com",
         "insecure": true
       },
-      "transport": {
-        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-b82f38f2 (Canada)",
-      "server": "104.17.165.123",
-      "server_port": 8443,
-      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
-      "flow": "",
+      "tag": "🇳🇱 vless-6651c88a (Netherlands)",
+      "server": "188.253.26.39",
+      "server_port": 442,
+      "uuid": "e929f51d-5a95-5432-b66f-cfe725ea1f61",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net",
+        "server_name": "yahoo.com",
         "insecure": true
       },
-      "transport": {
-        "path": "/?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN",
-        "headers": {
-          "Host": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     }
   ],
   "route": {
