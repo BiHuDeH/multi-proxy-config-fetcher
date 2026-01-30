@@ -79,21 +79,21 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-8c5f3d57 (Iran)",
-        "🇺🇸 vless-8fd033a7 (United States)",
-        "🇺🇸 vless-d5834bbb (United States)",
-        "🇺🇸 vless-e529ab80 (United States)",
-        "🇩🇪 vless-7d7cdf61 (Germany)",
-        "🇺🇸 vless-b3d85688 (United States)",
-        "🇺🇸 vless-fe389c8d (United States)",
-        "🇷🇺 vless-f5bbcb3d (Russia)",
-        "🇷🇺 vless-467832f3 (Russia)",
-        "🇺🇸 vless-11ddfc1c (United States)",
-        "🇺🇸 vless-98581b9b (United States)",
-        "🇺🇸 vless-e0f74ab3 (United States)",
-        "🇺🇸 vless-4da6c4df (United States)",
-        "🇺🇸 vless-e089c9a4 (United States)",
-        "🇺🇸 vless-f5179700 (United States)",
+        "🇨🇦 vless-be8f1c1b (Canada)",
+        "🇺🇸 vless-3bf203c4 (United States)",
+        "🇨🇦 vless-bdd9924b (Canada)",
+        "🇨🇦 vless-8323fd0b (Canada)",
+        "🇨🇦 vless-ffbafff2 (Canada)",
+        "🇺🇸 vless-3f8e4b74 (United States)",
+        "🇷🇺 vless-ea9ac230 (Russia)",
+        "🇷🇺 vless-af3754a8 (Russia)",
+        "🇨🇦 vless-d1197694 (Canada)",
+        "🇮🇷 vless-be3bb289 (Iran)",
+        "🇨🇦 vless-6baaa085 (Canada)",
+        "🇨🇦 vless-f3cfda92 (Canada)",
+        "🇺🇸 vless-ea5b8ec8 (United States)",
+        "🇫🇮 vless-d5275b31 (Finland)",
+        "🇫🇮 vless-ef19f922 (Finland)",
         "direct"
       ]
     },
@@ -101,21 +101,21 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-8c5f3d57 (Iran)",
-        "🇺🇸 vless-8fd033a7 (United States)",
-        "🇺🇸 vless-d5834bbb (United States)",
-        "🇺🇸 vless-e529ab80 (United States)",
-        "🇩🇪 vless-7d7cdf61 (Germany)",
-        "🇺🇸 vless-b3d85688 (United States)",
-        "🇺🇸 vless-fe389c8d (United States)",
-        "🇷🇺 vless-f5bbcb3d (Russia)",
-        "🇷🇺 vless-467832f3 (Russia)",
-        "🇺🇸 vless-11ddfc1c (United States)",
-        "🇺🇸 vless-98581b9b (United States)",
-        "🇺🇸 vless-e0f74ab3 (United States)",
-        "🇺🇸 vless-4da6c4df (United States)",
-        "🇺🇸 vless-e089c9a4 (United States)",
-        "🇺🇸 vless-f5179700 (United States)"
+        "🇨🇦 vless-be8f1c1b (Canada)",
+        "🇺🇸 vless-3bf203c4 (United States)",
+        "🇨🇦 vless-bdd9924b (Canada)",
+        "🇨🇦 vless-8323fd0b (Canada)",
+        "🇨🇦 vless-ffbafff2 (Canada)",
+        "🇺🇸 vless-3f8e4b74 (United States)",
+        "🇷🇺 vless-ea9ac230 (Russia)",
+        "🇷🇺 vless-af3754a8 (Russia)",
+        "🇨🇦 vless-d1197694 (Canada)",
+        "🇮🇷 vless-be3bb289 (Iran)",
+        "🇨🇦 vless-6baaa085 (Canada)",
+        "🇨🇦 vless-f3cfda92 (Canada)",
+        "🇺🇸 vless-ea5b8ec8 (United States)",
+        "🇫🇮 vless-d5275b31 (Finland)",
+        "🇫🇮 vless-ef19f922 (Finland)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -127,22 +127,108 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-8c5f3d57 (Iran)",
-      "server": "fin10.Jet1.Top",
-      "server_port": 443,
-      "uuid": "0851a2ef-847e-45b1-b032-859a7b744537",
+      "tag": "🇨🇦 vless-be8f1c1b (Canada)",
+      "server": "104.17.164.123",
+      "server_port": 8443,
+      "uuid": "07a21b46-f4a6-47b6-89d1-98375c44262f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "skyroom.online,gharar.ir,igap.net",
+        "server_name": "1o1qulwpyj16e5ywam0gb7za0957ey3ujj8odofs87th5erf5bqkf9.zjde5.de5.net",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "/?ed",
+        "headers": {
+          "Host": "1o1qulwpyj16e5ywam0gb7za0957ey3ujj8odofs87th5erf5bqkf9.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-8fd033a7 (United States)",
-      "server": "ipbaz.ping-box.com",
+      "tag": "🇺🇸 vless-3bf203c4 (United States)",
+      "server": "ip.ali.lat",
+      "server_port": 443,
+      "uuid": "21f9985c-d363-4eee-957f-720e9e9f9b8d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "temp2.ali.lat",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "headers": {
+          "Host": "temp2.ali.lat"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-bdd9924b (Canada)",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "uuid": "396c904b-4b62-4334-b793-ee25fc0c61cc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
+        "headers": {
+          "Host": "8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-8323fd0b (Canada)",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "uuid": "396c904b-4b62-4334-b793-ee25fc0c61cc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
+        "headers": {
+          "Host": "8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-ffbafff2 (Canada)",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-3f8e4b74 (United States)",
+      "server": "66.81.247.155",
       "server_port": 443,
       "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
       "flow": "",
@@ -152,7 +238,7 @@
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=2560",
+        "path": "/?ed=512",
         "headers": {
           "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
         },
@@ -161,14 +247,116 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-d5834bbb (United States)",
-      "server": "ipbaz.ping-box.com",
+      "tag": "🇷🇺 vless-ea9ac230 (Russia)",
+      "server": "212.111.85.1",
       "server_port": 8443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "uuid": "80115515-eb00-4d28-8f02-66b3e3e6a515",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.ru",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 vless-af3754a8 (Russia)",
+      "server": "212.111.85.1",
+      "server_port": 8443,
+      "uuid": "80115515-eb00-4d28-8f02-66b3e3e6a515",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.ru",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-d1197694 (Canada)",
+      "server": "104.17.163.123",
+      "server_port": 8443,
+      "uuid": "83adcc98-ac23-4e51-9ae0-788a73fd9939",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "server_name": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-be3bb289 (Iran)",
+      "server": "zone.om.f2gate.ir",
+      "server_port": 31801,
+      "uuid": "86ec81ba-ff05-4009-8d44-92cf4b4cb876",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "zone.om.f2gate.ir",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-6baaa085 (Canada)",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "uuid": "bb8c74a1-abc1-4511-b100-9876e30cb65c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xfjd79v2tjscrm6jqo.zjde5.de5.net",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xfjd79v2tjscrm6jqo.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-f3cfda92 (Canada)",
+      "server": "172.64.145.38",
+      "server_port": 8443,
+      "uuid": "bb8c74a1-abc1-4511-b100-9876e30cb65c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xfjd79v2tjscrm6jqo.zjde5.de5.net",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "xfjd79v2tjscrm6jqo.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-ea5b8ec8 (United States)",
+      "server": "cf.narton.ir",
+      "server_port": 8443,
+      "uuid": "bbdab850-9164-43f3-adf9-26f7c5458e9d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.narton.ir",
         "insecure": true
       },
       "transport": {
@@ -181,237 +369,31 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-e529ab80 (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "mehrosaboran?ed=2560",
-        "headers": {
-          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-7d7cdf61 (Germany)",
-      "server": "statue.lnmarketplace.net",
+      "tag": "🇫🇮 vless-d5275b31 (Finland)",
+      "server": "65.108.108.151",
       "server_port": 443,
-      "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-      "flow": "",
+      "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "statue.lnmarketplace.net",
+        "server_name": "fit.jojack.ru",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-b3d85688 (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
-      "flow": "",
+      "tag": "🇫🇮 vless-ef19f922 (Finland)",
+      "server": "65.108.108.151",
+      "server_port": 443,
+      "uuid": "feaf1d64-b44c-4cc8-b114-4001478c1fd0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
+        "server_name": "fit.jojack.ru",
         "insecure": true
       },
-      "transport": {
-        "path": "mehrosaboran?ed=2560",
-        "headers": {
-          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-fe389c8d (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "mehrosaboran?ed=2560",
-        "headers": {
-          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 vless-f5bbcb3d (Russia)",
-      "server": "cf.narton.ir",
-      "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed",
-        "headers": {
-          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 vless-467832f3 (Russia)",
-      "server": "cf.narton.ir",
-      "server_port": 8443,
-      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed",
-        "headers": {
-          "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-11ddfc1c (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "6nwf5rauksz8126xm.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-98581b9b (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "6nwf5rauksz8126xm.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-e0f74ab3 (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "8f1a15bf-a352-4c32-aee2-957039a6847b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "6nwf5rauksz8126xm.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "mehrosaboran?ed=2560",
-        "headers": {
-          "Host": "6nwf5rauksz8126xm.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-4da6c4df (United States)",
-      "server": "cf.narton.ir",
-      "server_port": 8443,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hitgram.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "hitgram.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-e089c9a4 (United States)",
-      "server": "cf.narton.ir",
-      "server_port": 8443,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hitgram.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/---@MiTiVPN/---@MiTiVPN/---MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "hitgram.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-f5179700 (United States)",
-      "server": "ipbaz.ping-box.com",
-      "server_port": 8443,
-      "uuid": "f85f60b1-2b96-49e9-8bde-b656d1516df0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "mehrosaboran?ed=2560",
-        "headers": {
-          "Host": "gx8rw8fz783ncefn332y7uyfsvb59o820mryrxu1cj19jiuuur.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     }
   ],
   "route": {
