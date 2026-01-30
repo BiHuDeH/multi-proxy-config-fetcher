@@ -79,16 +79,17 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-6ace0114 (Canada)",
-        "🇨🇿 vless-ff1e5dd1 (Czechia)",
-        "🇨🇦 vless-07c51116 (Canada)",
-        "🇮🇷 vless-3803d9e4 (Iran)",
-        "🇮🇷 vless-3ec79eb2 (Iran)",
-        "🇮🇷 vless-beb60aa4 (Iran)",
-        "🇨🇦 vless-c9ac9bd5 (Canada)",
-        "🇮🇷 vless-fad9ac4e (Iran)",
-        "🇨🇦 vmess-b74e10f9 (Canada)",
-        "🇨🇦 vmess-62213e10 (Canada)",
+        "🇨🇦 vless-89a05614 (Canada)",
+        "🇷🇺 vless-a6bfa823 (Russia)",
+        "🇩🇪 vless-0ddda081 (Germany)",
+        "🇮🇷 vless-c892dbc7 (Iran)",
+        "🇨🇦 vless-762fbd77 (Canada)",
+        "🇮🇷 vless-a28a75fb (Iran)",
+        "🇮🇷 vless-209152e4 (Iran)",
+        "🇦🇱 vless-61e56c49 (Albania)",
+        "🇳🇱 vless-2c495546 (The Netherlands)",
+        "🇨🇦 vmess-0bfaedfc (Canada)",
+        "🇨🇦 vmess-afac3794 (Canada)",
         "direct"
       ]
     },
@@ -96,16 +97,17 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-6ace0114 (Canada)",
-        "🇨🇿 vless-ff1e5dd1 (Czechia)",
-        "🇨🇦 vless-07c51116 (Canada)",
-        "🇮🇷 vless-3803d9e4 (Iran)",
-        "🇮🇷 vless-3ec79eb2 (Iran)",
-        "🇮🇷 vless-beb60aa4 (Iran)",
-        "🇨🇦 vless-c9ac9bd5 (Canada)",
-        "🇮🇷 vless-fad9ac4e (Iran)",
-        "🇨🇦 vmess-b74e10f9 (Canada)",
-        "🇨🇦 vmess-62213e10 (Canada)"
+        "🇨🇦 vless-89a05614 (Canada)",
+        "🇷🇺 vless-a6bfa823 (Russia)",
+        "🇩🇪 vless-0ddda081 (Germany)",
+        "🇮🇷 vless-c892dbc7 (Iran)",
+        "🇨🇦 vless-762fbd77 (Canada)",
+        "🇮🇷 vless-a28a75fb (Iran)",
+        "🇮🇷 vless-209152e4 (Iran)",
+        "🇦🇱 vless-61e56c49 (Albania)",
+        "🇳🇱 vless-2c495546 (The Netherlands)",
+        "🇨🇦 vmess-0bfaedfc (Canada)",
+        "🇨🇦 vmess-afac3794 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -117,7 +119,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-6ace0114 (Canada)",
+      "tag": "🇨🇦 vless-89a05614 (Canada)",
       "server": "188.114.96.3",
       "server_port": 443,
       "uuid": "396c904b-4b62-4334-b793-ee25fc0c61cc",
@@ -137,75 +139,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 vless-ff1e5dd1 (Czechia)",
-      "server": "195.85.23.248",
-      "server_port": 443,
-      "uuid": "4795376d-be72-409d-a31d-530e7ad7adbd",
-      "flow": "",
+      "tag": "🇷🇺 vless-a6bfa823 (Russia)",
+      "server": "212.111.85.1",
+      "server_port": 8443,
+      "uuid": "80115515-eb00-4d28-8f02-66b3e3e6a515",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "abriabri.abriabri.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---",
-        "headers": {
-          "Host": "abriabri.abriabri.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-07c51116 (Canada)",
-      "server": "104.18.150.234",
-      "server_port": 443,
-      "uuid": "52b203f6-768f-4628-81ef-0230ec5cecac",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "abriabri.abriabri.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---AbriVPN---",
-        "headers": {
-          "Host": "abriabri.abriabri.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-3803d9e4 (Iran)",
-      "server": "niimb.aparat-movies-download.ir",
-      "server_port": 42555,
-      "uuid": "6618b577-b801-4f0c-811a-ac83c70639dc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "niimb.aparat-movies-download.ir",
+        "server_name": "m.vk.ru",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-3ec79eb2 (Iran)",
-      "server": "tu1.connectbaash.info",
-      "server_port": 6071,
-      "uuid": "723c7b9d-5d2a-401f-ae45-ba57181538fa",
+      "tag": "🇩🇪 vless-0ddda081 (Germany)",
+      "server": "amir.ancvp.ancvpp.shop",
+      "server_port": 110,
+      "uuid": "80d367e0-7050-4aae-af43-7c9f43e6a834",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "tu1.connectbaash.info",
+        "server_name": "amir.ancvp.ancvpp.shop",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-beb60aa4 (Iran)",
+      "tag": "🇮🇷 vless-c892dbc7 (Iran)",
       "server": "46.38.142.31",
       "server_port": 54725,
       "uuid": "855d6b38-44e7-4f8a-e822-5fc77bdeb633",
@@ -219,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-c9ac9bd5 (Canada)",
+      "tag": "🇨🇦 vless-762fbd77 (Canada)",
       "server": "188.114.98.23",
       "server_port": 2053,
       "uuid": "8d9ccaac-2cb2-4c42-9a2b-0a5a10243031",
@@ -238,7 +200,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-fad9ac4e (Iran)",
+      "tag": "🇮🇷 vless-a28a75fb (Iran)",
       "server": "t.aparat-movies-download.ir",
       "server_port": 42535,
       "uuid": "d6bf6e21-f19c-4aaf-b4a5-c3a9a18a08f2",
@@ -251,8 +213,53 @@
       "transport": {}
     },
     {
+      "type": "vless",
+      "tag": "🇮🇷 vless-209152e4 (Iran)",
+      "server": "online2.moyanri.org",
+      "server_port": 40256,
+      "uuid": "e0866114-b2b3-4cef-a135-ce526edaa42f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "online2.moyanri.org",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱 vless-61e56c49 (Albania)",
+      "server": "cl6-alb.privetnet.ru",
+      "server_port": 443,
+      "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cl6-alb.privetnet.ru",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 vless-2c495546 (The Netherlands)",
+      "server": "cl6-ndl.privetnet.ru",
+      "server_port": 7443,
+      "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cl6-ndl.privetnet.ru",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/vless",
+        "type": "ws"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-b74e10f9 (Canada)",
+      "tag": "🇨🇦 vmess-0bfaedfc (Canada)",
       "server": "172.67.204.84",
       "server_port": 8080,
       "uuid": "nasnet",
@@ -273,7 +280,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-62213e10 (Canada)",
+      "tag": "🇨🇦 vmess-afac3794 (Canada)",
       "server": "172.67.204.84",
       "server_port": 8080,
       "uuid": "nasnet",
