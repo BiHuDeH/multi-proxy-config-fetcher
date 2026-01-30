@@ -79,13 +79,17 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇬🇧 vless-efbe1f4a (United Kingdom)",
-        "🇮🇷 vless-74517d70 (Iran)",
-        "🇺🇸 vless-fd5454cd (United States)",
-        "🇮🇷 vless-1924be9a (Iran)",
-        "🇮🇷 vless-c68fb800 (Iran)",
-        "🇮🇷 vless-44a9110c (Iran)",
-        "🇮🇷 vless-8732b56a (Iran)",
+        "🇺🇸 vless-05f4ade5 (United States)",
+        "🇺🇸 vless-dd5cbb67 (United States)",
+        "🇮🇷 vless-6f477ce3 (Iran)",
+        "🇮🇷 vless-98e4451f (Iran)",
+        "🇮🇷 vless-625ba92f (Iran)",
+        "🇮🇷 vless-5e014299 (Iran)",
+        "🇩🇪 vless-a47c025e (Germany)",
+        "🇩🇪 vless-67931dc5 (Germany)",
+        "🇬🇧 vless-18d41c94 (United Kingdom)",
+        "🇺🇸 vless-83863c26 (United States)",
+        "🇺🇸 vless-fa0fe874 (United States)",
         "direct"
       ]
     },
@@ -93,13 +97,17 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇬🇧 vless-efbe1f4a (United Kingdom)",
-        "🇮🇷 vless-74517d70 (Iran)",
-        "🇺🇸 vless-fd5454cd (United States)",
-        "🇮🇷 vless-1924be9a (Iran)",
-        "🇮🇷 vless-c68fb800 (Iran)",
-        "🇮🇷 vless-44a9110c (Iran)",
-        "🇮🇷 vless-8732b56a (Iran)"
+        "🇺🇸 vless-05f4ade5 (United States)",
+        "🇺🇸 vless-dd5cbb67 (United States)",
+        "🇮🇷 vless-6f477ce3 (Iran)",
+        "🇮🇷 vless-98e4451f (Iran)",
+        "🇮🇷 vless-625ba92f (Iran)",
+        "🇮🇷 vless-5e014299 (Iran)",
+        "🇩🇪 vless-a47c025e (Germany)",
+        "🇩🇪 vless-67931dc5 (Germany)",
+        "🇬🇧 vless-18d41c94 (United Kingdom)",
+        "🇺🇸 vless-83863c26 (United States)",
+        "🇺🇸 vless-fa0fe874 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,75 +119,89 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-efbe1f4a (United Kingdom)",
-      "server": "57.129.137.56",
-      "server_port": 443,
-      "uuid": "3321a819-889d-40b3-b8fa-f34208827ef1",
+      "tag": "🇺🇸 vless-05f4ade5 (United States)",
+      "server": "Cf.xuiprospeed.ir",
+      "server_port": 2096,
+      "uuid": "4dcad34a-b4a1-4545-bb95-055d7e794989",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "o00o.snip.qzz.io",
+        "server_name": "majid-nol.hhgksdghfggg.sbs",
         "insecure": true
       },
       "transport": {
-        "path": "/proxyip=sjc.o00o.ooo",
+        "path": "/",
         "headers": {
-          "Host": "o00o.snip.qzz.io"
+          "Host": "majid-nol.hhgksdghfggg.sbs"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-74517d70 (Iran)",
-      "server": "Zafar.sefrtasad.com",
-      "server_port": 4500,
-      "uuid": "3db22a6b-bd03-4120-bf30-e6e763ba854c",
+      "tag": "🇺🇸 vless-dd5cbb67 (United States)",
+      "server": "Cf.xuiprospeed.ir",
+      "server_port": 2096,
+      "uuid": "4dcad34a-b4a1-4545-bb95-055d7e794989",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "Zafar.sefrtasad.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-fd5454cd (United States)",
-      "server": "66.81.247.155",
-      "server_port": 443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+        "server_name": "majid-tor.hhgksdghfggg.sbs",
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+          "Host": "majid-tor.hhgksdghfggg.sbs"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-1924be9a (Iran)",
-      "server": "sr6.vopnik.fun",
-      "server_port": 2086,
-      "uuid": "462b1710-f9de-47d0-a919-7d6b790bd2a3",
+      "tag": "🇮🇷 vless-6f477ce3 (Iran)",
+      "server": "TUNNEL1.TORPROSPEED.IR",
+      "server_port": 214,
+      "uuid": "74e024dc-c512-486c-9872-09785216e615",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "sr6.vopnik.fun",
+        "server_name": "TUNNEL1.TORPROSPEED.IR",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-c68fb800 (Iran)",
+      "tag": "🇮🇷 vless-98e4451f (Iran)",
+      "server": "TUNNEL2.TORPROSPEED.IR",
+      "server_port": 215,
+      "uuid": "74e024dc-c512-486c-9872-09785216e615",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "TUNNEL2.TORPROSPEED.IR",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-625ba92f (Iran)",
+      "server": "TUNNEL3.TORPROSPEED.IR",
+      "server_port": 216,
+      "uuid": "74e024dc-c512-486c-9872-09785216e615",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "TUNNEL3.TORPROSPEED.IR",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-5e014299 (Iran)",
       "server": "v2test.bing-net.com",
       "server_port": 9820,
       "uuid": "7dc4c6a9-235e-49ba-91d8-85c94c912f90",
@@ -193,31 +215,103 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-44a9110c (Iran)",
-      "server": "hp2.site.azadsv.ir",
-      "server_port": 1024,
-      "uuid": "9a28dee5-c006-41f2-bca6-5b5d46fe9969",
+      "tag": "🇩🇪 vless-a47c025e (Germany)",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "hp2.site.azadsv.ir",
+        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560",
+        "headers": {
+          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-8732b56a (Iran)",
-      "server": "sr20.qonix.fun",
-      "server_port": 2095,
-      "uuid": "eb0c223c-8ff6-49b4-9d31-6ede56242435",
+      "tag": "🇩🇪 vless-67931dc5 (Germany)",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "sr20.qonix.fun",
+        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "mehrosaboran?ed=2560",
+        "headers": {
+          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 vless-18d41c94 (United Kingdom)",
+      "server": "cf.narton.ir",
+      "server_port": 8443,
+      "uuid": "9e685fe3-e0f9-482d-939c-200a3f89b363",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vyznthvt7f5fr.zjde5.de5.net",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/@OnNetVpn",
+        "headers": {
+          "Host": "vyznthvt7f5fr.zjde5.de5.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-83863c26 (United States)",
+      "server": "Cf.xuiprospeed.ir",
+      "server_port": 2096,
+      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "meraj-nol.hhgksdghfggg.sbs",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "headers": {
+          "Host": "meraj-nol.hhgksdghfggg.sbs"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-fa0fe874 (United States)",
+      "server": "Cf.xuiprospeed.ir",
+      "server_port": 2096,
+      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "meraj-nol.hhgksdghfggg.sbs",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "headers": {
+          "Host": "meraj-nol.hhgksdghfggg.sbs"
+        },
+        "type": "ws"
+      }
     }
   ],
   "route": {
