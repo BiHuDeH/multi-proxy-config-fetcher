@@ -79,12 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-a838e023 (Canada)",
-        "🇺🇸 vless-091aff44 (United States)",
-        "🇮🇷 vless-e675a566 (Iran)",
-        "🇨🇦 vless-63fa4d1a (Canada)",
-        "🇮🇷 vless-4ce277b4 (Iran)",
-        "🇨🇦 vless-99d57682 (Canada)",
+        "🇨🇦 vless-9fa9898a (Canada)",
+        "🇨🇦 vless-de3c51e9 (Canada)",
+        "🇺🇸 vmess-671393ee (United States)",
         "direct"
       ]
     },
@@ -92,12 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-a838e023 (Canada)",
-        "🇺🇸 vless-091aff44 (United States)",
-        "🇮🇷 vless-e675a566 (Iran)",
-        "🇨🇦 vless-63fa4d1a (Canada)",
-        "🇮🇷 vless-4ce277b4 (Iran)",
-        "🇨🇦 vless-99d57682 (Canada)"
+        "🇨🇦 vless-9fa9898a (Canada)",
+        "🇨🇦 vless-de3c51e9 (Canada)",
+        "🇺🇸 vmess-671393ee (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,68 +103,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-a838e023 (Canada)",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "uuid": "396c904b-4b62-4334-b793-ee25fc0c61cc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pages.dev",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/eyJqdW5rIjoiTHczMWlhREZIb0ljUDhoaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=@abasbijan2560",
-        "headers": {
-          "Host": "8vmU06cxdz59m931xnREgj8qpnoq1-06.pages.dev"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-091aff44 (United States)",
-      "server": "66.81.247.155",
-      "server_port": 443,
-      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-e675a566 (Iran)",
-      "server": "blog.zanbori.ir",
-      "server_port": 4220,
-      "uuid": "51d7e784-d531-4756-a887-cb60b3069aa3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.zanbori.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "blog.zanborak-shop.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-63fa4d1a (Canada)",
-      "server": "104.17.162.123",
+      "tag": "🇨🇦 vless-9fa9898a (Canada)",
+      "server": "104.18.4.130",
       "server_port": 8443,
       "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
       "flow": "",
@@ -180,7 +114,7 @@
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "path": "/XIXVPN?ed",
         "headers": {
           "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
         },
@@ -189,27 +123,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-4ce277b4 (Iran)",
-      "server": "Test.vmessorg.com",
-      "server_port": 1567,
-      "uuid": "9594c0bc-ad82-4fb7-8f99-a922d9dfc3b2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "Test.vmessorg.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "parsabr.com"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-99d57682 (Canada)",
+      "tag": "🇨🇦 vless-de3c51e9 (Canada)",
       "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
@@ -225,6 +139,24 @@
           "Host": "dev.twistsparrow.xyz"
         },
         "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 vmess-671393ee (United States)",
+      "server": "d2fog4flcfgb8c.cloudfront.net",
+      "server_port": 443,
+      "uuid": "e070e567-7996-45a9-9016-0143420946ef",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "/8536cb1926c24bbc99d7bd93350ec564",
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ""
       }
     }
   ],
