@@ -79,14 +79,15 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-6dcca716 (Iran)",
-        "🇨🇦 vless-184f2549 (Canada)",
-        "🇰🇷 vless-0fbbbc6d (South Korea)",
-        "🇨🇦 vless-de1f44f4 (Canada)",
-        "🇨🇦 vless-d03195b8 (Canada)",
-        "🇨🇦 vless-3a0dd335 (Canada)",
-        "🇮🇷 vless-b80f9ca5 (Iran)",
-        "🇨🇦 vless-748b95ee (Canada)",
+        "🇮🇷 vless-7bf496e0 (Iran)",
+        "🇭🇺 vless-8226e904 (Hungary)",
+        "🇸🇨 vless-e11a4fc7 (Seychelles)",
+        "🇨🇦 vless-1aafb183 (Canada)",
+        "🇨🇦 vless-8757fb5a (Canada)",
+        "🇨🇦 vless-174f3495 (Canada)",
+        "🇮🇷 vless-560ba2ac (Iran)",
+        "🇨🇦 vless-42e98b80 (Canada)",
+        "🏳️ vmess-fe6269ed (Unknown)",
         "direct"
       ]
     },
@@ -94,14 +95,15 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-6dcca716 (Iran)",
-        "🇨🇦 vless-184f2549 (Canada)",
-        "🇰🇷 vless-0fbbbc6d (South Korea)",
-        "🇨🇦 vless-de1f44f4 (Canada)",
-        "🇨🇦 vless-d03195b8 (Canada)",
-        "🇨🇦 vless-3a0dd335 (Canada)",
-        "🇮🇷 vless-b80f9ca5 (Iran)",
-        "🇨🇦 vless-748b95ee (Canada)"
+        "🇮🇷 vless-7bf496e0 (Iran)",
+        "🇭🇺 vless-8226e904 (Hungary)",
+        "🇸🇨 vless-e11a4fc7 (Seychelles)",
+        "🇨🇦 vless-1aafb183 (Canada)",
+        "🇨🇦 vless-8757fb5a (Canada)",
+        "🇨🇦 vless-174f3495 (Canada)",
+        "🇮🇷 vless-560ba2ac (Iran)",
+        "🇨🇦 vless-42e98b80 (Canada)",
+        "🏳️ vmess-fe6269ed (Unknown)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,27 +115,55 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-6dcca716 (Iran)",
-      "server": "46.38.150.67",
-      "server_port": 2087,
-      "uuid": "34316461-6538-4235-b138-633036386265",
+      "tag": "🇮🇷 vless-7bf496e0 (Iran)",
+      "server": "vip.nanotitab.com",
+      "server_port": 57896,
+      "uuid": "10c07345-baa2-4631-8d4d-9d4fe866deb4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "46.38.150.67",
+        "server_name": "vip.nanotitab.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇺 vless-8226e904 (Hungary)",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 vless-e11a4fc7 (Seychelles)",
+      "server": "45.130.125.160",
+      "server_port": 443,
+      "uuid": "29fa0634-fc9a-4a5a-9104-b7e36e8a9b61",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "gozar1.i2fed.com",
         "insecure": true
       },
       "transport": {
-        "path": "/p/de/5/l/w/d29mwy",
+        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048",
         "headers": {
-          "Host": "bad-worry-new.nic.ir"
+          "Host": "gozar1.i2fed.com"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-184f2549 (Canada)",
+      "tag": "🇨🇦 vless-1aafb183 (Canada)",
       "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
@@ -153,41 +183,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇰🇷 vless-0fbbbc6d (South Korea)",
-      "server": "3.35.77.195",
+      "tag": "🇨🇦 vless-8757fb5a (Canada)",
+      "server": "cp.so.rezzip.com",
       "server_port": 443,
-      "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "wikipedia.org",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-de1f44f4 (Canada)",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "uuid": "486169a3-ce5f-4d93-8d01-f619d4443e5d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net",
+        "server_name": "pandura.lat",
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=2560",
+        "path": "?ed=2560",
         "headers": {
-          "Host": "5jq7fvwpqt5owo2fi198sa6qoxznkzfea7en4m3xroeqrt3u3q.zjde5.de5.net"
+          "Host": "pandura.lat"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-d03195b8 (Canada)",
+      "tag": "🇨🇦 vless-174f3495 (Canada)",
       "server": "ip-range.web3.name.ng",
       "server_port": 8443,
       "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
@@ -207,27 +223,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-3a0dd335 (Canada)",
-      "server": "ip-range.web3.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hzr50.sepiol.name.ng",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "hzr50.sepiol.name.ng"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-b80f9ca5 (Iran)",
+      "tag": "🇮🇷 vless-560ba2ac (Iran)",
       "server": "g5.arvantelecom.cloud",
       "server_port": 60118,
       "uuid": "ce68da9526d51008695fa53e3ee84cbb",
@@ -241,22 +237,37 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-748b95ee (Canada)",
-      "server": "norman.ns.cloudflare.com",
+      "tag": "🇨🇦 vless-42e98b80 (Canada)",
+      "server": "104.18.4.130",
       "server_port": 443,
-      "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
+      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "azizoarjmand.info",
+        "server_name": "www.hitgram.ir",
         "insecure": true
       },
       "transport": {
-        "path": "/yhowcws",
+        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN?ed=2560",
         "headers": {
-          "Host": "azizoarjmand.info"
+          "Host": "www.hitgram.ir"
         },
         "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🏳️ vmess-fe6269ed (Unknown)",
+      "server": "de.zarasite.ir",
+      "server_port": 6533,
+      "uuid": "7fea7538-e321-41de-a395-3afcbd7ec27c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
       }
     }
   ],
