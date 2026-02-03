@@ -79,21 +79,15 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇫🇷 vless-6a343ac2 (France)",
-        "🇸🇪 vless-969c6be1 (Sweden)",
-        "🇩🇪 vless-2be8b0e5 (Germany)",
-        "🇨🇦 vless-44328c18 (Canada)",
-        "🇨🇦 vless-a4a0c3cc (Canada)",
-        "🇨🇦 vless-1c6105cb (Canada)",
-        "🇨🇦 vless-e3d33589 (Canada)",
-        "🇨🇦 vless-e7e60e23 (Canada)",
-        "🇨🇦 vless-30565932 (Canada)",
-        "🇨🇦 vless-9a87e4e6 (Canada)",
-        "🇨🇦 vless-efc866cc (Canada)",
-        "🇨🇦 vless-9c7c6386 (Canada)",
-        "🇨🇦 vless-6b23c1d7 (Canada)",
-        "🇨🇦 vless-4a257aea (Canada)",
-        "🇨🇦 vless-8f0ca4b3 (Canada)",
+        "🇮🇷 vless-2c291853 (Iran)",
+        "🇮🇷 vless-9ad0b452 (Iran)",
+        "🇮🇷 vless-85506038 (Iran)",
+        "🇮🇷 vless-a1020bdb (Iran)",
+        "🇮🇷 vless-6e8fe4e5 (Iran)",
+        "🇨🇦 vless-35c23435 (Canada)",
+        "🇩🇪 vless-08e5583b (Germany)",
+        "🇨🇦 vless-bb3e3d8a (Canada)",
+        "🇨🇦 vless-638277f3 (Canada)",
         "direct"
       ]
     },
@@ -101,21 +95,15 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇷 vless-6a343ac2 (France)",
-        "🇸🇪 vless-969c6be1 (Sweden)",
-        "🇩🇪 vless-2be8b0e5 (Germany)",
-        "🇨🇦 vless-44328c18 (Canada)",
-        "🇨🇦 vless-a4a0c3cc (Canada)",
-        "🇨🇦 vless-1c6105cb (Canada)",
-        "🇨🇦 vless-e3d33589 (Canada)",
-        "🇨🇦 vless-e7e60e23 (Canada)",
-        "🇨🇦 vless-30565932 (Canada)",
-        "🇨🇦 vless-9a87e4e6 (Canada)",
-        "🇨🇦 vless-efc866cc (Canada)",
-        "🇨🇦 vless-9c7c6386 (Canada)",
-        "🇨🇦 vless-6b23c1d7 (Canada)",
-        "🇨🇦 vless-4a257aea (Canada)",
-        "🇨🇦 vless-8f0ca4b3 (Canada)"
+        "🇮🇷 vless-2c291853 (Iran)",
+        "🇮🇷 vless-9ad0b452 (Iran)",
+        "🇮🇷 vless-85506038 (Iran)",
+        "🇮🇷 vless-a1020bdb (Iran)",
+        "🇮🇷 vless-6e8fe4e5 (Iran)",
+        "🇨🇦 vless-35c23435 (Canada)",
+        "🇩🇪 vless-08e5583b (Germany)",
+        "🇨🇦 vless-bb3e3d8a (Canada)",
+        "🇨🇦 vless-638277f3 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -127,49 +115,77 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 vless-6a343ac2 (France)",
-      "server": "157.173.127.225",
-      "server_port": 443,
-      "uuid": "11beaf11-726d-4c11-8ce9-27308c1c608c",
+      "tag": "🇮🇷 vless-2c291853 (Iran)",
+      "server": "fa.faraz360.ir",
+      "server_port": 9829,
+      "uuid": "0c0870b0-a253-4861-84b6-e6ce6777e97c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "analytics.google.com",
+        "server_name": "fa.faraz360.ir",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 vless-969c6be1 (Sweden)",
-      "server": "dd.openaccessnode.com",
-      "server_port": 504,
-      "uuid": "31701b5d-ca95-92f9-d684-dae3706161ea",
+      "tag": "🇮🇷 vless-9ad0b452 (Iran)",
+      "server": "ir2.webira.net",
+      "server_port": 19204,
+      "uuid": "2900a45d-74c5-4d4b-a860-d0dae69c8ffa",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "nobitex.ir",
+        "server_name": "ir2.webira.net",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-2be8b0e5 (Germany)",
-      "server": "vip-80.f-sub.cfd",
-      "server_port": 1517,
-      "uuid": "57e4c9a4-2673-40ee-a37a-e12f5623c058",
+      "tag": "🇮🇷 vless-85506038 (Iran)",
+      "server": "ir2.webira.net",
+      "server_port": 19204,
+      "uuid": "829228f6-2f2d-4123-ac3b-6a7ac5782692",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vip-80.f-sub.cfd",
+        "server_name": "ir2.webira.net",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-44328c18 (Canada)",
+      "tag": "🇮🇷 vless-a1020bdb (Iran)",
+      "server": "ir2.webira.net",
+      "server_port": 19204,
+      "uuid": "8e2fdcff-0280-4070-8385-77e40a92798e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir2.webira.net",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-6e8fe4e5 (Iran)",
+      "server": "ir2.webira.net",
+      "server_port": 19204,
+      "uuid": "abc81271-0365-43a8-8099-abfaeb514fed",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ir2.webira.net",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-35c23435 (Canada)",
       "server": "104.19.140.106",
       "server_port": 443,
       "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
@@ -189,207 +205,44 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-a4a0c3cc (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tag": "🇩🇪 vless-08e5583b (Germany)",
+      "server": "195.248.241.168",
+      "server_port": 16985,
+      "uuid": "c339cc21-41cc-42f7-9a72-6033e09b921f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/213.35.100.31=47112",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-1c6105cb (Canada)",
-      "server": "104.19.141.3",
-      "server_port": 443,
-      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/213.35.100.31=47112",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-e3d33589 (Canada)",
-      "server": "104.19.141.3",
-      "server_port": 443,
-      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/213.35.100.31=47112",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-e7e60e23 (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "d6971cc4-a506-49f6-8ebb-f911317763d8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/36.95.152.58=12137",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-30565932 (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "d6971cc4-a506-49f6-8ebb-f911317763d8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/36.95.152.58=12137",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-9a87e4e6 (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/139.99.124.165=443",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-efc866cc (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/139.99.124.165=443",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-9c7c6386 (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/194.127.193.124=24467",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-6b23c1d7 (Canada)",
-      "server": "104.19.140.106",
-      "server_port": 443,
-      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud1.c01.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/194.127.193.124=24467",
-        "headers": {
-          "Host": "afrcloud1.c01.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-4a257aea (Canada)",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "dev.twistsparrow.xyz",
+        "server_name": "195.248.241.168",
         "insecure": true
       },
       "transport": {
         "path": "/",
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-bb3e3d8a (Canada)",
+      "server": "104.19.140.106",
+      "server_port": 443,
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/194.127.193.124=24467",
         "headers": {
-          "Host": "dev.twistsparrow.xyz"
+          "Host": "afrcloud1.c01.kr"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-8f0ca4b3 (Canada)",
+      "tag": "🇨🇦 vless-638277f3 (Canada)",
       "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
