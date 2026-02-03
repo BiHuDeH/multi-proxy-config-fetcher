@@ -79,17 +79,21 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-3a6ab8f4 (Canada)",
-        "🇨🇦 vless-fa5c59e0 (Canada)",
-        "🇮🇷 vless-56cfcb9b (Iran)",
-        "🇮🇷 vless-a605beda (Iran)",
-        "🇨🇦 vless-a849778b (Canada)",
-        "🇮🇷 vless-2ab3c6a8 (Iran)",
-        "🇺🇸 vless-de077764 (United States)",
-        "🏳️ vless-d2fe8141 (Unknown)",
-        "🇺🇸 vless-5407729d (United States)",
-        "🇺🇸 vless-c0589630 (United States)",
-        "🇮🇷 vmess-c617fbfa (Iran)",
+        "🇺🇸 vless-acbc306f (United States)",
+        "🇨🇦 vless-ae8d3e9a (Canada)",
+        "🇩🇪 vless-d81f0abf (Germany)",
+        "🇮🇷 vless-ebfc88e2 (Iran)",
+        "🇮🇷 vless-9e90bef1 (Iran)",
+        "🇨🇦 vless-52503a26 (Canada)",
+        "🇩🇪 vless-7bd92299 (Germany)",
+        "🇩🇪 vless-3d7553d7 (Germany)",
+        "🇺🇸 vless-93259072 (United States)",
+        "🏳️ vless-9632997a (Unknown)",
+        "🇺🇸 vless-87fefc32 (United States)",
+        "🇩🇪 vless-f8e46514 (Germany)",
+        "🇮🇷 vless-f7de199f (Iran)",
+        "🇨🇦 vless-f9761ede (Canada)",
+        "🇨🇦 vmess-73267e60 (Canada)",
         "direct"
       ]
     },
@@ -97,17 +101,21 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-3a6ab8f4 (Canada)",
-        "🇨🇦 vless-fa5c59e0 (Canada)",
-        "🇮🇷 vless-56cfcb9b (Iran)",
-        "🇮🇷 vless-a605beda (Iran)",
-        "🇨🇦 vless-a849778b (Canada)",
-        "🇮🇷 vless-2ab3c6a8 (Iran)",
-        "🇺🇸 vless-de077764 (United States)",
-        "🏳️ vless-d2fe8141 (Unknown)",
-        "🇺🇸 vless-5407729d (United States)",
-        "🇺🇸 vless-c0589630 (United States)",
-        "🇮🇷 vmess-c617fbfa (Iran)"
+        "🇺🇸 vless-acbc306f (United States)",
+        "🇨🇦 vless-ae8d3e9a (Canada)",
+        "🇩🇪 vless-d81f0abf (Germany)",
+        "🇮🇷 vless-ebfc88e2 (Iran)",
+        "🇮🇷 vless-9e90bef1 (Iran)",
+        "🇨🇦 vless-52503a26 (Canada)",
+        "🇩🇪 vless-7bd92299 (Germany)",
+        "🇩🇪 vless-3d7553d7 (Germany)",
+        "🇺🇸 vless-93259072 (United States)",
+        "🏳️ vless-9632997a (Unknown)",
+        "🇺🇸 vless-87fefc32 (United States)",
+        "🇩🇪 vless-f8e46514 (Germany)",
+        "🇮🇷 vless-f7de199f (Iran)",
+        "🇨🇦 vless-f9761ede (Canada)",
+        "🇨🇦 vmess-73267e60 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -119,49 +127,61 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-3a6ab8f4 (Canada)",
-      "server": "104.18.26.90",
-      "server_port": 2095,
-      "uuid": "02263e1e-10d9-4340-a6f1-fe8a4dbe5dff",
+      "tag": "🇺🇸 vless-acbc306f (United States)",
+      "server": "ipbaz.ping-box.com",
+      "server_port": 443,
+      "uuid": "21f9985c-d363-4eee-957f-720e9e9f9b8d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "104.18.26.90",
+        "server_name": "teams.live.com.afrcloud1.c01.kr",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "headers": {
+          "Host": "teams.live.com.afrcloud1.c01.kr"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-ae8d3e9a (Canada)",
+      "server": "cp.so.rezzip.com",
+      "server_port": 443,
+      "uuid": "486169a3-ce5f-4d93-8d01-f619d4443e5d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pandura.lat",
+        "insecure": true
+      },
+      "transport": {
+        "path": "?ed=2560",
+        "headers": {
+          "Host": "pandura.lat"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-d81f0abf (Germany)",
+      "server": "57.129.53.181",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-fa5c59e0 (Canada)",
-      "server": "SpEeDtEsT.NeT",
-      "server_port": 80,
-      "uuid": "21fbdd38-d039-498e-9abc-4040cc545526",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "SpEeDtEsT.NeT",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-56cfcb9b (Iran)",
-      "server": "85.133.200.32",
-      "server_port": 4444,
-      "uuid": "335789dd-7b29-4983-9896-d83c7648f261",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "85.133.200.32",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-a605beda (Iran)",
+      "tag": "🇮🇷 vless-ebfc88e2 (Iran)",
       "server": "blog.zanbori.ir",
       "server_port": 4220,
       "uuid": "51d7e784-d531-4756-a887-cb60b3069aa3",
@@ -181,41 +201,68 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-a849778b (Canada)",
-      "server": "SpEeDtEsT.NeT",
-      "server_port": 80,
-      "uuid": "883db641-a174-4f81-9e73-f9ab6f321dac",
+      "tag": "🇮🇷 vless-9e90bef1 (Iran)",
+      "server": "subseventeen3.iranfreemarz.com",
+      "server_port": 2004,
+      "uuid": "6975abc0-1bf8-4fb7-ae1b-dad520c1bbdc",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "SpEeDtEsT.NeT",
+        "server_name": "subseventeen3.iranfreemarz.com",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-2ab3c6a8 (Iran)",
-      "server": "193.84.255.94",
+      "tag": "🇨🇦 vless-52503a26 (Canada)",
+      "server": "188.114.96.3",
       "server_port": 443,
-      "uuid": "a8b8c7b3-9ac3-4af4-84a8-445fa6bd3c8b",
+      "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "193.84.255.94",
+        "server_name": "teams.live.com.afrcloud1.c01.kr",
         "insecure": true
       },
       "transport": {
-        "path": "/",
         "headers": {
-          "Host": "soft98.ir"
+          "Host": "teams.live.com.afrcloud1.c01.kr"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-de077764 (United States)",
+      "tag": "🇩🇪 vless-7bd92299 (Germany)",
+      "server": "94.141.123.12",
+      "server_port": 558,
+      "uuid": "be695a55-8ac5-40a1-92c2-cc864651360a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-3d7553d7 (Germany)",
+      "server": "64.188.104.168",
+      "server_port": 40721,
+      "uuid": "bf3e8944-8d26-47de-8748-b9aa74cce974",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-93259072 (United States)",
       "server": "140.248.159.164",
       "server_port": 80,
       "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
@@ -235,7 +282,7 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ vless-d2fe8141 (Unknown)",
+      "tag": "🏳️ vless-9632997a (Unknown)",
       "server": "fsl.narton.ir",
       "server_port": 443,
       "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
@@ -255,27 +302,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-5407729d (United States)",
-      "server": "www.fastly.com",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.fastly.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048",
-        "headers": {
-          "Host": "mitivpn3.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-c0589630 (United States)",
+      "tag": "🇺🇸 vless-87fefc32 (United States)",
       "server": "www.fastly.com",
       "server_port": 80,
       "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
@@ -294,14 +321,65 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇩🇪 vless-f8e46514 (Germany)",
+      "server": "voip.khakshouri.ir",
+      "server_port": 56734,
+      "uuid": "e076e2c6-bb55-4830-a514-d89f60f550d8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.pinterest.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-f7de199f (Iran)",
+      "server": "92.114.24.80",
+      "server_port": 44387,
+      "uuid": "f657435d-4c1d-49dc-96fa-de06e5635255",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "92.114.24.80",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-f9761ede (Canada)",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "dev.twistsparrow.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-c617fbfa (Iran)",
-      "server": "x2.mehradservice.com",
-      "server_port": 4452,
-      "uuid": "8aadcf53-e634-49b9-9c88-5cf585ae7f96",
+      "tag": "🇨🇦 vmess-73267e60 (Canada)",
+      "server": "188.114.98.0",
+      "server_port": 8080,
+      "uuid": "nasnet",
       "security": "auto",
       "alter_id": 0,
-      "transport": {},
+      "transport": {
+        "path": "/nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN",
+        "headers": {
+          "Host": "nasnet-162191099.sharghdaily.co"
+        },
+        "type": "ws"
+      },
       "tls": {
         "enabled": false,
         "insecure": true,
