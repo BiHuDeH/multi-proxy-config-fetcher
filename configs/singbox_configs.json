@@ -79,18 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-419d03b8 (Canada)",
-        "🇬🇧 vless-23647cc1 (United Kingdom)",
-        "🇨🇦 vless-c6944672 (Canada)",
-        "🇨🇦 vless-c0752e91 (Canada)",
-        "🇨🇦 vless-2bd3e69c (Canada)",
-        "🇨🇦 vless-ca5d645a (Canada)",
-        "🇺🇸 vless-3730a3d6 (United States)",
-        "🇺🇸 vless-f2490a8d (United States)",
-        "🇺🇸 vless-473c4f4c (United States)",
-        "🇺🇸 vless-1267f911 (United States)",
-        "🇺🇸 vless-21d5d482 (United States)",
-        "🇰🇷 vmess-5b3353c3 (South Korea)",
+        "🇸🇪 vless-26cb4608 (Sweden)",
+        "🇺🇸 vless-5bc89c30 (United States)",
+        "🇨🇦 vless-a650881b (Canada)",
         "direct"
       ]
     },
@@ -98,18 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-419d03b8 (Canada)",
-        "🇬🇧 vless-23647cc1 (United Kingdom)",
-        "🇨🇦 vless-c6944672 (Canada)",
-        "🇨🇦 vless-c0752e91 (Canada)",
-        "🇨🇦 vless-2bd3e69c (Canada)",
-        "🇨🇦 vless-ca5d645a (Canada)",
-        "🇺🇸 vless-3730a3d6 (United States)",
-        "🇺🇸 vless-f2490a8d (United States)",
-        "🇺🇸 vless-473c4f4c (United States)",
-        "🇺🇸 vless-1267f911 (United States)",
-        "🇺🇸 vless-21d5d482 (United States)",
-        "🇰🇷 vmess-5b3353c3 (South Korea)"
+        "🇸🇪 vless-26cb4608 (Sweden)",
+        "🇺🇸 vless-5bc89c30 (United States)",
+        "🇨🇦 vless-a650881b (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -121,220 +103,51 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-419d03b8 (Canada)",
-      "server": "perl.org",
-      "server_port": 80,
-      "uuid": "20df8c30-c07a-494e-b83d-4af21ee57788",
+      "tag": "🇸🇪 vless-26cb4608 (Sweden)",
+      "server": "nl.skfv-mirror.ru",
+      "server_port": 443,
+      "uuid": "0da89048-00d8-4c1f-b0ee-bdbd8f3f0b3b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.skfv-mirror.ru",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-5bc89c30 (United States)",
+      "server": "dojman.global.ssl.fastly.net",
+      "server_port": 443,
+      "uuid": "36213657-e751-478b-a5d7-547eef892af9",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "perl.org",
+        "server_name": "dojman.global.ssl.fastly.net",
         "insecure": true
       },
       "transport": {
         "path": "/containers/fi",
         "headers": {
-          "Host": "lexeu.global.ssl.fastly.net"
+          "Host": "dojman.global.ssl.fastly.net"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-23647cc1 (United Kingdom)",
-      "server": "new.1picofile.co.uk",
-      "server_port": 8443,
-      "uuid": "3ef173e4-8047-4306-a07a-6e76311a4ddf",
+      "tag": "🇨🇦 vless-a650881b (Canada)",
+      "server": "python.org",
+      "server_port": 80,
+      "uuid": "3dc5cb20-f047-4138-84ce-d91444721c74",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "tgju.org",
+        "server_name": "python.org",
         "insecure": true
       },
       "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-c6944672 (Canada)",
-      "server": "162.159.14.88",
-      "server_port": 80,
-      "uuid": "55cb8179-ce11-4ec8-a03c-333f797265f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "162.159.14.88",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "long-forest-ac72.salari1382m.workers.dev"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-c0752e91 (Canada)",
-      "server": "104.18.26.90",
-      "server_port": 2095,
-      "uuid": "68a9cce7-2923-4ff4-832f-3c3d8800009e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "104.18.26.90",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-2bd3e69c (Canada)",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "a26bbed7-a286-4840-84bc-dc102c526777",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtest.net",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-ca5d645a (Canada)",
-      "server": "chatgpt.com",
-      "server_port": 2053,
-      "uuid": "c539c5cd-a370-4012-8895-5857c86cd51d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "trnewup.trovice.ir",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-3730a3d6 (United States)",
-      "server": "140.248.131.123",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "140.248.131.123",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn3.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-f2490a8d (United States)",
-      "server": "140.248.159.164",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "140.248.159.164",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn3.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-473c4f4c (United States)",
-      "server": "www.fastly.com",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.fastly.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn3.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-1267f911 (United States)",
-      "server": "www.fastly.com",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.fastly.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn3.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-21d5d482 (United States)",
-      "server": "www.fastly.com",
-      "server_port": 80,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.fastly.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/--Telegram---MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN",
-        "headers": {
-          "Host": "mitivpn3.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 vmess-5b3353c3 (South Korea)",
-      "server": "seoul03.zgjok.com",
-      "server_port": 443,
-      "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "seoul03.zgjok.com"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "seoul03.zgjok.com"
-      }
     }
   ],
   "route": {
