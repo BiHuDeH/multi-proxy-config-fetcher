@@ -79,15 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 vless-b241125e (Germany)",
-        "🇨🇦 vless-a6494e3f (Canada)",
-        "🇨🇦 vless-97db2543 (Canada)",
-        "🇨🇦 vless-778687db (Canada)",
-        "🇨🇦 vless-46a026cc (Canada)",
-        "🇨🇦 vless-6dd3fbc3 (Canada)",
-        "🇸🇪 vless-1457205d (Sweden)",
-        "🇮🇷 vless-f668587d (Iran)",
-        "🇹🇷 vmess-da7fb629 (Turkey)",
+        "🇨🇦 vless-b3623e26 (Canada)",
+        "🇩🇪 vless-07580f13 (Germany)",
+        "🇨🇦 vless-4be04f6b (Canada)",
+        "🇮🇷 vless-33aa1d2a (Iran)",
+        "🇮🇷 vless-043dcc38 (Iran)",
+        "🇨🇦 vless-b000bb4a (Canada)",
+        "🇮🇷 vless-fe2fdb77 (Iran)",
+        "🇹🇷 vmess-6509d44c (Turkey)",
         "direct"
       ]
     },
@@ -95,15 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 vless-b241125e (Germany)",
-        "🇨🇦 vless-a6494e3f (Canada)",
-        "🇨🇦 vless-97db2543 (Canada)",
-        "🇨🇦 vless-778687db (Canada)",
-        "🇨🇦 vless-46a026cc (Canada)",
-        "🇨🇦 vless-6dd3fbc3 (Canada)",
-        "🇸🇪 vless-1457205d (Sweden)",
-        "🇮🇷 vless-f668587d (Iran)",
-        "🇹🇷 vmess-da7fb629 (Turkey)"
+        "🇨🇦 vless-b3623e26 (Canada)",
+        "🇩🇪 vless-07580f13 (Germany)",
+        "🇨🇦 vless-4be04f6b (Canada)",
+        "🇮🇷 vless-33aa1d2a (Iran)",
+        "🇮🇷 vless-043dcc38 (Iran)",
+        "🇨🇦 vless-b000bb4a (Canada)",
+        "🇮🇷 vless-fe2fdb77 (Iran)",
+        "🇹🇷 vmess-6509d44c (Turkey)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -115,7 +113,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-b241125e (Germany)",
+      "tag": "🇨🇦 vless-b3623e26 (Canada)",
+      "server": "f3.springpaatogh8.store",
+      "server_port": 8443,
+      "uuid": "41b928c9-3222-4ac0-a177-8000c41eb1dc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "digikala.sorza.ir",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "digikala.sorza.ir"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-07580f13 (Germany)",
       "server": "ak2.vpnfreedom.tech",
       "server_port": 443,
       "uuid": "4af37467-bf79-4630-98d5-73e7dad60e90",
@@ -129,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-a6494e3f (Canada)",
+      "tag": "🇨🇦 vless-4be04f6b (Canada)",
       "server": "172.67.66.177",
       "server_port": 443,
       "uuid": "53f0bca8-f170-4ef7-8031-c7d441189dbf",
@@ -149,67 +167,41 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-97db2543 (Canada)",
-      "server": "104.17.73.206",
-      "server_port": 2053,
-      "uuid": "a2a396c3-f40e-4dee-bdbb-b1201f12dc1c",
+      "tag": "🇮🇷 vless-33aa1d2a (Iran)",
+      "server": "185.232.152.92",
+      "server_port": 8080,
+      "uuid": "6291cd3f-28a1-4288-80be-88267c9c10f0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "snippet.fgfw.de5.net",
+        "server_name": "185.232.152.92",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-043dcc38 (Iran)",
+      "server": "france4.karevpn.xyz",
+      "server_port": 33503,
+      "uuid": "7e12ed8c-07cd-4f7b-806e-6562470dedf6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "france4.karevpn.xyz",
         "insecure": true
       },
       "transport": {
-        "path": "/danfeng?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+        "path": "/",
         "headers": {
-          "Host": "snippet.fgfw.de5.net"
+          "Host": "speedtest.net"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-778687db (Canada)",
-      "server": "104.17.73.206",
-      "server_port": 2053,
-      "uuid": "a2a396c3-f40e-4dee-bdbb-b1201f12dc1c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "snippet.fgfw.de5.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/danfeng?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "snippet.fgfw.de5.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-46a026cc (Canada)",
-      "server": "f3.springpaatogh8.store",
-      "server_port": 8443,
-      "uuid": "aea9d170-f4b0-41f1-9493-b09f1555a060",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "digikala.sorza.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "digikala.sorza.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-6dd3fbc3 (Canada)",
+      "tag": "🇨🇦 vless-b000bb4a (Canada)",
       "server": "python.org",
       "server_port": 80,
       "uuid": "c0490ebf-881f-41c8-89e3-2f6da5995831",
@@ -229,21 +221,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 vless-1457205d (Sweden)",
-      "server": "se.locations-service.com",
-      "server_port": 3039,
-      "uuid": "d73a9db0-24b5-4592-8ff0-4f0b5329b39f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-f668587d (Iran)",
+      "tag": "🇮🇷 vless-fe2fdb77 (Iran)",
       "server": "fnvip4.therevenant.shop",
       "server_port": 2053,
       "uuid": "fa0c47a2-5e2c-4bdf-a651-67bd418d6691",
@@ -257,7 +235,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇹🇷 vmess-da7fb629 (Turkey)",
+      "tag": "🇹🇷 vmess-6509d44c (Turkey)",
       "server": "tr1-smart.adelping.com",
       "server_port": 80,
       "uuid": "68c8f462-8468-4931-90a8-680c3d6cb3c1",
