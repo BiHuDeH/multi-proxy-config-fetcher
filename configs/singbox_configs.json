@@ -79,14 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-b1751a4c (United States)",
-        "🇮🇷 vless-fe5a9145 (Iran)",
-        "🇨🇦 vless-cc45febb (Canada)",
-        "🇮🇷 vless-4ea6726d (Iran)",
-        "🇮🇷 vless-4d7c3097 (Iran)",
-        "🇨🇦 vless-6425dd61 (Canada)",
-        "🇨🇦 vmess-f74705e6 (Canada)",
-        "🇨🇦 vmess-9000e94f (Canada)",
+        "🇺🇸 vless-48b7707b (United States)",
+        "🇨🇦 vless-c8a27d5a (Canada)",
+        "🇮🇷 vless-b60f1033 (Iran)",
+        "🇮🇷 vless-cf11ea22 (Iran)",
+        "🇨🇦 vless-a4229f5b (Canada)",
+        "🇨🇦 vless-1ef63e92 (Canada)",
+        "🇨🇦 vmess-eab8fe5a (Canada)",
+        "🇨🇦 vmess-7873356f (Canada)",
         "direct"
       ]
     },
@@ -94,14 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-b1751a4c (United States)",
-        "🇮🇷 vless-fe5a9145 (Iran)",
-        "🇨🇦 vless-cc45febb (Canada)",
-        "🇮🇷 vless-4ea6726d (Iran)",
-        "🇮🇷 vless-4d7c3097 (Iran)",
-        "🇨🇦 vless-6425dd61 (Canada)",
-        "🇨🇦 vmess-f74705e6 (Canada)",
-        "🇨🇦 vmess-9000e94f (Canada)"
+        "🇺🇸 vless-48b7707b (United States)",
+        "🇨🇦 vless-c8a27d5a (Canada)",
+        "🇮🇷 vless-b60f1033 (Iran)",
+        "🇮🇷 vless-cf11ea22 (Iran)",
+        "🇨🇦 vless-a4229f5b (Canada)",
+        "🇨🇦 vless-1ef63e92 (Canada)",
+        "🇨🇦 vmess-eab8fe5a (Canada)",
+        "🇨🇦 vmess-7873356f (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,7 +113,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-b1751a4c (United States)",
+      "tag": "🇺🇸 vless-48b7707b (United States)",
       "server": "45.82.251.126",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -127,21 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-fe5a9145 (Iran)",
-      "server": "vipde2.persianhostnet.ir",
-      "server_port": 9091,
-      "uuid": "8e4257a8-668c-40fc-9e53-612aec460652",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vipde2.persianhostnet.ir",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-cc45febb (Canada)",
+      "tag": "🇨🇦 vless-c8a27d5a (Canada)",
       "server": "chatgpt.com",
       "server_port": 2083,
       "uuid": "96d9bcb0-9ad2-48be-85a2-a9ab3a005261",
@@ -161,7 +147,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-4ea6726d (Iran)",
+      "tag": "🇮🇷 vless-b60f1033 (Iran)",
       "server": "hb2.site.asan-ps.ir",
       "server_port": 1043,
       "uuid": "98c442f9-787e-4079-ba78-1af3d8a09339",
@@ -175,7 +161,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-4d7c3097 (Iran)",
+      "tag": "🇮🇷 vless-cf11ea22 (Iran)",
       "server": "hk2.site.asan-ps.ir",
       "server_port": 6684,
       "uuid": "98c442f9-787e-4079-ba78-1af3d8a09339",
@@ -189,7 +175,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-6425dd61 (Canada)",
+      "tag": "🇨🇦 vless-a4229f5b (Canada)",
+      "server": "creativecommons.org",
+      "server_port": 443,
+      "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "DiprOX.pages.DEV",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/assets",
+        "headers": {
+          "Host": "diprox.pages.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-1ef63e92 (Canada)",
       "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
@@ -209,7 +215,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-f74705e6 (Canada)",
+      "tag": "🇨🇦 vmess-eab8fe5a (Canada)",
       "server": "104.21.69.44",
       "server_port": 8080,
       "uuid": "nasnet",
@@ -230,7 +236,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 vmess-9000e94f (Canada)",
+      "tag": "🇨🇦 vmess-7873356f (Canada)",
       "server": "172.67.204.84",
       "server_port": 8080,
       "uuid": "nasnet",
