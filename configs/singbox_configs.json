@@ -79,11 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-1578b770 (Iran)",
-        "🇨🇦 vless-26b368a3 (Canada)",
-        "🇨🇦 vless-a5c0d9c6 (Canada)",
-        "🇮🇪 vless-40b16da7 (Ireland)",
-        "🇨🇦 vless-571429be (Canada)",
+        "🇮🇪 vless-3428738c (Ireland)",
+        "🇮🇷 vless-23a727c3 (Iran)",
+        "🇸🇨 vless-54866fa5 (Seychelles)",
+        "🇸🇨 vless-7f05aaa9 (Seychelles)",
+        "🇨🇦 vless-dec751dc (Canada)",
+        "🇨🇦 vmess-a6b14e3d (Canada)",
+        "🇺🇸 vmess-db53e631 (United States)",
         "direct"
       ]
     },
@@ -91,11 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-1578b770 (Iran)",
-        "🇨🇦 vless-26b368a3 (Canada)",
-        "🇨🇦 vless-a5c0d9c6 (Canada)",
-        "🇮🇪 vless-40b16da7 (Ireland)",
-        "🇨🇦 vless-571429be (Canada)"
+        "🇮🇪 vless-3428738c (Ireland)",
+        "🇮🇷 vless-23a727c3 (Iran)",
+        "🇸🇨 vless-54866fa5 (Seychelles)",
+        "🇸🇨 vless-7f05aaa9 (Seychelles)",
+        "🇨🇦 vless-dec751dc (Canada)",
+        "🇨🇦 vmess-a6b14e3d (Canada)",
+        "🇺🇸 vmess-db53e631 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,55 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-1578b770 (Iran)",
-      "server": "tn.komak-ar-online.online",
-      "server_port": 6000,
-      "uuid": "06365f16-fbbb-4cd6-aabb-4d8f6e5b9784",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tn.komak-ar-online.online",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-26b368a3 (Canada)",
-      "server": "salamsalamirancell.aattaash.com",
-      "server_port": 2095,
-      "uuid": "2239dfb7-31aa-433c-8acf-be058a6f424c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "salamsalamirancell.aattaash.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/JKVPN",
-        "headers": {
-          "Host": "joKerv.mEmBerGolaBi.IR."
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-a5c0d9c6 (Canada)",
-      "server": "fast.springpaatogh7.store",
-      "server_port": 80,
-      "uuid": "32c7a892-19e4-4964-819b-afdf8cc81275",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fast.springpaatogh7.store",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 vless-40b16da7 (Ireland)",
+      "tag": "🇮🇪 vless-3428738c (Ireland)",
       "server": "c46.2ly5m8r6xoa8azxfhpq1.mr3232.homes",
       "server_port": 10592,
       "uuid": "6ca40eb2-5ef4-4d21-955f-dc533e815a78",
@@ -169,17 +125,116 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-571429be (Canada)",
-      "server": "chatgpt.com",
-      "server_port": 2052,
-      "uuid": "d91982b0-a2b4-4fc0-c153-d4ac02a11b10",
+      "tag": "🇮🇷 vless-23a727c3 (Iran)",
+      "server": "s4.ramimax.com",
+      "server_port": 43224,
+      "uuid": "81bd957b-ea65-4e66-88d7-817d4cee7065",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "chatgpt.com",
+        "server_name": "s4.ramimax.com",
         "insecure": true
       },
       "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 vless-54866fa5 (Seychelles)",
+      "server": "cfcdn.zopli.ir",
+      "server_port": 443,
+      "uuid": "98d677be-b14b-4c14-a96b-4a39a3be645a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
+        "headers": {
+          "Host": "t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇨 vless-7f05aaa9 (Seychelles)",
+      "server": "cfcdn.zopli.ir",
+      "server_port": 443,
+      "uuid": "98d677be-b14b-4c14-a96b-4a39a3be645a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/eyJqdW5rIjoiZHJmTGlJSmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
+        "headers": {
+          "Host": "t86y6leiyaph7tsvb170x7vfx0-3dvh3.vrezht08.workers.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-dec751dc (Canada)",
+      "server": "f3.springpaatogh8.store",
+      "server_port": 8443,
+      "uuid": "cfd61569-b43e-4dd7-9bf0-c30db60049e4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "digikala.sorza.ir",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "digikala.sorza.ir"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 vmess-a6b14e3d (Canada)",
+      "server": "::ffff:ac40:9bd1",
+      "server_port": 443,
+      "uuid": "ffece2a9-0296-46a9-8db8-742d29d240ff",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn",
+        "headers": {
+          "Host": "bedrid.denizhosting.me"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "bedrid.denizhosting.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 vmess-db53e631 (United States)",
+      "server": "173.249.209.146",
+      "server_port": 20086,
+      "uuid": "3935c2dc-dbb0-43f7-b367-fe89abe87fdf",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "/",
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
+      }
     }
   ],
   "route": {
