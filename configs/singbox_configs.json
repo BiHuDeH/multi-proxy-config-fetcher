@@ -79,17 +79,16 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-b10e61a9 (Iran)",
-        "🇮🇷 vless-87a64169 (Iran)",
-        "🇮🇷 vless-2f2f7c7f (Iran)",
-        "🇮🇷 vless-339caeac (Iran)",
-        "🇩🇪 vless-9a067754 (Germany)",
-        "🇷🇺 vless-f722a80d (Russia)",
-        "🇮🇷 vless-fc2ee5da (Iran)",
-        "🇷🇺 vless-0bec1116 (Russia)",
-        "🇮🇷 vless-32af8b91 (Iran)",
-        "🇩🇪 vless-62187f02 (Germany)",
-        "🇨🇦 vless-8472695a (Canada)",
+        "🇮🇷 vless-5ec86799 (Iran)",
+        "🇨🇦 vless-24cb6ad7 (Canada)",
+        "🇨🇦 vless-3738dd38 (Canada)",
+        "🇨🇦 vless-34fd9891 (Canada)",
+        "🇨🇦 vless-d1afe232 (Canada)",
+        "🇨🇦 vless-2d7cf0d0 (Canada)",
+        "🇮🇷 vless-be0af4a9 (Iran)",
+        "🇩🇪 vless-569ad775 (Germany)",
+        "🇮🇷 vless-a09cebfe (Iran)",
+        "🇨🇦 vless-684d725c (Canada)",
         "direct"
       ]
     },
@@ -97,17 +96,16 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-b10e61a9 (Iran)",
-        "🇮🇷 vless-87a64169 (Iran)",
-        "🇮🇷 vless-2f2f7c7f (Iran)",
-        "🇮🇷 vless-339caeac (Iran)",
-        "🇩🇪 vless-9a067754 (Germany)",
-        "🇷🇺 vless-f722a80d (Russia)",
-        "🇮🇷 vless-fc2ee5da (Iran)",
-        "🇷🇺 vless-0bec1116 (Russia)",
-        "🇮🇷 vless-32af8b91 (Iran)",
-        "🇩🇪 vless-62187f02 (Germany)",
-        "🇨🇦 vless-8472695a (Canada)"
+        "🇮🇷 vless-5ec86799 (Iran)",
+        "🇨🇦 vless-24cb6ad7 (Canada)",
+        "🇨🇦 vless-3738dd38 (Canada)",
+        "🇨🇦 vless-34fd9891 (Canada)",
+        "🇨🇦 vless-d1afe232 (Canada)",
+        "🇨🇦 vless-2d7cf0d0 (Canada)",
+        "🇮🇷 vless-be0af4a9 (Iran)",
+        "🇩🇪 vless-569ad775 (Germany)",
+        "🇮🇷 vless-a09cebfe (Iran)",
+        "🇨🇦 vless-684d725c (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -119,49 +117,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-b10e61a9 (Iran)",
-      "server": "fin02bot.joyboy03.shop",
-      "server_port": 47562,
-      "uuid": "0292e6d7-2c8c-4404-b980-04a0b8365028",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin02bot.joyboy03.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-87a64169 (Iran)",
-      "server": "finbot.zoro03.shop",
-      "server_port": 47541,
-      "uuid": "0292e6d7-2c8c-4404-b980-04a0b8365028",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "finbot.zoro03.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-2f2f7c7f (Iran)",
-      "server": "ge03bot.zoro03.shop",
-      "server_port": 47560,
-      "uuid": "0292e6d7-2c8c-4404-b980-04a0b8365028",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ge03bot.zoro03.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-339caeac (Iran)",
+      "tag": "🇮🇷 vless-5ec86799 (Iran)",
       "server": "trbot.zoro03.shop",
       "server_port": 47536,
       "uuid": "0292e6d7-2c8c-4404-b980-04a0b8365028",
@@ -175,63 +131,107 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-9a067754 (Germany)",
-      "server": "dark.javanrooo.ir",
-      "server_port": 8880,
-      "uuid": "3f3e393d-144e-43c6-9abf-882199711a72",
+      "tag": "🇨🇦 vless-24cb6ad7 (Canada)",
+      "server": "f1.springpaatogh8.store",
+      "server_port": 2087,
+      "uuid": "1af727c4-4076-43d9-907b-1b45f11a133e",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "digikala.sorza.ir",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "gamepc.sorza.ir"
+        },
+        "type": "ws"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 vless-f722a80d (Russia)",
-      "server": "109.120.188.166",
-      "server_port": 443,
-      "uuid": "7bc30425-1c2f-4823-b629-90f599a4cbfe",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-fc2ee5da (Iran)",
-      "server": "s4.ramimax.com",
-      "server_port": 43224,
-      "uuid": "81bd957b-ea65-4e66-88d7-817d4cee7065",
+      "tag": "🇨🇦 vless-3738dd38 (Canada)",
+      "server": "f1.springpaatogh8.store",
+      "server_port": 8443,
+      "uuid": "1af727c4-4076-43d9-907b-1b45f11a133e",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "s4.ramimax.com",
+        "server_name": "digikala.sorza.ir",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "digikala.sorza.ir"
+        },
+        "type": "ws"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 vless-0bec1116 (Russia)",
-      "server": "37.139.42.234",
-      "server_port": 4443,
-      "uuid": "9cb2d5c5-c5e0-409b-ad3b-7c057b7971b1",
+      "tag": "🇨🇦 vless-34fd9891 (Canada)",
+      "server": "172.64.145.38",
+      "server_port": 2053,
+      "uuid": "5eaae4ff-7611-4c5e-a8e7-eca56cbbd62f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yandex.ru",
+        "server_name": "digikala.sorza.ir",
         "insecure": true
       },
-      "transport": {}
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "chess.sorza.ir"
+        },
+        "type": "ws"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-32af8b91 (Iran)",
+      "tag": "🇨🇦 vless-d1afe232 (Canada)",
+      "server": "172.64.145.38",
+      "server_port": 2053,
+      "uuid": "5eaae4ff-7611-4c5e-a8e7-eca56cbbd62f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "digikala.sorza.ir",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "chess.sorza.ir"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-2d7cf0d0 (Canada)",
+      "server": "172.64.145.38",
+      "server_port": 2053,
+      "uuid": "5eaae4ff-7611-4c5e-a8e7-eca56cbbd62f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "digikala.sorza.ir",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "chess.sorza.ir"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-be0af4a9 (Iran)",
       "server": "s4.ramimax.com",
       "server_port": 43224,
       "uuid": "bff7d20f-bf59-45c2-83e6-d0305e161bfe",
@@ -245,21 +245,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-62187f02 (Germany)",
-      "server": "dark.javanrooo.ir",
-      "server_port": 8880,
-      "uuid": "f79d4188-4118-429d-b768-eafd79e18060",
+      "tag": "🇩🇪 vless-569ad775 (Germany)",
+      "server": "two.vajopw.ir",
+      "server_port": 41180,
+      "uuid": "d5a9bd55-7abe-45e7-8ff1-de79a5b74620",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "two.vajopw.ir",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-8472695a (Canada)",
+      "tag": "🇮🇷 vless-a09cebfe (Iran)",
+      "server": "firan.dtgoldservices.com",
+      "server_port": 8443,
+      "uuid": "eca8a780-cb05-41b3-8401-b4779ece69f2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "firan.dtgoldservices.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-684d725c (Canada)",
       "server": "104.17.162.123",
       "server_port": 443,
       "uuid": "fef4a93d-eb4f-4657-b56b-32a0dc060045",
