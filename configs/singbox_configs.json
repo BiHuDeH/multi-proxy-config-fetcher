@@ -79,13 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🏳️ vless-53d5e7e9 (Unknown)",
-        "🇨🇦 vless-e207545f (Canada)",
-        "🇺🇸 vless-1f25c82d (United States)",
-        "🇨🇦 vless-77b5bda2 (Canada)",
-        "🇩🇪 vless-cc6d7eb6 (Germany)",
-        "🇨🇦 vless-c722c836 (Canada)",
-        "🇩🇪 vmess-78e23159 (Germany)",
+        "🏳️ vless-148ee31a (Unknown)",
+        "🇨🇦 vless-1ef662b1 (Canada)",
+        "🇨🇦 vless-e0ec9298 (Canada)",
         "direct"
       ]
     },
@@ -93,13 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🏳️ vless-53d5e7e9 (Unknown)",
-        "🇨🇦 vless-e207545f (Canada)",
-        "🇺🇸 vless-1f25c82d (United States)",
-        "🇨🇦 vless-77b5bda2 (Canada)",
-        "🇩🇪 vless-cc6d7eb6 (Germany)",
-        "🇨🇦 vless-c722c836 (Canada)",
-        "🇩🇪 vmess-78e23159 (Germany)"
+        "🏳️ vless-148ee31a (Unknown)",
+        "🇨🇦 vless-1ef662b1 (Canada)",
+        "🇨🇦 vless-e0ec9298 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -111,64 +103,46 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ vless-53d5e7e9 (Unknown)",
-      "server": "H3.FASTSPEEDS.IR",
-      "server_port": 2053,
-      "uuid": "1e94155e-197c-443e-82e1-381eac475913",
+      "tag": "🏳️ vless-148ee31a (Unknown)",
+      "server": "Black1.hostwolf-server.ir",
+      "server_port": 80,
+      "uuid": "a6d2209f-699e-4faa-a5d7-9e0b4a719d9c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "aslan-nuis.ip-venzo.com",
+        "server_name": "Black1.hostwolf-server.ir",
         "insecure": true
       },
       "transport": {
-        "path": "/ws",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-e207545f (Canada)",
-      "server": "digitalocean.com",
-      "server_port": 2053,
-      "uuid": "2637679c-e2fe-45a2-9962-e2ddf8469c29",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "foucse1.goooooooozoooo.sbs",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
         "headers": {
-          "Host": "foucse1.goooooooozoooo.sbs"
+          "Host": "Blac7887.global.ssl.fastly.net"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-1f25c82d (United States)",
-      "server": "poli.appleseraj.ir",
-      "server_port": 2083,
-      "uuid": "5aa02d95-185d-4205-9d5d-306440cce49f",
+      "tag": "🇨🇦 vless-1ef662b1 (Canada)",
+      "server": "172.67.213.180",
+      "server_port": 443,
+      "uuid": "b52370db-a4af-43e3-9e4c-a7e7115fcecb",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "russia2.appleseraj.ir",
+        "server_name": "fic.ketabv.ir",
         "insecure": true
       },
       "transport": {
-        "path": "/?ed=2048",
+        "path": "/s55dLF15ddokB1leJ#NETMelliAnti----NETMelliAnti----NETMelliAnti",
         "headers": {
-          "Host": "russia2.appleseraj.ir"
+          "Host": "fic.ketabv.ir"
         },
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-77b5bda2 (Canada)",
+      "tag": "🇨🇦 vless-e0ec9298 (Canada)",
       "server": "creativecommons.org",
       "server_port": 443,
       "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6",
@@ -184,55 +158,6 @@
           "Host": "DiprOX.pages.DEV"
         },
         "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-cc6d7eb6 (Germany)",
-      "server": "3.72.87.185",
-      "server_port": 41676,
-      "uuid": "d9917a89-14f6-4485-e8c5-1a2465a5996b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "3.72.87.185",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-c722c836 (Canada)",
-      "server": "dash.getasa.ir",
-      "server_port": 443,
-      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "dash.getasa.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/Telegram@V2ynpv-Telegram@V2ynpv-Telegram@V2ynpv-Telegram@V2ynpv-Telegram@V2ynpv-Telegram@V2ynpv-Telegram@V2ynpv",
-        "headers": {
-          "Host": "dash.getasa.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪 vmess-78e23159 (Germany)",
-      "server": "91.107.152.77",
-      "server_port": 64535,
-      "uuid": "e8a1f004-56ac-4aa1-a5bf-f1daf7176ed8",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {},
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "91.107.152.77"
       }
     }
   ],
