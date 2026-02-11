@@ -79,16 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 vless-f1224c07 (Germany)",
-        "🇩🇪 vless-98c60986 (Germany)",
-        "🇮🇹 vless-68617749 (Italy)",
-        "🇨🇦 vless-251b41a0 (Canada)",
-        "🇨🇦 vless-cc844904 (Canada)",
-        "🇨🇦 vless-5e707530 (Canada)",
-        "🇨🇦 vless-030b97b8 (Canada)",
-        "🇩🇪 vless-b046d80e (Germany)",
-        "🇨🇦 vless-f846668e (Canada)",
-        "🇨🇦 vless-135365e9 (Canada)",
+        "🇩🇪 vless-23096e85 (Germany)",
+        "🇩🇪 vless-d6cd78f9 (Germany)",
+        "🇮🇷 vless-f4696db0 (Iran)",
         "direct"
       ]
     },
@@ -96,16 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 vless-f1224c07 (Germany)",
-        "🇩🇪 vless-98c60986 (Germany)",
-        "🇮🇹 vless-68617749 (Italy)",
-        "🇨🇦 vless-251b41a0 (Canada)",
-        "🇨🇦 vless-cc844904 (Canada)",
-        "🇨🇦 vless-5e707530 (Canada)",
-        "🇨🇦 vless-030b97b8 (Canada)",
-        "🇩🇪 vless-b046d80e (Germany)",
-        "🇨🇦 vless-f846668e (Canada)",
-        "🇨🇦 vless-135365e9 (Canada)"
+        "🇩🇪 vless-23096e85 (Germany)",
+        "🇩🇪 vless-d6cd78f9 (Germany)",
+        "🇮🇷 vless-f4696db0 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -117,182 +103,45 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-f1224c07 (Germany)",
-      "server": "vrp2.vertatech.ir",
-      "server_port": 8443,
-      "uuid": "0f5fc1df-6af9-4484-932a-7b8ce174bb42",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vrp2.vertatech.ir",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-98c60986 (Germany)",
-      "server": "de.griffon-guard.com",
-      "server_port": 8443,
-      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
+      "tag": "🇩🇪 vless-23096e85 (Germany)",
+      "server": "191.101.113.13",
+      "server_port": 80,
+      "uuid": "b9e68a4c-533e-49d3-9eef-44f410feef2b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "www.aparat.com",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 vless-68617749 (Italy)",
-      "server": "146.75.53.132",
-      "server_port": 80,
-      "uuid": "1cfb30fe-703a-6948-2cee-e4483dbafcca",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "146.75.53.132",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/sw",
-        "headers": {
-          "Host": "mitimf.global.ssl.fastly.net"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-251b41a0 (Canada)",
-      "server": "H6.FASTSPEEDS.IR",
-      "server_port": 2083,
-      "uuid": "3e44abf4-58ee-4c29-9a91-3aa0d62d3749",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "aslan-locz2.ip-venzo.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/ws",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-cc844904 (Canada)",
-      "server": "safe.zdshop.ir",
-      "server_port": 2053,
-      "uuid": "4d961eae-b6a0-497c-98ee-ea5b70c6d71b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "itns-2.blackpapers.ir",
-        "insecure": true
-      },
-      "transport": {
-        "headers": {
-          "Host": "itns-2.blackpapers.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-5e707530 (Canada)",
-      "server": "safe.zdshop.ir",
-      "server_port": 2053,
-      "uuid": "4d961eae-b6a0-497c-98ee-ea5b70c6d71b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sens-2.certhost.ir",
-        "insecure": true
-      },
-      "transport": {
-        "headers": {
-          "Host": "sens-2.certhost.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-030b97b8 (Canada)",
-      "server": "strong.zdshop.ir",
-      "server_port": 2053,
-      "uuid": "4d961eae-b6a0-497c-98ee-ea5b70c6d71b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sens-2.certhost.ir",
-        "insecure": true
-      },
-      "transport": {
-        "headers": {
-          "Host": "sens-2.certhost.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-b046d80e (Germany)",
-      "server": "pristytools.com.pristytools.com",
-      "server_port": 2087,
-      "uuid": "9a717e62-bb4e-59c6-a458-95b18873a6c0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pristytools.com.pristytools.com",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-f846668e (Canada)",
-      "server": "104.18.32.47",
+      "tag": "🇩🇪 vless-d6cd78f9 (Germany)",
+      "server": "18.193.102.254",
       "server_port": 443,
-      "uuid": "dfe772dd-48d6-44f4-9f2a-f19c9c5e798d",
+      "uuid": "dacb912c-39ef-4fe0-d720-fadaa53111c0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fic.ketabv.ir",
+        "server_name": "18.193.102.254",
         "insecure": true
       },
-      "transport": {
-        "path": "/s55dLF15ddokB1leJ#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night",
-        "headers": {
-          "Host": "fic.ketabv.ir"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-135365e9 (Canada)",
-      "server": "188.114.96.3",
-      "server_port": 443,
-      "uuid": "dfe772dd-48d6-44f4-9f2a-f19c9c5e798d",
+      "tag": "🇮🇷 vless-f4696db0 (Iran)",
+      "server": "188.0.247.176",
+      "server_port": 56327,
+      "uuid": "e9b6ec3e-9e8c-43a0-9049-566b5b179b71",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fic.ketabv.ir",
+        "server_name": "188.0.247.176",
         "insecure": true
       },
-      "transport": {
-        "path": "/s55dLF15ddokB1leJ#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night---#TELEGRAM-anotherme_night",
-        "headers": {
-          "Host": "fic.ketabv.ir"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     }
   ],
   "route": {
