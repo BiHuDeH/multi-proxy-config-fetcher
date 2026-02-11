@@ -79,10 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🏳️ vless-29962d7b (Unknown)",
-        "🇨🇦 vless-399726d3 (Canada)",
-        "🇷🇺 vless-c61c8291 (Russia)",
-        "🇩🇪 vless-1a2dc66b (Germany)",
+        "🏳️ vless-f699c1b6 (Unknown)",
+        "🇺🇸 vless-c9e34162 (United States)",
+        "🇺🇸 vless-9ae9bd29 (United States)",
+        "🇺🇸 vless-0c840423 (United States)",
+        "🇩🇪 vless-0296eac9 (Germany)",
         "direct"
       ]
     },
@@ -90,10 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🏳️ vless-29962d7b (Unknown)",
-        "🇨🇦 vless-399726d3 (Canada)",
-        "🇷🇺 vless-c61c8291 (Russia)",
-        "🇩🇪 vless-1a2dc66b (Germany)"
+        "🏳️ vless-f699c1b6 (Unknown)",
+        "🇺🇸 vless-c9e34162 (United States)",
+        "🇺🇸 vless-9ae9bd29 (United States)",
+        "🇺🇸 vless-0c840423 (United States)",
+        "🇩🇪 vless-0296eac9 (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,65 +107,88 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ vless-29962d7b (Unknown)",
-      "server": "liad.maf-tahas.ir",
-      "server_port": 443,
-      "uuid": "30689d42-d2f2-4495-a49b-dd0fdba10fb8",
+      "tag": "🏳️ vless-f699c1b6 (Unknown)",
+      "server": "riali22.carpet-carpet-carped.ir",
+      "server_port": 2018,
+      "uuid": "352f047c-3176-4271-9bc6-3f7d33ee03c7",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "harro-likeh2.sdcards1.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-399726d3 (Canada)",
-      "server": "f1.springpaatogh8.store",
-      "server_port": 8443,
-      "uuid": "b40567e1-99da-4892-aa29-64008cd107e8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "digikala.sorza.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "takken.sorza.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 vless-c61c8291 (Russia)",
-      "server": "87.242.102.193",
-      "server_port": 8443,
-      "uuid": "bc0602d4-86e3-4d58-80d8-afc6c67926a2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
+        "server_name": "ub.com",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-1a2dc66b (Germany)",
-      "server": "3.127.218.13",
-      "server_port": 443,
-      "uuid": "ccab17f9-00a7-4493-c4a6-bbdd9e22166e",
+      "tag": "🇺🇸 vless-c9e34162 (United States)",
+      "server": "151.101.25.242",
+      "server_port": 80,
+      "uuid": "505997ba-cbdb-466e-a3ad-69c6a4553b38",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "3.127.218.13",
+        "server_name": "151.101.25.242",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/containers/fi",
+        "headers": {
+          "Host": "mohsenchavoshi.global.ssl.fastly.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-9ae9bd29 (United States)",
+      "server": "151.101.25.242",
+      "server_port": 80,
+      "uuid": "505997ba-cbdb-466e-a3ad-69c6a4553b38",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "151.101.25.242",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/containers/fi",
+        "headers": {
+          "Host": "pizzabama.global.ssl.fastly.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-0c840423 (United States)",
+      "server": "151.101.25.242",
+      "server_port": 80,
+      "uuid": "505997ba-cbdb-466e-a3ad-69c6a4553b38",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "151.101.25.242",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/containers/fi",
+        "headers": {
+          "Host": "pizzabama.global.ssl.fastly.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-0296eac9 (Germany)",
+      "server": "77.239.125.99",
+      "server_port": 443,
+      "uuid": "b42f7955-3741-406f-b95a-ed7b051ae5aa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
         "insecure": true
       },
       "transport": {}
