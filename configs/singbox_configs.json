@@ -79,11 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇸🇨 vless-4559c344 (Seychelles)",
-        "🇸🇨 vless-4b0d64f8 (Seychelles)",
-        "🇮🇷 vless-ef2e8847 (Iran)",
-        "🇨🇦 vless-7f21aba6 (Canada)",
-        "🇨🇦 vless-24893b19 (Canada)",
+        "🇸🇨 vless-4641a413 (Seychelles)",
+        "🇸🇨 vless-0e12870c (Seychelles)",
+        "🇮🇷 vless-8288cb20 (Iran)",
+        "🇨🇦 vless-d3ea588b (Canada)",
+        "🇩🇪 vless-f17997f8 (Germany)",
+        "🇨🇦 vless-cc34e1e4 (Canada)",
+        "🇨🇦 vless-2bd03f71 (Canada)",
         "direct"
       ]
     },
@@ -91,11 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇸🇨 vless-4559c344 (Seychelles)",
-        "🇸🇨 vless-4b0d64f8 (Seychelles)",
-        "🇮🇷 vless-ef2e8847 (Iran)",
-        "🇨🇦 vless-7f21aba6 (Canada)",
-        "🇨🇦 vless-24893b19 (Canada)"
+        "🇸🇨 vless-4641a413 (Seychelles)",
+        "🇸🇨 vless-0e12870c (Seychelles)",
+        "🇮🇷 vless-8288cb20 (Iran)",
+        "🇨🇦 vless-d3ea588b (Canada)",
+        "🇩🇪 vless-f17997f8 (Germany)",
+        "🇨🇦 vless-cc34e1e4 (Canada)",
+        "🇨🇦 vless-2bd03f71 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,7 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-4559c344 (Seychelles)",
+      "tag": "🇸🇨 vless-4641a413 (Seychelles)",
       "server": "2sudo.winapp3.ir",
       "server_port": 8443,
       "uuid": "1f70e732-e72d-4535-b494-a595d4df4b0b",
@@ -124,7 +128,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-4b0d64f8 (Seychelles)",
+      "tag": "🇸🇨 vless-0e12870c (Seychelles)",
       "server": "2sudo.winapp3.ir",
       "server_port": 8443,
       "uuid": "1f70e732-e72d-4535-b494-a595d4df4b0b",
@@ -140,7 +144,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-ef2e8847 (Iran)",
+      "tag": "🇮🇷 vless-8288cb20 (Iran)",
       "server": "cdnirs207.b2n.ir.nic.stp.debian.org.ubuntu.ir.reservedns.website",
       "server_port": 1095,
       "uuid": "3b725c8f-4555-4442-9295-fd733a9cd9d9",
@@ -154,7 +158,41 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-7f21aba6 (Canada)",
+      "tag": "🇨🇦 vless-d3ea588b (Canada)",
+      "server": "www.speedtest.net",
+      "server_port": 2096,
+      "uuid": "3f0f36f5-f091-45c5-88c9-4bcc545b922c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hetz.x-smm.com",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/45.76.183.217=49292",
+        "headers": {
+          "Host": "hetz.x-smm.com"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-f17997f8 (Germany)",
+      "server": "57.129.53.181",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-cc34e1e4 (Canada)",
       "server": "172.66.44.54",
       "server_port": 2083,
       "uuid": "75afff14-dad5-43d2-bd47-207b15978630",
@@ -174,7 +212,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-24893b19 (Canada)",
+      "tag": "🇨🇦 vless-2bd03f71 (Canada)",
       "server": "104.20.1.252",
       "server_port": 80,
       "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
