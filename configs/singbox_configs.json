@@ -79,15 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇨🇦 vless-1a24972b (Canada)",
-        "🇨🇦 vless-99b1af2a (Canada)",
-        "🇺🇸 vless-0683ec08 (United States)",
-        "🇨🇦 vless-e9010cdf (Canada)",
-        "🇨🇦 vless-aa345dca (Canada)",
-        "🇸🇨 vless-0dc84867 (Seychelles)",
-        "🇸🇨 vless-e48a5686 (Seychelles)",
-        "🇬🇧 vless-d3ff5742 (United Kingdom)",
-        "🇷🇺 vmess-1e03077d (Russia)",
+        "🇨🇦 vless-458ebec2 (Canada)",
+        "🇨🇦 vless-83218394 (Canada)",
+        "🇨🇦 vless-965eaee8 (Canada)",
+        "🇸🇨 vless-a81bb527 (Seychelles)",
+        "🇸🇨 vless-4b9d7cf0 (Seychelles)",
+        "🇬🇧 vless-57581ec5 (United Kingdom)",
+        "🇷🇺 vmess-c5396199 (Russia)",
         "direct"
       ]
     },
@@ -95,15 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 vless-1a24972b (Canada)",
-        "🇨🇦 vless-99b1af2a (Canada)",
-        "🇺🇸 vless-0683ec08 (United States)",
-        "🇨🇦 vless-e9010cdf (Canada)",
-        "🇨🇦 vless-aa345dca (Canada)",
-        "🇸🇨 vless-0dc84867 (Seychelles)",
-        "🇸🇨 vless-e48a5686 (Seychelles)",
-        "🇬🇧 vless-d3ff5742 (United Kingdom)",
-        "🇷🇺 vmess-1e03077d (Russia)"
+        "🇨🇦 vless-458ebec2 (Canada)",
+        "🇨🇦 vless-83218394 (Canada)",
+        "🇨🇦 vless-965eaee8 (Canada)",
+        "🇸🇨 vless-a81bb527 (Seychelles)",
+        "🇸🇨 vless-4b9d7cf0 (Seychelles)",
+        "🇬🇧 vless-57581ec5 (United Kingdom)",
+        "🇷🇺 vmess-c5396199 (Russia)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -115,7 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-1a24972b (Canada)",
+      "tag": "🇨🇦 vless-458ebec2 (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 2087,
       "uuid": "22c42cbd-efa7-495c-ba6d-5895e29f66f8",
@@ -135,35 +131,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-99b1af2a (Canada)",
-      "server": "cloud.sapienza-ren.ir",
-      "server_port": 2087,
-      "uuid": "435fee59-8f88-4b02-8ec3-a186287662b7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tr42.phantompanel.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-0683ec08 (United States)",
-      "server": "t2.sapienza-ren.ir",
-      "server_port": 2087,
-      "uuid": "435fee59-8f88-4b02-8ec3-a186287662b7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.phantompanel.shop",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-e9010cdf (Canada)",
+      "tag": "🇨🇦 vless-83218394 (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 2053,
       "uuid": "53d5d3ba-79d7-40e2-b423-1f7aced05830",
@@ -183,7 +151,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-aa345dca (Canada)",
+      "tag": "🇨🇦 vless-965eaee8 (Canada)",
       "server": "theverge.com",
       "server_port": 80,
       "uuid": "98aaebaa-bf4f-4e25-96f2-844691440360",
@@ -203,7 +171,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-0dc84867 (Seychelles)",
+      "tag": "🇸🇨 vless-a81bb527 (Seychelles)",
       "server": "F1.HaMrAhCoNf.Ir",
       "server_port": 2086,
       "uuid": "c31f4c1d-c3c4-4eb3-8af0-d98d83bc3ab1",
@@ -217,7 +185,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-e48a5686 (Seychelles)",
+      "tag": "🇸🇨 vless-4b9d7cf0 (Seychelles)",
       "server": "F1.HaMrAhCoNf.Ir",
       "server_port": 2086,
       "uuid": "c31f4c1d-c3c4-4eb3-8af0-d98d83bc3ab1",
@@ -231,7 +199,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-d3ff5742 (United Kingdom)",
+      "tag": "🇬🇧 vless-57581ec5 (United Kingdom)",
       "server": "185.206.69.25",
       "server_port": 1422,
       "uuid": "cbaa6e41-8194-487a-9e2e-bbc0ab4c40bd",
@@ -245,7 +213,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇷🇺 vmess-1e03077d (Russia)",
+      "tag": "🇷🇺 vmess-c5396199 (Russia)",
       "server": "213.183.54.243",
       "server_port": 443,
       "uuid": "d7f56688-56a0-448c-bc04-fd83c6ac17d0",
