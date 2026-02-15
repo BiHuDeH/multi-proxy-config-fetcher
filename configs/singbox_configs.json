@@ -79,10 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-0015dafe (Iran)",
-        "🇮🇷 vless-93b93834 (Iran)",
-        "🇮🇷 vmess-d93078bf (Iran)",
-        "🇮🇷 vmess-f68a407b (Iran)",
+        "🇮🇷 vless-590fe0c1 (Iran)",
+        "🇮🇷 vless-e90670b0 (Iran)",
+        "🇺🇸 vless-1bbd6953 (United States)",
+        "🇩🇪 vmess-c5271cf5 (Germany)",
+        "🇩🇪 vmess-7a624687 (Germany)",
+        "🇫🇷 vmess-fb103e54 (France)",
+        "🇨🇦 vmess-6512994e (Canada)",
+        "🇨🇦 vmess-eaa26adc (Canada)",
         "direct"
       ]
     },
@@ -90,10 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-0015dafe (Iran)",
-        "🇮🇷 vless-93b93834 (Iran)",
-        "🇮🇷 vmess-d93078bf (Iran)",
-        "🇮🇷 vmess-f68a407b (Iran)"
+        "🇮🇷 vless-590fe0c1 (Iran)",
+        "🇮🇷 vless-e90670b0 (Iran)",
+        "🇺🇸 vless-1bbd6953 (United States)",
+        "🇩🇪 vmess-c5271cf5 (Germany)",
+        "🇩🇪 vmess-7a624687 (Germany)",
+        "🇫🇷 vmess-fb103e54 (France)",
+        "🇨🇦 vmess-6512994e (Canada)",
+        "🇨🇦 vmess-eaa26adc (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +113,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-0015dafe (Iran)",
+      "tag": "🇮🇷 vless-590fe0c1 (Iran)",
       "server": "94.182.149.73",
       "server_port": 6655,
       "uuid": "1c233f33-f4ef-42cf-a310-248d0f58d87d",
@@ -119,24 +127,101 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-93b93834 (Iran)",
-      "server": "tun1.karunwebco.com",
-      "server_port": 1020,
-      "uuid": "d747e76d-7e3a-46f9-99ef-ed543042b75f",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇮🇷 vless-e90670b0 (Iran)",
+      "server": "94.184.13.37",
+      "server_port": 8368,
+      "uuid": "401c8e6e-1005-4312-aab6-f1ed07e6954f",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "94.184.13.37",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-1bbd6953 (United States)",
+      "server": "Dnss.iraniranshopdashnoard.ir",
+      "server_port": 2082,
+      "uuid": "a2626d27-e0f8-490d-b23c-c9ca0dea4ea9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "Dnss.iraniranshopdashnoard.ir",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-d93078bf (Iran)",
-      "server": "213.176.1.48",
-      "server_port": 1004,
-      "uuid": "52cc4cb0-f923-4965-9615-6380b04c3f4f",
+      "tag": "🇩🇪 vmess-c5271cf5 (Germany)",
+      "server": "57.129.25.24",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "linkvws",
+        "headers": {
+          "Host": "pelang.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ""
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 vmess-7a624687 (Germany)",
+      "server": "57.129.28.214",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "linkvws",
+        "headers": {
+          "Host": "kampong.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "kampong.org"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 vmess-fb103e54 (France)",
+      "server": "91.134.8.102",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "linkvws",
+        "headers": {
+          "Host": "serkat.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ""
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 vmess-6512994e (Canada)",
+      "server": "104.18.32.47",
+      "server_port": 8080,
+      "uuid": "81954edf-999b-4bb6-af33-bf71a1d8177b",
       "security": "auto",
       "alter_id": 0,
       "transport": {},
@@ -148,13 +233,19 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-f68a407b (Iran)",
-      "server": "213.176.1.48",
-      "server_port": 1000,
-      "uuid": "52cc4cb0-f923-4965-9615-6380b04c3f4f",
+      "tag": "🇨🇦 vmess-eaa26adc (Canada)",
+      "server": "188.114.98.0",
+      "server_port": 8080,
+      "uuid": "nasnet",
       "security": "auto",
       "alter_id": 0,
-      "transport": {},
+      "transport": {
+        "path": "/nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN",
+        "headers": {
+          "Host": "nasnet-162191099.sharghdaily.co"
+        },
+        "type": "ws"
+      },
       "tls": {
         "enabled": false,
         "insecure": true,
