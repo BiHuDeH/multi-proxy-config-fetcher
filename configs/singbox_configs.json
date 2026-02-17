@@ -79,14 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇵🇱 vless-a02e53ff (Poland)",
-        "🇨🇦 vless-216ecfb3 (Canada)",
-        "🇳🇱 vless-fa819436 (Netherlands)",
-        "🇹🇷 vless-41819ff9 (Türkiye)",
-        "🇨🇦 vless-cf0c3344 (Canada)",
-        "🇨🇦 vless-edca356f (Canada)",
-        "🇨🇦 vless-32b4ed85 (Canada)",
-        "🇮🇷 vless-1d3fd752 (Iran)",
+        "🇸🇨 vless-d38cc84a (Seychelles)",
+        "🇨🇦 vless-ffca01e1 (Canada)",
+        "🇨🇦 vless-36ce9901 (Canada)",
+        "🇨🇦 vless-ddc924bb (Canada)",
+        "🇮🇷 vless-7b1af07c (Iran)",
         "direct"
       ]
     },
@@ -94,14 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇵🇱 vless-a02e53ff (Poland)",
-        "🇨🇦 vless-216ecfb3 (Canada)",
-        "🇳🇱 vless-fa819436 (Netherlands)",
-        "🇹🇷 vless-41819ff9 (Türkiye)",
-        "🇨🇦 vless-cf0c3344 (Canada)",
-        "🇨🇦 vless-edca356f (Canada)",
-        "🇨🇦 vless-32b4ed85 (Canada)",
-        "🇮🇷 vless-1d3fd752 (Iran)"
+        "🇸🇨 vless-d38cc84a (Seychelles)",
+        "🇨🇦 vless-ffca01e1 (Canada)",
+        "🇨🇦 vless-36ce9901 (Canada)",
+        "🇨🇦 vless-ddc924bb (Canada)",
+        "🇮🇷 vless-7b1af07c (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,63 +107,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 vless-a02e53ff (Poland)",
-      "server": "185.138.90.31",
-      "server_port": 8443,
-      "uuid": "0ea0ce13-85c2-4e97-8903-ef1232a2a2c6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-216ecfb3 (Canada)",
-      "server": "104.16.121.147",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "tag": "🇸🇨 vless-d38cc84a (Seychelles)",
+      "server": "F1.HaMrAhCoNf.Ir",
+      "server_port": 2086,
+      "uuid": "91593ace-980c-4395-8f21-fb9a25bad4d2",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "104.16.121.147",
+        "server_name": "F1.HaMrAhCoNf.Ir",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 vless-fa819436 (Netherlands)",
-      "server": "nl.roblugo.su",
-      "server_port": 443,
-      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.roblugo.su",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 vless-41819ff9 (Türkiye)",
-      "server": "77.83.245.169",
-      "server_port": 22107,
-      "uuid": "3b5ef7ea-ccb8-4126-a500-626c650e7e3a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-cf0c3344 (Canada)",
+      "tag": "🇨🇦 vless-ffca01e1 (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 2053,
       "uuid": "b6bac354-c4d1-43aa-a5fe-e8babda06496",
@@ -189,7 +141,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-edca356f (Canada)",
+      "tag": "🇨🇦 vless-36ce9901 (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 2087,
       "uuid": "b6bac354-c4d1-43aa-a5fe-e8babda06496",
@@ -209,7 +161,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-32b4ed85 (Canada)",
+      "tag": "🇨🇦 vless-ddc924bb (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 8443,
       "uuid": "b6bac354-c4d1-43aa-a5fe-e8babda06496",
@@ -229,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-1d3fd752 (Iran)",
+      "tag": "🇮🇷 vless-7b1af07c (Iran)",
       "server": "host06.dnseagle.com",
       "server_port": 2083,
       "uuid": "d0a4e476-9b83-47e8-8d76-7bf506c2addf",
