@@ -79,19 +79,19 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇭🇺 vless-70def23b (Hungary)",
-        "🇮🇹 vless-4870db6b (Italy)",
-        "🇮🇹 vless-89430e4a (Italy)",
-        "🇨🇦 vless-c4f182a7 (Canada)",
-        "🇨🇦 vless-28011a56 (Canada)",
-        "🇩🇪 vless-508ef4ed (Germany)",
-        "🇮🇷 vless-19e5628f (Iran)",
-        "🇩🇪 vless-c49b1765 (Germany)",
-        "🇩🇪 vless-a5170695 (Germany)",
-        "🇮🇹 vless-9ed3e305 (Italy)",
-        "🇮🇹 vless-7d78e56d (Italy)",
-        "🇮🇹 vless-7b4850ef (Italy)",
-        "🇮🇷 vmess-d4895016 (Iran)",
+        "🇮🇹 vless-a39d7ddc (Italy)",
+        "🇨🇦 vless-7e66298a (Canada)",
+        "🇨🇦 vless-e9d7a2c1 (Canada)",
+        "🇩🇪 vless-b83652b1 (Germany)",
+        "🇮🇷 vless-0841eea7 (Iran)",
+        "🇮🇷 vless-9110e1ad (Iran)",
+        "🇮🇷 vless-baca2d60 (Iran)",
+        "🇮🇹 vless-5e7f2cc3 (Italy)",
+        "🇮🇹 vless-a9f36e94 (Italy)",
+        "🇮🇹 vless-a5e26e35 (Italy)",
+        "🇮🇹 vless-e369e680 (Italy)",
+        "🇨🇦 vless-22c69f96 (Canada)",
+        "🇨🇦 vless-8e00b9b2 (Canada)",
         "direct"
       ]
     },
@@ -99,19 +99,19 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇺 vless-70def23b (Hungary)",
-        "🇮🇹 vless-4870db6b (Italy)",
-        "🇮🇹 vless-89430e4a (Italy)",
-        "🇨🇦 vless-c4f182a7 (Canada)",
-        "🇨🇦 vless-28011a56 (Canada)",
-        "🇩🇪 vless-508ef4ed (Germany)",
-        "🇮🇷 vless-19e5628f (Iran)",
-        "🇩🇪 vless-c49b1765 (Germany)",
-        "🇩🇪 vless-a5170695 (Germany)",
-        "🇮🇹 vless-9ed3e305 (Italy)",
-        "🇮🇹 vless-7d78e56d (Italy)",
-        "🇮🇹 vless-7b4850ef (Italy)",
-        "🇮🇷 vmess-d4895016 (Iran)"
+        "🇮🇹 vless-a39d7ddc (Italy)",
+        "🇨🇦 vless-7e66298a (Canada)",
+        "🇨🇦 vless-e9d7a2c1 (Canada)",
+        "🇩🇪 vless-b83652b1 (Germany)",
+        "🇮🇷 vless-0841eea7 (Iran)",
+        "🇮🇷 vless-9110e1ad (Iran)",
+        "🇮🇷 vless-baca2d60 (Iran)",
+        "🇮🇹 vless-5e7f2cc3 (Italy)",
+        "🇮🇹 vless-a9f36e94 (Italy)",
+        "🇮🇹 vless-a5e26e35 (Italy)",
+        "🇮🇹 vless-e369e680 (Italy)",
+        "🇨🇦 vless-22c69f96 (Canada)",
+        "🇨🇦 vless-8e00b9b2 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -123,21 +123,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇺 vless-70def23b (Hungary)",
-      "server": "5.182.38.91",
-      "server_port": 17267,
-      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 vless-4870db6b (Italy)",
+      "tag": "🇮🇹 vless-a39d7ddc (Italy)",
       "server": "80.211.236.125",
       "server_port": 443,
       "uuid": "1ca56379-e44b-4694-bee8-9874ca8fd248",
@@ -151,21 +137,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 vless-89430e4a (Italy)",
-      "server": "80.211.236.42",
-      "server_port": 443,
-      "uuid": "29632408-8a2f-4bfc-a7b3-c8c8cdb220ac",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gmail.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-c4f182a7 (Canada)",
+      "tag": "🇨🇦 vless-7e66298a (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 2053,
       "uuid": "3ca66d2f-99cf-4c4e-8b25-19c2e80da453",
@@ -185,7 +157,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-28011a56 (Canada)",
+      "tag": "🇨🇦 vless-e9d7a2c1 (Canada)",
       "server": "f1.springpaatogh8.store",
       "server_port": 8443,
       "uuid": "3ca66d2f-99cf-4c4e-8b25-19c2e80da453",
@@ -205,7 +177,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-508ef4ed (Germany)",
+      "tag": "🇩🇪 vless-b83652b1 (Germany)",
       "server": "3.70.233.176",
       "server_port": 44708,
       "uuid": "4ba18e09-571e-4b81-a360-8d74bb3a903e",
@@ -219,7 +191,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-19e5628f (Iran)",
+      "tag": "🇮🇷 vless-0841eea7 (Iran)",
+      "server": "37.202.244.227",
+      "server_port": 47071,
+      "uuid": "5ce4bcc9-b932-417f-9c84-0a251d29349b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "37.202.244.227",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/=@mhsenivxx",
+        "headers": {
+          "Host": "shatel5.imstron.org"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-9110e1ad (Iran)",
       "server": "phonex.phonexv2iiiolo.com",
       "server_port": 25882,
       "uuid": "6e0eec29-0d80-4d0b-9123-03fc88ece826",
@@ -233,35 +225,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-c49b1765 (Germany)",
-      "server": "cpanelv2.speedmizban.net",
-      "server_port": 1517,
-      "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
+      "tag": "🇮🇷 vless-baca2d60 (Iran)",
+      "server": "vipt1.moshtri.xyz",
+      "server_port": 1608,
+      "uuid": "7423fc0c-a623-4af2-9453-37639db9c715",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cpanelv2.speedmizban.net",
+        "server_name": "vipt1.moshtri.xyz",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-a5170695 (Germany)",
-      "server": "mail.mizban-r.site",
-      "server_port": 1517,
-      "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
-      "flow": "",
+      "tag": "🇮🇹 vless-5e7f2cc3 (Italy)",
+      "server": "80.211.236.226",
+      "server_port": 443,
+      "uuid": "8c863fe9-65e4-41ee-84e4-1c0009d72639",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "mail.mizban-r.site",
+        "server_name": "gmail.com",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 vless-9ed3e305 (Italy)",
+      "tag": "🇮🇹 vless-a9f36e94 (Italy)",
       "server": "80.211.236.167",
       "server_port": 443,
       "uuid": "a3dd7bef-f742-4ee4-897e-0d91629571bb",
@@ -275,7 +267,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 vless-7d78e56d (Italy)",
+      "tag": "🇮🇹 vless-a5e26e35 (Italy)",
       "server": "80.211.236.167",
       "server_port": 443,
       "uuid": "a3fe5511-06e8-4f9c-8d86-a2b7d94ba402",
@@ -289,7 +281,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 vless-7b4850ef (Italy)",
+      "tag": "🇮🇹 vless-e369e680 (Italy)",
       "server": "80.211.236.167",
       "server_port": 443,
       "uuid": "d9235a61-5882-4e8e-9e00-f935a5068394",
@@ -302,21 +294,43 @@
       "transport": {}
     },
     {
-      "type": "vmess",
-      "tag": "🇮🇷 vmess-d4895016 (Iran)",
-      "server": "185.105.238.69",
-      "server_port": 54908,
-      "uuid": "a5fa6ab4-50db-4e11-e563-9d5f7ee33eaa",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      },
+      "type": "vless",
+      "tag": "🇨🇦 vless-22c69f96 (Canada)",
+      "server": "104.21.18.41",
+      "server_port": 443,
+      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+      "flow": "",
       "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
+        "enabled": true,
+        "server_name": "nic3-1.workers.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/--Telegram---@MiTiVPN/---@MiTiVPN?/Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN---Telegram-MTMVPN?ed=2560",
+        "headers": {
+          "Host": "mitivpn-2.nic3-1.workers.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-8e00b9b2 (Canada)",
+      "server": "104.21.18.41",
+      "server_port": 443,
+      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nic3-1.workers.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/--Telegram---@MiTiVPN/---@MiTiVPN",
+        "headers": {
+          "Host": "mitivpn-2.nic3-1.workers.dev"
+        },
+        "type": "ws"
       }
     }
   ],
