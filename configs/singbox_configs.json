@@ -79,10 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-62867230 (Iran)",
-        "🇩🇪 vless-9d451e8a (Germany)",
-        "🇩🇪 vless-562709b7 (Germany)",
-        "🇩🇪 vless-0254ba89 (Germany)",
+        "🇮🇷 vless-c64b4c72 (Iran)",
+        "🇩🇪 vless-104b6664 (Germany)",
+        "🇩🇪 vless-a3782b79 (Germany)",
+        "🇩🇪 vless-82ae3cff (Germany)",
+        "🇩🇪 vless-f634fc0f (Germany)",
         "direct"
       ]
     },
@@ -90,10 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-62867230 (Iran)",
-        "🇩🇪 vless-9d451e8a (Germany)",
-        "🇩🇪 vless-562709b7 (Germany)",
-        "🇩🇪 vless-0254ba89 (Germany)"
+        "🇮🇷 vless-c64b4c72 (Iran)",
+        "🇩🇪 vless-104b6664 (Germany)",
+        "🇩🇪 vless-a3782b79 (Germany)",
+        "🇩🇪 vless-82ae3cff (Germany)",
+        "🇩🇪 vless-f634fc0f (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-62867230 (Iran)",
+      "tag": "🇮🇷 vless-c64b4c72 (Iran)",
       "server": "god.mizbanbit.com",
       "server_port": 43815,
       "uuid": "1803f686-5fdb-4f81-bddf-76f950f5680d",
@@ -122,7 +124,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-9d451e8a (Germany)",
+      "tag": "🇩🇪 vless-104b6664 (Germany)",
       "server": "directadmin.mizban-r.site",
       "server_port": 1517,
       "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
@@ -136,7 +138,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-562709b7 (Germany)",
+      "tag": "🇩🇪 vless-a3782b79 (Germany)",
       "server": "ir-vip.whaletm2.site",
       "server_port": 1517,
       "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
@@ -150,14 +152,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-0254ba89 (Germany)",
-      "server": "plesk.mizban-r.site",
+      "tag": "🇩🇪 vless-82ae3cff (Germany)",
+      "server": "mail.mizban-r.site",
       "server_port": 1517,
       "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "plesk.mizban-r.site",
+        "server_name": "mail.mizban-r.site",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-f634fc0f (Germany)",
+      "server": "91.107.208.24",
+      "server_port": 443,
+      "uuid": "e6cf712c-7c48-466c-aaed-4154b276a4a4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.107.208.24",
         "insecure": true
       },
       "transport": {}
