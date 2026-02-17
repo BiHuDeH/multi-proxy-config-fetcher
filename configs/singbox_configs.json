@@ -79,16 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-9e2bbe6e (Iran)",
-        "🇬🇧 vless-b5317aac (United Kingdom)",
-        "🇳🇱 vless-7e176baf (Netherlands)",
-        "🇺🇸 vless-a2855f59 (United States)",
-        "🇩🇪 vless-8e50ff43 (Germany)",
-        "🇩🇪 vless-680c65da (Germany)",
-        "🇩🇪 vless-85cec8b4 (Germany)",
-        "🇨🇦 vless-29bb0297 (Canada)",
-        "🇮🇷 vless-13793bca (Iran)",
-        "🇩🇪 vless-3ee4dc49 (Germany)",
+        "🇮🇷 vless-62867230 (Iran)",
+        "🇩🇪 vless-9d451e8a (Germany)",
+        "🇩🇪 vless-562709b7 (Germany)",
+        "🇩🇪 vless-0254ba89 (Germany)",
         "direct"
       ]
     },
@@ -96,16 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-9e2bbe6e (Iran)",
-        "🇬🇧 vless-b5317aac (United Kingdom)",
-        "🇳🇱 vless-7e176baf (Netherlands)",
-        "🇺🇸 vless-a2855f59 (United States)",
-        "🇩🇪 vless-8e50ff43 (Germany)",
-        "🇩🇪 vless-680c65da (Germany)",
-        "🇩🇪 vless-85cec8b4 (Germany)",
-        "🇨🇦 vless-29bb0297 (Canada)",
-        "🇮🇷 vless-13793bca (Iran)",
-        "🇩🇪 vless-3ee4dc49 (Germany)"
+        "🇮🇷 vless-62867230 (Iran)",
+        "🇩🇪 vless-9d451e8a (Germany)",
+        "🇩🇪 vless-562709b7 (Germany)",
+        "🇩🇪 vless-0254ba89 (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -117,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-9e2bbe6e (Iran)",
+      "tag": "🇮🇷 vless-62867230 (Iran)",
       "server": "god.mizbanbit.com",
       "server_port": 43815,
       "uuid": "1803f686-5fdb-4f81-bddf-76f950f5680d",
@@ -134,64 +122,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 vless-b5317aac (United Kingdom)",
-      "server": "dqf21.sdssd1.sadqwdw1.carvan1.mimkiscx.ir",
-      "server_port": 443,
-      "uuid": "5ed899b6-e3a7-4ec0-85eb-13c84ae558a8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "beh1.salonemojallal.ir.",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 vless-7e176baf (Netherlands)",
-      "server": "185.246.152.79",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.v6.navy",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
-        "headers": {
-          "Host": "sni.111000.v6.navy"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 vless-a2855f59 (United States)",
-      "server": "192.200.160.238",
-      "server_port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.jpmj.dev",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "sni.jpmj.dev"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-8e50ff43 (Germany)",
+      "tag": "🇩🇪 vless-9d451e8a (Germany)",
       "server": "directadmin.mizban-r.site",
       "server_port": 1517,
       "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
@@ -205,7 +136,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-680c65da (Germany)",
+      "tag": "🇩🇪 vless-562709b7 (Germany)",
       "server": "ir-vip.whaletm2.site",
       "server_port": 1517,
       "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
@@ -219,7 +150,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-85cec8b4 (Germany)",
+      "tag": "🇩🇪 vless-0254ba89 (Germany)",
       "server": "plesk.mizban-r.site",
       "server_port": 1517,
       "uuid": "72de4eb9-74f6-4eac-9590-4d38a311fd9a",
@@ -227,54 +158,6 @@
       "tls": {
         "enabled": true,
         "server_name": "plesk.mizban-r.site",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-29bb0297 (Canada)",
-      "server": "afrcloud22.mmv.kr",
-      "server_port": 443,
-      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "afrcloud22.mmv.kr",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/199.119.137.41=8443",
-        "headers": {
-          "Host": "afrcloud22.mmv.kr"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-13793bca (Iran)",
-      "server": "62.60.185.163",
-      "server_port": 6877,
-      "uuid": "f3db0ad5-ea47-41b6-be3d-d0d188c0de1b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "62.60.185.163",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-3ee4dc49 (Germany)",
-      "server": "57.129.64.102",
-      "server_port": 443,
-      "uuid": "nasnet",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nasnet-5712964102-direct.sharghdaily.co",
         "insecure": true
       },
       "transport": {}
