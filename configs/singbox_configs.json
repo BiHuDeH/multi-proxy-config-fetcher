@@ -79,12 +79,13 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇫🇮 vless-1feecb64 (Finland)",
-        "🇺🇸 vless-2b942556 (United States)",
-        "🇩🇪 vless-1e04af55 (Germany)",
-        "🇩🇪 vless-67aee783 (Germany)",
-        "🇩🇪 vless-e14cbbb1 (Germany)",
-        "🇩🇪 vless-1eee4ad9 (Germany)",
+        "🇫🇮 vless-4a1ee260 (Finland)",
+        "🇺🇸 vless-92a72755 (United States)",
+        "🇩🇪 vless-b3db062b (Germany)",
+        "🇮🇷 vless-244372c7 (Iran)",
+        "🇮🇷 vless-5a5a1e50 (Iran)",
+        "🇩🇪 vless-55f30543 (Germany)",
+        "🇩🇪 vless-72428a4c (Germany)",
         "direct"
       ]
     },
@@ -92,12 +93,13 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇮 vless-1feecb64 (Finland)",
-        "🇺🇸 vless-2b942556 (United States)",
-        "🇩🇪 vless-1e04af55 (Germany)",
-        "🇩🇪 vless-67aee783 (Germany)",
-        "🇩🇪 vless-e14cbbb1 (Germany)",
-        "🇩🇪 vless-1eee4ad9 (Germany)"
+        "🇫🇮 vless-4a1ee260 (Finland)",
+        "🇺🇸 vless-92a72755 (United States)",
+        "🇩🇪 vless-b3db062b (Germany)",
+        "🇮🇷 vless-244372c7 (Iran)",
+        "🇮🇷 vless-5a5a1e50 (Iran)",
+        "🇩🇪 vless-55f30543 (Germany)",
+        "🇩🇪 vless-72428a4c (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,7 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 vless-1feecb64 (Finland)",
+      "tag": "🇫🇮 vless-4a1ee260 (Finland)",
       "server": "fi.zeepo.ir",
       "server_port": 443,
       "uuid": "005db34d-76e3-2c87-77d6-3e9f786740a6",
@@ -123,7 +125,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-2b942556 (United States)",
+      "tag": "🇺🇸 vless-92a72755 (United States)",
       "server": "cppo2.azangooo.ir",
       "server_port": 2053,
       "uuid": "629daade-db49-4398-89a4-53a5f2bbd8c6",
@@ -143,21 +145,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-1e04af55 (Germany)",
-      "server": "de.mobileemdad.top",
-      "server_port": 42542,
-      "uuid": "6c020ff7-5211-4056-ab86-948211eb850f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.mobileemdad.top",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-67aee783 (Germany)",
+      "tag": "🇩🇪 vless-b3db062b (Germany)",
       "server": "ip.speedcheck.mobileemdad.top",
       "server_port": 4450,
       "uuid": "776d054d-694b-4281-ae8a-ef53ec89cdaa",
@@ -171,7 +159,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-e14cbbb1 (Germany)",
+      "tag": "🇮🇷 vless-244372c7 (Iran)",
+      "server": "shop.ahoohost2.top",
+      "server_port": 7342,
+      "uuid": "8a075f40-e4bc-4e01-af22-0e32c331f130",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shop.ahoohost2.top",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 vless-5a5a1e50 (Iran)",
+      "server": "shop2.afraserver4.top",
+      "server_port": 7335,
+      "uuid": "8a075f40-e4bc-4e01-af22-0e32c331f130",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shop2.afraserver4.top",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-55f30543 (Germany)",
       "server": "3.120.153.70",
       "server_port": 22636,
       "uuid": "a46011f9-1f63-4b75-9a4c-f34a08a42be8",
@@ -185,7 +201,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-1eee4ad9 (Germany)",
+      "tag": "🇩🇪 vless-72428a4c (Germany)",
       "server": "18.193.86.91",
       "server_port": 27369,
       "uuid": "dd99ecde-81e0-4b42-ea94-4923fee6b57c",
