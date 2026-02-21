@@ -79,15 +79,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇸🇨 vless-6aa44299 (Seychelles)",
-        "🇩🇪 vless-4f7315d3 (Germany)",
-        "🇩🇪 vless-ac5144e0 (Germany)",
-        "🇩🇪 vless-d081d55f (Germany)",
-        "🇩🇪 vless-feca88d1 (Germany)",
-        "🇨🇦 vless-8a3448fd (Canada)",
-        "🇮🇷 vless-1b79aead (Iran)",
-        "🇩🇪 vmess-fdb8437c (Germany)",
-        "🇸🇪 vmess-714570e8 (Sweden)",
+        "🇸🇨 vless-9f6c6f2f (Seychelles)",
+        "🇩🇪 vless-94360a86 (Germany)",
+        "🇫🇮 vless-2d5b92b6 (Finland)",
+        "🇫🇮 vless-f94561ff (Finland)",
+        "🇫🇮 vless-ea033404 (Finland)",
+        "🇨🇦 vless-637e9600 (Canada)",
+        "🇮🇷 vless-6942d972 (Iran)",
+        "🇩🇪 vmess-1851799a (Germany)",
         "direct"
       ]
     },
@@ -95,15 +94,14 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇸🇨 vless-6aa44299 (Seychelles)",
-        "🇩🇪 vless-4f7315d3 (Germany)",
-        "🇩🇪 vless-ac5144e0 (Germany)",
-        "🇩🇪 vless-d081d55f (Germany)",
-        "🇩🇪 vless-feca88d1 (Germany)",
-        "🇨🇦 vless-8a3448fd (Canada)",
-        "🇮🇷 vless-1b79aead (Iran)",
-        "🇩🇪 vmess-fdb8437c (Germany)",
-        "🇸🇪 vmess-714570e8 (Sweden)"
+        "🇸🇨 vless-9f6c6f2f (Seychelles)",
+        "🇩🇪 vless-94360a86 (Germany)",
+        "🇫🇮 vless-2d5b92b6 (Finland)",
+        "🇫🇮 vless-f94561ff (Finland)",
+        "🇫🇮 vless-ea033404 (Finland)",
+        "🇨🇦 vless-637e9600 (Canada)",
+        "🇮🇷 vless-6942d972 (Iran)",
+        "🇩🇪 vmess-1851799a (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -115,7 +113,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-6aa44299 (Seychelles)",
+      "tag": "🇸🇨 vless-9f6c6f2f (Seychelles)",
       "server": "45.130.125.160",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
@@ -129,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-4f7315d3 (Germany)",
+      "tag": "🇩🇪 vless-94360a86 (Germany)",
       "server": "ip.linux-panel.com",
       "server_port": 1517,
       "uuid": "82d94161-7c9e-4675-9856-1695f02ebd87",
@@ -143,7 +141,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-ac5144e0 (Germany)",
+      "tag": "🇫🇮 vless-2d5b92b6 (Finland)",
       "server": "shop.afraserver3.top",
       "server_port": 7320,
       "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
@@ -157,7 +155,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-d081d55f (Germany)",
+      "tag": "🇫🇮 vless-f94561ff (Finland)",
       "server": "shop.ahoohost2.top",
       "server_port": 7342,
       "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
@@ -171,7 +169,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-feca88d1 (Germany)",
+      "tag": "🇫🇮 vless-ea033404 (Finland)",
       "server": "shop2.afraserver4.top",
       "server_port": 7335,
       "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
@@ -185,7 +183,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-8a3448fd (Canada)",
+      "tag": "🇨🇦 vless-637e9600 (Canada)",
       "server": "afrcloud22.mmv.kr",
       "server_port": 443,
       "uuid": "d85ea913-7dfa-44b0-bd66-33414e897991",
@@ -205,7 +203,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-1b79aead (Iran)",
+      "tag": "🇮🇷 vless-6942d972 (Iran)",
       "server": "L-i-Q-arvancloudiran.myabrliq.ir",
       "server_port": 2087,
       "uuid": "dac5ecb3-2ca8-4667-b630-75893cde81c0",
@@ -225,7 +223,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-fdb8437c (Germany)",
+      "tag": "🇩🇪 vmess-1851799a (Germany)",
       "server": "57.129.25.20",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -242,21 +240,6 @@
         "enabled": true,
         "insecure": true,
         "server_name": "lammaland.org"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇪 vmess-714570e8 (Sweden)",
-      "server": "dd.openaccessnode.com",
-      "server_port": 502,
-      "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {},
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": ""
       }
     }
   ],
