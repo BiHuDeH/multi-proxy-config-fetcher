@@ -79,12 +79,12 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇸🇨 vless-cef07a70 (Seychelles)",
-        "🇫🇮 vless-49bc219c (Finland)",
-        "🇫🇮 vless-886a1588 (Finland)",
-        "🇨🇦 vless-e22dea5b (Canada)",
-        "🇮🇷 vless-c0dbfbae (Iran)",
-        "🇩🇪 vmess-7d568163 (Germany)",
+        "🇸🇨 vless-4be8c422 (Seychelles)",
+        "🇨🇦 vless-cfa0b346 (Canada)",
+        "🇨🇦 vless-9060f3ed (Canada)",
+        "🇮🇷 vless-f7682f39 (Iran)",
+        "🇮🇷 vless-948e7dd5 (Iran)",
+        "🇺🇸 vless-04b803f6 (United States)",
         "direct"
       ]
     },
@@ -92,12 +92,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇸🇨 vless-cef07a70 (Seychelles)",
-        "🇫🇮 vless-49bc219c (Finland)",
-        "🇫🇮 vless-886a1588 (Finland)",
-        "🇨🇦 vless-e22dea5b (Canada)",
-        "🇮🇷 vless-c0dbfbae (Iran)",
-        "🇩🇪 vmess-7d568163 (Germany)"
+        "🇸🇨 vless-4be8c422 (Seychelles)",
+        "🇨🇦 vless-cfa0b346 (Canada)",
+        "🇨🇦 vless-9060f3ed (Canada)",
+        "🇮🇷 vless-f7682f39 (Iran)",
+        "🇮🇷 vless-948e7dd5 (Iran)",
+        "🇺🇸 vless-04b803f6 (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,7 +109,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-cef07a70 (Seychelles)",
+      "tag": "🇸🇨 vless-4be8c422 (Seychelles)",
       "server": "45.130.125.160",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
@@ -123,35 +123,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 vless-49bc219c (Finland)",
-      "server": "shop.afraserver3.top",
-      "server_port": 7320,
-      "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
+      "tag": "🇨🇦 vless-cfa0b346 (Canada)",
+      "server": "www.tgju.org",
+      "server_port": 2087,
+      "uuid": "d1b421cc-ebaf-48cf-bf12-e7947af11c53",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "shop.afraserver3.top",
+        "server_name": "rahgozar.italiantourism.net.",
         "insecure": true
       },
       "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 vless-886a1588 (Finland)",
-      "server": "shop2.afraserver4.top",
-      "server_port": 7335,
-      "uuid": "9b6d18ea-f2ed-4065-813d-66f9fc447718",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shop2.afraserver4.top",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-e22dea5b (Canada)",
+      "tag": "🇨🇦 vless-9060f3ed (Canada)",
       "server": "afrcloud22.mmv.kr",
       "server_port": 443,
       "uuid": "d85ea913-7dfa-44b0-bd66-33414e897991",
@@ -171,7 +157,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-c0dbfbae (Iran)",
+      "tag": "🇮🇷 vless-f7682f39 (Iran)",
       "server": "L-i-Q-arvancloudiran.myabrliq.ir",
       "server_port": 2087,
       "uuid": "dac5ecb3-2ca8-4667-b630-75893cde81c0",
@@ -190,25 +176,38 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇩🇪 vmess-7d568163 (Germany)",
-      "server": "57.129.25.20",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "linkvws",
-        "headers": {
-          "Host": "lammaland.org"
-        },
-        "type": "ws"
-      },
+      "type": "vless",
+      "tag": "🇮🇷 vless-948e7dd5 (Iran)",
+      "server": "45.159.148.130",
+      "server_port": 8585,
+      "uuid": "dc69f0b7-529f-496c-adfb-ba107dab981c",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "lammaland.org"
+        "server_name": "45.159.148.130",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/DownloDMusic",
+        "headers": {
+          "Host": "www.speedtest.net"
+        },
+        "type": "ws"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 vless-04b803f6 (United States)",
+      "server": "hd.pelatiposi.info",
+      "server_port": 2087,
+      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "splash.VaRtAlReX.iNfO",
+        "insecure": true
+      },
+      "transport": {}
     }
   ],
   "route": {
