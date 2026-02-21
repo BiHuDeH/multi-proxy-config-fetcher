@@ -79,12 +79,12 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇸🇨 vless-2fa6ec3e (Seychelles)",
-        "🇨🇦 vless-932479cf (Canada)",
-        "🇨🇦 vless-93a914e7 (Canada)",
-        "🇮🇷 vless-997870f5 (Iran)",
-        "🇮🇷 vless-0fdfb940 (Iran)",
-        "🇺🇸 vless-31f430c5 (United States)",
+        "🇸🇨 vless-30915aea (Seychelles)",
+        "🇺🇸 vless-16703727 (United States)",
+        "🇨🇦 vless-af22b858 (Canada)",
+        "🇬🇧 vless-8b2a19de (United Kingdom)",
+        "🇮🇷 vless-91fd5521 (Iran)",
+        "🇺🇸 vless-bb41b2cb (United States)",
         "direct"
       ]
     },
@@ -92,12 +92,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇸🇨 vless-2fa6ec3e (Seychelles)",
-        "🇨🇦 vless-932479cf (Canada)",
-        "🇨🇦 vless-93a914e7 (Canada)",
-        "🇮🇷 vless-997870f5 (Iran)",
-        "🇮🇷 vless-0fdfb940 (Iran)",
-        "🇺🇸 vless-31f430c5 (United States)"
+        "🇸🇨 vless-30915aea (Seychelles)",
+        "🇺🇸 vless-16703727 (United States)",
+        "🇨🇦 vless-af22b858 (Canada)",
+        "🇬🇧 vless-8b2a19de (United Kingdom)",
+        "🇮🇷 vless-91fd5521 (Iran)",
+        "🇺🇸 vless-bb41b2cb (United States)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,7 +109,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-2fa6ec3e (Seychelles)",
+      "tag": "🇸🇨 vless-30915aea (Seychelles)",
       "server": "45.130.125.160",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
@@ -123,7 +123,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-932479cf (Canada)",
+      "tag": "🇺🇸 vless-16703727 (United States)",
+      "server": "support.zoom.us",
+      "server_port": 443,
+      "uuid": "a7209c7e-b96f-4c95-8ff7-090f3d642d19",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "zero.seaseus.pp.ua",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/seaseus",
+        "headers": {
+          "Host": "zero.seaseus.pp.ua"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-af22b858 (Canada)",
       "server": "www.tgju.org",
       "server_port": 2087,
       "uuid": "d1b421cc-ebaf-48cf-bf12-e7947af11c53",
@@ -137,47 +157,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 vless-93a914e7 (Canada)",
-      "server": "afrcloud22.mmv.kr",
-      "server_port": 443,
-      "uuid": "d85ea913-7dfa-44b0-bd66-33414e897991",
+      "tag": "🇬🇧 vless-8b2a19de (United Kingdom)",
+      "server": "zyro.adslimit.info",
+      "server_port": 2345,
+      "uuid": "d3b5fdf3-bdcb-4dec-b46b-c06b5d828f73",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "afrcloud22.mmv.kr",
+        "server_name": "zyro.adslimit.info",
         "insecure": true
       },
-      "transport": {
-        "path": "/35.230.79.26=443",
-        "headers": {
-          "Host": "afrcloud22.mmv.kr"
-        },
-        "type": "ws"
-      }
+      "transport": {}
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-997870f5 (Iran)",
-      "server": "L-i-Q-arvancloudiran.myabrliq.ir",
-      "server_port": 2087,
-      "uuid": "dac5ecb3-2ca8-4667-b630-75893cde81c0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "g-book.cofe-liq-ketab.ir",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "g-book.cofe-liq-ketab.ir"
-        },
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-0fdfb940 (Iran)",
+      "tag": "🇮🇷 vless-91fd5521 (Iran)",
       "server": "45.159.148.130",
       "server_port": 8585,
       "uuid": "dc69f0b7-529f-496c-adfb-ba107dab981c",
@@ -197,7 +191,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 vless-31f430c5 (United States)",
+      "tag": "🇺🇸 vless-bb41b2cb (United States)",
       "server": "hd.pelatiposi.info",
       "server_port": 2087,
       "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
