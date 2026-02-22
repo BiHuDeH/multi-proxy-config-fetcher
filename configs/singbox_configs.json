@@ -79,11 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇸🇨 vless-660eaaaf (Seychelles)",
-        "🇸🇨 vless-9285aa21 (Seychelles)",
-        "🇮🇷 vless-1b7c386e (Iran)",
-        "🇮🇷 vless-0038c986 (Iran)",
-        "🇮🇷 vless-63a1b9e7 (Iran)",
+        "🇩🇪 vless-583035b3 (Germany)",
+        "🇭🇺 vless-0158c84a (Hungary)",
+        "🇨🇦 vless-52116f8f (Canada)",
+        "🇮🇷 vless-c2c9a27b (Iran)",
+        "🇮🇷 vless-595fc1eb (Iran)",
         "direct"
       ]
     },
@@ -91,11 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇸🇨 vless-660eaaaf (Seychelles)",
-        "🇸🇨 vless-9285aa21 (Seychelles)",
-        "🇮🇷 vless-1b7c386e (Iran)",
-        "🇮🇷 vless-0038c986 (Iran)",
-        "🇮🇷 vless-63a1b9e7 (Iran)"
+        "🇩🇪 vless-583035b3 (Germany)",
+        "🇭🇺 vless-0158c84a (Hungary)",
+        "🇨🇦 vless-52116f8f (Canada)",
+        "🇮🇷 vless-c2c9a27b (Iran)",
+        "🇮🇷 vless-595fc1eb (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -107,7 +107,35 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-660eaaaf (Seychelles)",
+      "tag": "🇩🇪 vless-583035b3 (Germany)",
+      "server": "74.119.192.243",
+      "server_port": 2040,
+      "uuid": "14818654-7689-453a-9a1f-4c72f89782d5",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇺 vless-0158c84a (Hungary)",
+      "server": "5.182.38.91",
+      "server_port": 17267,
+      "uuid": "1c7fcc38-e6be-43c5-875f-b8de2516b9f2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 vless-52116f8f (Canada)",
       "server": "a.pabloping.cloud",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
@@ -121,35 +149,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇨 vless-9285aa21 (Seychelles)",
-      "server": "a.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "a.pabloping.cloud",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-1b7c386e (Iran)",
-      "server": "94.184.10.15",
-      "server_port": 3030,
-      "uuid": "68e6545a-0995-481a-bf15-f1daa2e16e75",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "94.184.10.15",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 vless-0038c986 (Iran)",
+      "tag": "🇮🇷 vless-c2c9a27b (Iran)",
       "server": "78.157.62.185",
       "server_port": 26480,
       "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
@@ -163,7 +163,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-63a1b9e7 (Iran)",
+      "tag": "🇮🇷 vless-595fc1eb (Iran)",
       "server": "85.133.195.204",
       "server_port": 26480,
       "uuid": "6919e588-cff3-4c1b-b7a3-3ca0ada5fb69",
