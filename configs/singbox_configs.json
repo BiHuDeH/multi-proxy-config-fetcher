@@ -79,10 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇺🇸 vless-3e1afadb (United States)",
-        "🇩🇪 vless-aed56e2e (Germany)",
-        "🇸🇨 vless-c1bd8743 (Seychelles)",
-        "🇬🇧 vless-5d491da5 (United Kingdom)",
+        "🇮🇷 vmess-58594e32 (Iran)",
         "direct"
       ]
     },
@@ -90,10 +87,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 vless-3e1afadb (United States)",
-        "🇩🇪 vless-aed56e2e (Germany)",
-        "🇸🇨 vless-c1bd8743 (Seychelles)",
-        "🇬🇧 vless-5d491da5 (United Kingdom)"
+        "🇮🇷 vmess-58594e32 (Iran)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -104,66 +98,19 @@
       "type": "direct"
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 vless-3e1afadb (United States)",
-      "server": "77.110.114.1",
-      "server_port": 443,
-      "uuid": "03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4",
-      "flow": "xtls-rprx-vision",
+      "type": "vmess",
+      "tag": "🇮🇷 vmess-58594e32 (Iran)",
+      "server": "193.151.146.232",
+      "server_port": 17356,
+      "uuid": "f95cb5ae-1b06-4a57-aba0-30afe12d23ed",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
       "tls": {
-        "enabled": true,
-        "server_name": "srv27.outlinekeys.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 vless-aed56e2e (Germany)",
-      "server": "91.99.8.3",
-      "server_port": 2083,
-      "uuid": "9748d6dc-d7a8-45cd-b4df-00476cac75f8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇨 vless-c1bd8743 (Seychelles)",
-      "server": "glob.thisiswe.uno",
-      "server_port": 8443,
-      "uuid": "aab1a536-7a2c-4357-a0e0-8cdde41845c6",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nobitex.sylu.net",
-        "insecure": true
-      },
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "nobitex.sylu.net"
-        },
-        "type": "ws"
+        "enabled": false,
+        "insecure": true,
+        "server_name": ""
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 vless-5d491da5 (United Kingdom)",
-      "server": "vb27.homianco.ir",
-      "server_port": 2096,
-      "uuid": "d5f2b8ad-5ee4-41fe-95e9-7adc1acb0549",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "insecure": true
-      },
-      "transport": {}
     }
   ],
   "route": {
