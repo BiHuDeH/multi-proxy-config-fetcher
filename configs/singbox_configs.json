@@ -79,7 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vmess-58594e32 (Iran)",
+        "🇮🇷 vless-1dbb4452 (Iran)",
+        "🇩🇪 vmess-313029c0 (Germany)",
+        "🇮🇷 vmess-8ecb53fb (Iran)",
+        "🇨🇦 vmess-c3d4b871 (Canada)",
         "direct"
       ]
     },
@@ -87,7 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vmess-58594e32 (Iran)"
+        "🇮🇷 vless-1dbb4452 (Iran)",
+        "🇩🇪 vmess-313029c0 (Germany)",
+        "🇮🇷 vmess-8ecb53fb (Iran)",
+        "🇨🇦 vmess-c3d4b871 (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -98,8 +104,46 @@
       "type": "direct"
     },
     {
+      "type": "vless",
+      "tag": "🇮🇷 vless-1dbb4452 (Iran)",
+      "server": "srv1.safeunity.shop",
+      "server_port": 18510,
+      "uuid": "e863faa1-7505-493b-963a-909fa5984041",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv1.safeunity.shop",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇮🇷 vmess-58594e32 (Iran)",
+      "tag": "🇩🇪 vmess-313029c0 (Germany)",
+      "server": "57.129.28.63",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "linkvws",
+        "headers": {
+          "Host": "fapeng.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "fapeng.org"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇷 vmess-8ecb53fb (Iran)",
       "server": "193.151.146.232",
       "server_port": 17356,
       "uuid": "f95cb5ae-1b06-4a57-aba0-30afe12d23ed",
@@ -110,6 +154,27 @@
         "enabled": false,
         "insecure": true,
         "server_name": ""
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 vmess-c3d4b871 (Canada)",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "TM_AZARBAYJAB1.new.99.workers.dev"
       }
     }
   ],
