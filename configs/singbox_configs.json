@@ -79,8 +79,11 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-c2b399c1 (Iran)",
-        "🇦🇪 vless-77be8cd3 (United Arab Emirates)",
+        "🇮🇷 vless-a5114558 (Iran)",
+        "🇸🇬 vless-f1124e56 (Singapore)",
+        "🇨🇷 vless-5a181098 (Costa Rica)",
+        "🇬🇧 vless-4c66344d (United Kingdom)",
+        "🇦🇪 vless-2bcd2850 (United Arab Emirates)",
         "direct"
       ]
     },
@@ -88,8 +91,11 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-c2b399c1 (Iran)",
-        "🇦🇪 vless-77be8cd3 (United Arab Emirates)"
+        "🇮🇷 vless-a5114558 (Iran)",
+        "🇸🇬 vless-f1124e56 (Singapore)",
+        "🇨🇷 vless-5a181098 (Costa Rica)",
+        "🇬🇧 vless-4c66344d (United Kingdom)",
+        "🇦🇪 vless-2bcd2850 (United Arab Emirates)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -101,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-c2b399c1 (Iran)",
+      "tag": "🇮🇷 vless-a5114558 (Iran)",
       "server": "pc.hadifor.shop",
       "server_port": 11459,
       "uuid": "2eb8653b-46a4-4590-8986-f463eae33c68",
@@ -115,7 +121,57 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 vless-77be8cd3 (United Arab Emirates)",
+      "tag": "🇸🇬 vless-f1124e56 (Singapore)",
+      "server": "154.194.12.238",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.jpmj.dev",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/?ed",
+        "headers": {
+          "Host": "sni.jpmj.dev"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇷 vless-5a181098 (Costa Rica)",
+      "server": "190.93.245.94",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 vless-4c66344d (United Kingdom)",
+      "server": "57.129.133.88",
+      "server_port": 2345,
+      "uuid": "7007111a-c28b-4ab1-8d28-bc7b42681028",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "57.129.133.88",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 vless-2bcd2850 (United Arab Emirates)",
       "server": "fr.apikeder.ir.onvanet.com",
       "server_port": 8952,
       "uuid": "dc01db14-47ea-4354-a7fb-87fd6559ac5e",
