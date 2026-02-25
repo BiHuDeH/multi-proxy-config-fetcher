@@ -79,7 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 vmess-555ff3be (Germany)",
+        "🇮🇷 vless-31e1d3bc (Iran)",
+        "🇩🇪 vless-8df38d78 (Germany)",
+        "🇩🇪 vmess-4c3d1c76 (Germany)",
         "direct"
       ]
     },
@@ -87,7 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 vmess-555ff3be (Germany)"
+        "🇮🇷 vless-31e1d3bc (Iran)",
+        "🇩🇪 vless-8df38d78 (Germany)",
+        "🇩🇪 vmess-4c3d1c76 (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -98,8 +102,42 @@
       "type": "direct"
     },
     {
+      "type": "vless",
+      "tag": "🇮🇷 vless-31e1d3bc (Iran)",
+      "server": "45.159.148.130",
+      "server_port": 2093,
+      "uuid": "2ee95306-39b9-439b-b583-a0203b6a4e81",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.159.148.130",
+        "insecure": true
+      },
+      "transport": {
+        "path": "/DownloAdMusic",
+        "headers": {
+          "Host": "www.speedtest.net"
+        },
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-8df38d78 (Germany)",
+      "server": "www.darkcube.ir",
+      "server_port": 2087,
+      "uuid": "90388d04-5503-48da-bc1a-6a9323d401dd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "account.samsung.com",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
       "type": "vmess",
-      "tag": "🇩🇪 vmess-555ff3be (Germany)",
+      "tag": "🇩🇪 vmess-4c3d1c76 (Germany)",
       "server": "57.129.28.214",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
