@@ -79,9 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-31e1d3bc (Iran)",
-        "🇩🇪 vless-8df38d78 (Germany)",
-        "🇩🇪 vmess-4c3d1c76 (Germany)",
+        "🇮🇷 vless-fa8f5ce0 (Iran)",
+        "🇩🇪 vless-99e60a6c (Germany)",
+        "🇮🇷 vless-de687768 (Iran)",
+        "🇩🇪 vless-76d8d509 (Germany)",
         "direct"
       ]
     },
@@ -89,9 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-31e1d3bc (Iran)",
-        "🇩🇪 vless-8df38d78 (Germany)",
-        "🇩🇪 vmess-4c3d1c76 (Germany)"
+        "🇮🇷 vless-fa8f5ce0 (Iran)",
+        "🇩🇪 vless-99e60a6c (Germany)",
+        "🇮🇷 vless-de687768 (Iran)",
+        "🇩🇪 vless-76d8d509 (Germany)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-31e1d3bc (Iran)",
+      "tag": "🇮🇷 vless-fa8f5ce0 (Iran)",
       "server": "45.159.148.130",
       "server_port": 2093,
       "uuid": "2ee95306-39b9-439b-b583-a0203b6a4e81",
@@ -123,7 +125,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-8df38d78 (Germany)",
+      "tag": "🇩🇪 vless-99e60a6c (Germany)",
       "server": "www.darkcube.ir",
       "server_port": 2087,
       "uuid": "90388d04-5503-48da-bc1a-6a9323d401dd",
@@ -136,25 +138,32 @@
       "transport": {}
     },
     {
-      "type": "vmess",
-      "tag": "🇩🇪 vmess-4c3d1c76 (Germany)",
-      "server": "57.129.28.214",
+      "type": "vless",
+      "tag": "🇮🇷 vless-de687768 (Iran)",
+      "server": "193.58.119.134",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "linkvws",
-        "headers": {
-          "Host": "kampong.org"
-        },
-        "type": "ws"
-      },
+      "uuid": "ddfe3ab1-9840-4a7e-f0ec-e1da3baefaa8",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "kampong.org"
-      }
+        "server_name": "193.58.119.134",
+        "insecure": true
+      },
+      "transport": {}
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 vless-76d8d509 (Germany)",
+      "server": "vip-79.f-sub.cfd",
+      "server_port": 1517,
+      "uuid": "ee75ee8e-8551-4d1f-bb8d-60e4eda05dbb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vip-79.f-sub.cfd",
+        "insecure": true
+      },
+      "transport": {}
     }
   ],
   "route": {
