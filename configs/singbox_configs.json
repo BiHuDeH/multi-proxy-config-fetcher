@@ -79,9 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇮🇷 vless-4fee4b64 (Iran)",
-        "🇩🇪 vless-4eec1e95 (Germany)",
-        "🇨🇦 vless-3fc22391 (Canada)",
+        "🇮🇷 vless-4237b78e (Iran)",
+        "🇨🇦 vless-6213c8ce (Canada)",
         "direct"
       ]
     },
@@ -89,9 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇷 vless-4fee4b64 (Iran)",
-        "🇩🇪 vless-4eec1e95 (Germany)",
-        "🇨🇦 vless-3fc22391 (Canada)"
+        "🇮🇷 vless-4237b78e (Iran)",
+        "🇨🇦 vless-6213c8ce (Canada)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,7 +101,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 vless-4fee4b64 (Iran)",
+      "tag": "🇮🇷 vless-4237b78e (Iran)",
       "server": "khaneh.berozsho.click",
       "server_port": 443,
       "uuid": "1893673b-0802-445a-9b0e-7de8d9991359",
@@ -117,21 +115,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 vless-4eec1e95 (Germany)",
-      "server": "5.180.82.155",
-      "server_port": 8080,
-      "uuid": "935573d9-db1a-4235-8454-ded612105be6",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "insecure": true
-      },
-      "transport": {}
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 vless-3fc22391 (Canada)",
+      "tag": "🇨🇦 vless-6213c8ce (Canada)",
       "server": "172.64.153.22",
       "server_port": 8443,
       "uuid": "e53a92c7-4a78-49cc-ab01-917661058b9a",
